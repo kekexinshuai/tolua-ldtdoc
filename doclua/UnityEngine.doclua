@@ -164,15 +164,15 @@
 -- @field [parent=#UnityEngine] UnityEngine_Object#Object Coroutine
 
 ---
--- @field [parent=#UnityEngine] UnityEngine.Vector2#Vector2 Vector2
+-- @field [parent=#UnityEngine] UnityEngine_Vector2#Vector2 Vector2
 
 ---
--- @field [parent=#UnityEngine] UnityEngine.Vector3#Vector3 Vector3
+-- @field [parent=#UnityEngine] UnityEngine_Vector3#Vector3 Vector3
 
 ---
--- @field [parent=#UnityEngine] UnityEngine.Vector4#Vector4 Vector4
+-- @field [parent=#UnityEngine] UnityEngine_Vector4#Vector4 Vector4
 
 ---
--- @field [parent=#UnityEngine] UnityEngine.Touch#Touch Touch
+-- @field [parent=#UnityEngine] UnityEngine_Touch#Touch Touch
 
 return nil

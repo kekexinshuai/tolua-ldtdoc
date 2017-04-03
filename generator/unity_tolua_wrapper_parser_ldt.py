@@ -7,7 +7,9 @@ builtin_types_map = {
 	"string": "#string",
 	"bool": "#boolean",
 	"boolean": "#boolean",
-	"float": "#number"
+	"float": "#number",
+	"integer": "#number",
+	"lightuserdata": "#number"
 }
 
 def parse(ifile,odir):
