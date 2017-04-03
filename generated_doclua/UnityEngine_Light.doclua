@@ -1,0 +1,104 @@
+---
+-- @module UnityEngine_Light
+
+---
+-- @type Light
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Light] RemoveCommandBuffers
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Light] AddCommandBuffer
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Light] RemoveAllCommandBuffers
+-- @param self
+
+---
+-- @function [parent=#Light] GetCommandBuffers
+-- @param self
+-- @param arg0
+-- @return #list<UnityEngine_Rendering_CommandBuffer#CommandBuffer>
+
+---
+-- @function [parent=#Light] GetLights
+-- @param arg0
+-- @param arg1
+-- @return #list<UnityEngine_Light#Light>
+
+---
+-- @function [parent=#Light] RemoveCommandBuffer
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @field [parent=#Light] UnityEngine_LightShadows#LightShadows shadows
+
+---
+-- @field [parent=#Light] integer#integer bakedIndex
+
+---
+-- @field [parent=#Light] UnityEngine_Flare#Flare flare
+
+---
+-- @field [parent=#Light] #boolean isBaked
+
+---
+-- @field [parent=#Light] UnityEngine_Color#Color color
+
+---
+-- @field [parent=#Light] integer#integer shadowCustomResolution
+
+---
+-- @field [parent=#Light] UnityEngine_Rendering_LightShadowResolution#LightShadowResolution shadowResolution
+
+---
+-- @field [parent=#Light] #number cookieSize
+
+---
+-- @field [parent=#Light] #number bounceIntensity
+
+---
+-- @field [parent=#Light] #number range
+
+---
+-- @field [parent=#Light] #number spotAngle
+
+---
+-- @field [parent=#Light] #number shadowStrength
+
+---
+-- @field [parent=#Light] #number intensity
+
+---
+-- @field [parent=#Light] UnityEngine_Texture#Texture cookie
+
+---
+-- @field [parent=#Light] #number shadowNearPlane
+
+---
+-- @field [parent=#Light] #number shadowBias
+
+---
+-- @field [parent=#Light] integer#integer commandBufferCount
+
+---
+-- @field [parent=#Light] UnityEngine_LightRenderMode#LightRenderMode renderMode
+
+---
+-- @field [parent=#Light] UnityEngine_LightType#LightType type
+
+---
+-- @field [parent=#Light] #number shadowNormalBias
+
+---
+-- @field [parent=#Light] integer#integer cullingMask
+
+return nil

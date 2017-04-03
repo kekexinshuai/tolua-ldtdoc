@@ -1,0 +1,110 @@
+---
+-- @module UnityEngine_RenderTexture
+
+---
+-- @type RenderTexture
+-- @extends UnityEngine_Texture#Texture
+
+---
+-- @function [parent=#RenderTexture] MarkRestoreExpected
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] GetTemporary
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return UnityEngine_RenderTexture#RenderTexture
+
+---
+-- @function [parent=#RenderTexture] Create
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] GetNativeDepthBufferPtr
+-- @param self
+-- @return lightuserdata#lightuserdata
+
+---
+-- @function [parent=#RenderTexture] DiscardContents
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#RenderTexture] IsCreated
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] GenerateMips
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] Release
+-- @param self
+
+---
+-- @function [parent=#RenderTexture] SupportsStencil
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#RenderTexture] ReleaseTemporary
+-- @param arg0
+
+---
+-- @function [parent=#RenderTexture] SetGlobalShaderProperty
+-- @param self
+-- @param arg0
+
+---
+-- @field [parent=#RenderTexture] #boolean useMipMap
+
+---
+-- @field [parent=#RenderTexture] integer#integer volumeDepth
+
+---
+-- @field [parent=#RenderTexture] #boolean enableRandomWrite
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderTextureFormat#RenderTextureFormat format
+
+---
+-- @field [parent=#RenderTexture] integer#integer antiAliasing
+
+---
+-- @field [parent=#RenderTexture] #boolean autoGenerateMips
+
+---
+-- @field [parent=#RenderTexture] integer#integer height
+
+---
+-- @field [parent=#RenderTexture] integer#integer width
+
+---
+-- @field [parent=#RenderTexture] integer#integer depth
+
+---
+-- @field [parent=#RenderTexture] #boolean sRGB
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer depthBuffer
+
+---
+-- @field [parent=#RenderTexture] #boolean isPowerOfTwo
+
+---
+-- @field [parent=#RenderTexture] active
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer colorBuffer
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
+
+return nil

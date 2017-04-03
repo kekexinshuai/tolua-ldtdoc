@@ -1,0 +1,23 @@
+---
+-- @module UnityEngine_LightType
+
+---
+-- @type LightType
+
+---
+-- @function [parent=#LightType] IntToEnum
+-- @return UnityEngine_LightType#LightType
+
+---
+-- @field [parent=#LightType] Area
+
+---
+-- @field [parent=#LightType] Point
+
+---
+-- @field [parent=#LightType] Spot
+
+---
+-- @field [parent=#LightType] Directional
+
+return nil

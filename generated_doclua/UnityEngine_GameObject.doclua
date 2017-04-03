@@ -1,0 +1,135 @@
+---
+-- @module UnityEngine_GameObject
+
+---
+-- @type GameObject
+-- @extends UnityEngine_Object#Object
+
+---
+-- @function [parent=#GameObject] FindWithTag
+-- @param arg0
+-- @return UnityEngine_GameObject#GameObject
+
+---
+-- @function [parent=#GameObject] AddComponent
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#GameObject] BroadcastMessage
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#GameObject] SetActive
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#GameObject] GetComponentInChildren
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#GameObject] GetComponentInParent
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#GameObject] Find
+-- @param arg0
+-- @return UnityEngine_GameObject#GameObject
+
+---
+-- @function [parent=#GameObject] CreatePrimitive
+-- @param arg0
+-- @return UnityEngine_GameObject#GameObject
+
+---
+-- @function [parent=#GameObject] SendMessageUpwards
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#GameObject] SendMessage
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#GameObject] GetComponent
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#GameObject] GetComponentsInChildren
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #list<UnityEngine_Component#Component>
+
+---
+-- @function [parent=#GameObject] GetComponentsInParent
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #list<UnityEngine_Component#Component>
+
+---
+-- @function [parent=#GameObject] FindGameObjectsWithTag
+-- @param arg0
+-- @return #list<UnityEngine_GameObject#GameObject>
+
+---
+-- @function [parent=#GameObject] FindGameObjectWithTag
+-- @param arg0
+-- @return UnityEngine_GameObject#GameObject
+
+---
+-- @function [parent=#GameObject] CompareTag
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#GameObject] GetComponents
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #list<UnityEngine_Component#Component>
+
+---
+-- @field [parent=#GameObject] integer#integer layer
+
+---
+-- @field [parent=#GameObject] UnityEngine_SceneManagement_Scene#Scene scene
+
+---
+-- @field [parent=#GameObject] UnityEngine_GameObject#GameObject gameObject
+
+---
+-- @field [parent=#GameObject] #boolean isStatic
+
+---
+-- @field [parent=#GameObject] #boolean activeSelf
+
+---
+-- @field [parent=#GameObject] UnityEngine_Transform#Transform transform
+
+---
+-- @field [parent=#GameObject] #string tag
+
+---
+-- @field [parent=#GameObject] #boolean activeInHierarchy
+
+return nil

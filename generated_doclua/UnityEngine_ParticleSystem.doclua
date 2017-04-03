@@ -1,0 +1,161 @@
+---
+-- @module UnityEngine_ParticleSystem
+
+---
+-- @type ParticleSystem
+-- @extends UnityEngine_Component#Component
+
+---
+-- @function [parent=#ParticleSystem] SetCustomParticleData
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#ParticleSystem] Pause
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#ParticleSystem] IsAlive
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#ParticleSystem] Simulate
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#ParticleSystem] Clear
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#ParticleSystem] Stop
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#ParticleSystem] Play
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#ParticleSystem] GetParticles
+-- @param self
+-- @param arg0
+-- @return integer#integer
+
+---
+-- @function [parent=#ParticleSystem] SetParticles
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#ParticleSystem] GetCustomParticleData
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return integer#integer
+
+---
+-- @function [parent=#ParticleSystem] Emit
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @field [parent=#ParticleSystem] #number randomSeed
+
+---
+-- @field [parent=#ParticleSystem] integer#integer particleCount
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_TrailModule#TrailModule trails
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_ForceOverLifetimeModule#ForceOverLifetimeModule forceOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_RotationOverLifetimeModule#RotationOverLifetimeModule rotationOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_ShapeModule#ShapeModule shape
+
+---
+-- @field [parent=#ParticleSystem] #boolean isEmitting
+
+---
+-- @field [parent=#ParticleSystem] #boolean useAutoRandomSeed
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_TextureSheetAnimationModule#TextureSheetAnimationModule textureSheetAnimation
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_SizeBySpeedModule#SizeBySpeedModule sizeBySpeed
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_LightsModule#LightsModule lights
+
+---
+-- @field [parent=#ParticleSystem] #boolean isStopped
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_TriggerModule#TriggerModule trigger
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_VelocityOverLifetimeModule#VelocityOverLifetimeModule velocityOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_MainModule#MainModule main
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_LimitVelocityOverLifetimeModule#LimitVelocityOverLifetimeModule limitVelocityOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_ExternalForcesModule#ExternalForcesModule externalForces
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_NoiseModule#NoiseModule noise
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_ColorBySpeedModule#ColorBySpeedModule colorBySpeed
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_EmissionModule#EmissionModule emission
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_SizeOverLifetimeModule#SizeOverLifetimeModule sizeOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] #boolean isPlaying
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_CollisionModule#CollisionModule collision
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_InheritVelocityModule#InheritVelocityModule inheritVelocity
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_RotationBySpeedModule#RotationBySpeedModule rotationBySpeed
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_ColorOverLifetimeModule#ColorOverLifetimeModule colorOverLifetime
+
+---
+-- @field [parent=#ParticleSystem] #boolean isPaused
+
+---
+-- @field [parent=#ParticleSystem] #number time
+
+---
+-- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_SubEmittersModule#SubEmittersModule subEmitters
+
+return nil

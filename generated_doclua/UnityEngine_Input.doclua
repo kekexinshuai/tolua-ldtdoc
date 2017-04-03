@@ -1,0 +1,156 @@
+---
+-- @module UnityEngine_Input
+
+---
+-- @type Input
+
+---
+-- @function [parent=#Input] GetButton
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetMouseButtonDown
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetKeyDown
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetAxis
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Input] GetAxisRaw
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Input] GetJoystickNames
+-- @return #list<string#string>
+
+---
+-- @function [parent=#Input] GetMouseButton
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetMouseButtonUp
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetKey
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetButtonDown
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetKeyUp
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] GetTouch
+-- @return UnityEngine_Touch#Touch
+
+---
+-- @function [parent=#Input] GetAccelerationEvent
+-- @param arg0
+-- @return UnityEngine_AccelerationEvent#AccelerationEvent
+
+---
+-- @function [parent=#Input] GetButtonUp
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Input] ResetInputAxes
+
+---
+-- @field [parent=#Input] #boolean multiTouchEnabled
+
+---
+-- @field [parent=#Input] #boolean compensateSensors
+
+---
+-- @field [parent=#Input] mouseScrollDelta
+
+---
+-- @field [parent=#Input] #boolean anyKeyDown
+
+---
+-- @field [parent=#Input] #boolean mousePresent
+
+---
+-- @field [parent=#Input] deviceOrientation
+
+---
+-- @field [parent=#Input] compositionCursorPos
+
+---
+-- @field [parent=#Input] acceleration
+
+---
+-- @field [parent=#Input] touches
+
+---
+-- @field [parent=#Input] #string inputString
+
+---
+-- @field [parent=#Input] location
+
+---
+-- @field [parent=#Input] #boolean touchPressureSupported
+
+---
+-- @field [parent=#Input] accelerationEvents
+
+---
+-- @field [parent=#Input] #boolean touchSupported
+
+---
+-- @field [parent=#Input] integer#integer touchCount
+
+---
+-- @field [parent=#Input] #boolean simulateMouseWithTouches
+
+---
+-- @field [parent=#Input] #boolean stylusTouchSupported
+
+---
+-- @field [parent=#Input] imeCompositionMode
+
+---
+-- @field [parent=#Input] compass
+
+---
+-- @field [parent=#Input] #boolean imeIsSelected
+
+---
+-- @field [parent=#Input] mousePosition
+
+---
+-- @field [parent=#Input] gyro
+
+---
+-- @field [parent=#Input] #boolean anyKey
+
+---
+-- @field [parent=#Input] integer#integer accelerationEventCount
+
+---
+-- @field [parent=#Input] #string compositionString
+
+---
+-- @field [parent=#Input] #boolean backButtonLeavesApp
+
+return nil

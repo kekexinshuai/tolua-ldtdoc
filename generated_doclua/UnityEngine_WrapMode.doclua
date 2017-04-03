@@ -1,0 +1,29 @@
+---
+-- @module UnityEngine_WrapMode
+
+---
+-- @type WrapMode
+
+---
+-- @function [parent=#WrapMode] IntToEnum
+-- @return UnityEngine_WrapMode#WrapMode
+
+---
+-- @field [parent=#WrapMode] Clamp
+
+---
+-- @field [parent=#WrapMode] ClampForever
+
+---
+-- @field [parent=#WrapMode] Default
+
+---
+-- @field [parent=#WrapMode] PingPong
+
+---
+-- @field [parent=#WrapMode] Loop
+
+---
+-- @field [parent=#WrapMode] Once
+
+return nil

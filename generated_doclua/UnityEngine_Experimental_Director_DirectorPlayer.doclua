@@ -1,0 +1,37 @@
+---
+-- @module UnityEngine_Experimental_Director_DirectorPlayer
+
+---
+-- @type DirectorPlayer
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#DirectorPlayer] Play
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#DirectorPlayer] GetTimeUpdateMode
+-- @param self
+-- @return UnityEngine_Experimental_Director_DirectorUpdateMode#DirectorUpdateMode
+
+---
+-- @function [parent=#DirectorPlayer] GetTime
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#DirectorPlayer] Stop
+-- @param self
+
+---
+-- @function [parent=#DirectorPlayer] SetTimeUpdateMode
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#DirectorPlayer] SetTime
+-- @param self
+-- @param arg0
+
+return nil

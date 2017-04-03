@@ -1,0 +1,158 @@
+---
+-- @module UnityEngine_Texture2D
+
+---
+-- @type Texture2D
+-- @extends UnityEngine_Texture#Texture
+
+---
+-- @function [parent=#Texture2D] ReadPixels
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#Texture2D] EncodeToJPG
+-- @param self
+-- @param arg0
+-- @return #list<byte#byte>
+
+---
+-- @function [parent=#Texture2D] SetPixels32
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+
+---
+-- @function [parent=#Texture2D] GetRawTextureData
+-- @param self
+-- @return #list<byte#byte>
+
+---
+-- @function [parent=#Texture2D] GetPixel
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Color#Color
+
+---
+-- @function [parent=#Texture2D] Compress
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Texture2D] SetPixel
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Texture2D] EncodeToPNG
+-- @param self
+-- @return #list<byte#byte>
+
+---
+-- @function [parent=#Texture2D] Resize
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #boolean
+
+---
+-- @function [parent=#Texture2D] GetPixels
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #list<UnityEngine_Color#Color>
+
+---
+-- @function [parent=#Texture2D] PackTextures
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #list<UnityEngine_Rect#Rect>
+
+---
+-- @function [parent=#Texture2D] SetPixels
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+
+---
+-- @function [parent=#Texture2D] LoadImage
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Texture2D] GetPixels32
+-- @param self
+-- @param arg0
+-- @return #list<UnityEngine_Color32#Color32>
+
+---
+-- @function [parent=#Texture2D] GetPixelBilinear
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Color#Color
+
+---
+-- @function [parent=#Texture2D] LoadRawTextureData
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Texture2D] CreateExternalTexture
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return UnityEngine_Texture2D#Texture2D
+
+---
+-- @function [parent=#Texture2D] Apply
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Texture2D] UpdateExternalTexture
+-- @param self
+-- @param arg0
+
+---
+-- @field [parent=#Texture2D] whiteTexture
+
+---
+-- @field [parent=#Texture2D] blackTexture
+
+---
+-- @field [parent=#Texture2D] integer#integer mipmapCount
+
+---
+-- @field [parent=#Texture2D] UnityEngine_TextureFormat#TextureFormat format
+
+return nil

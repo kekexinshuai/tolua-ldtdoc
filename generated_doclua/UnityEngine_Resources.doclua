@@ -1,0 +1,44 @@
+---
+-- @module UnityEngine_Resources
+
+---
+-- @type Resources
+
+---
+-- @function [parent=#Resources] Load
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Object#Object
+
+---
+-- @function [parent=#Resources] FindObjectsOfTypeAll
+-- @param arg0
+-- @return #list<UnityEngine_Object#Object>
+
+---
+-- @function [parent=#Resources] GetBuiltinResource
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Object#Object
+
+---
+-- @function [parent=#Resources] LoadAsync
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_ResourceRequest#ResourceRequest
+
+---
+-- @function [parent=#Resources] LoadAll
+-- @param arg0
+-- @param arg1
+-- @return #list<UnityEngine_Object#Object>
+
+---
+-- @function [parent=#Resources] UnloadUnusedAssets
+-- @return UnityEngine_AsyncOperation#AsyncOperation
+
+---
+-- @function [parent=#Resources] UnloadAsset
+-- @param arg0
+
+return nil

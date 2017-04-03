@@ -1,0 +1,270 @@
+---
+-- @module UnityEngine_Physics
+
+---
+-- @type Physics
+
+---
+-- @function [parent=#Physics] CheckBox
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] OverlapBoxNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] OverlapSphere
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #list<UnityEngine_Collider#Collider>
+
+---
+-- @function [parent=#Physics] BoxCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @return #list<UnityEngine_RaycastHit#RaycastHit>
+
+---
+-- @function [parent=#Physics] SphereCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return #list<UnityEngine_RaycastHit#RaycastHit>
+
+---
+-- @function [parent=#Physics] OverlapSphereNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] Linecast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] SphereCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] CheckCapsule
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] Raycast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] CheckSphere
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] RaycastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] OverlapCapsule
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #list<UnityEngine_Collider#Collider>
+
+---
+-- @function [parent=#Physics] BoxCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @param arg7
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] GetIgnoreLayerCollision
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] BoxCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @param arg7
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] IgnoreLayerCollision
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Physics] SphereCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] OverlapBox
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #list<UnityEngine_Collider#Collider>
+
+---
+-- @function [parent=#Physics] RaycastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return #list<UnityEngine_RaycastHit#RaycastHit>
+
+---
+-- @function [parent=#Physics] CapsuleCastNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @param arg7
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] OverlapCapsuleNonAlloc
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @return integer#integer
+
+---
+-- @function [parent=#Physics] IgnoreCollision
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Physics] CapsuleCast
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @param arg7
+-- @return #boolean
+
+---
+-- @function [parent=#Physics] CapsuleCastAll
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @return #list<UnityEngine_RaycastHit#RaycastHit>
+
+---
+-- @field [parent=#Physics] #number bounceThreshold
+
+---
+-- @field [parent=#Physics] gravity
+
+---
+-- @field [parent=#Physics] #boolean queriesHitTriggers
+
+---
+-- @field [parent=#Physics] #number sleepThreshold
+
+---
+-- @field [parent=#Physics] integer#integer defaultSolverVelocityIterations
+
+---
+-- @field [parent=#Physics] integer#integer defaultSolverIterations
+
+---
+-- @field [parent=#Physics] #boolean queriesHitBackfaces
+
+---
+-- @field [parent=#Physics] #number defaultContactOffset
+
+return nil

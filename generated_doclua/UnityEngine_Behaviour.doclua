@@ -1,0 +1,14 @@
+---
+-- @module UnityEngine_Behaviour
+
+---
+-- @type Behaviour
+-- @extends UnityEngine_Component#Component
+
+---
+-- @field [parent=#Behaviour] #boolean isActiveAndEnabled
+
+---
+-- @field [parent=#Behaviour] #boolean enabled
+
+return nil

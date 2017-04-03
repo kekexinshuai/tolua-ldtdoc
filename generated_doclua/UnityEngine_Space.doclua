@@ -1,0 +1,17 @@
+---
+-- @module UnityEngine_Space
+
+---
+-- @type Space
+
+---
+-- @function [parent=#Space] IntToEnum
+-- @return UnityEngine_Space#Space
+
+---
+-- @field [parent=#Space] World
+
+---
+-- @field [parent=#Space] Self
+
+return nil

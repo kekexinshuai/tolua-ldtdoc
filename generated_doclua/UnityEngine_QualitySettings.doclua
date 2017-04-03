@@ -1,0 +1,105 @@
+---
+-- @module UnityEngine_QualitySettings
+
+---
+-- @type QualitySettings
+
+---
+-- @function [parent=#QualitySettings] GetQualityLevel
+-- @return integer#integer
+
+---
+-- @function [parent=#QualitySettings] DecreaseLevel
+-- @param arg0
+
+---
+-- @function [parent=#QualitySettings] SetQualityLevel
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#QualitySettings] IncreaseLevel
+-- @param arg0
+
+---
+-- @field [parent=#QualitySettings] shadowCascade4Split
+
+---
+-- @field [parent=#QualitySettings] shadowProjection
+
+---
+-- @field [parent=#QualitySettings] desiredColorSpace
+
+---
+-- @field [parent=#QualitySettings] #number shadowCascade2Split
+
+---
+-- @field [parent=#QualitySettings] integer#integer antiAliasing
+
+---
+-- @field [parent=#QualitySettings] #number shadowNearPlaneOffset
+
+---
+-- @field [parent=#QualitySettings] integer#integer shadowCascades
+
+---
+-- @field [parent=#QualitySettings] #boolean realtimeReflectionProbes
+
+---
+-- @field [parent=#QualitySettings] integer#integer vSyncCount
+
+---
+-- @field [parent=#QualitySettings] integer#integer pixelLightCount
+
+---
+-- @field [parent=#QualitySettings] activeColorSpace
+
+---
+-- @field [parent=#QualitySettings] integer#integer masterTextureLimit
+
+---
+-- @field [parent=#QualitySettings] integer#integer asyncUploadTimeSlice
+
+---
+-- @field [parent=#QualitySettings] #number shadowDistance
+
+---
+-- @field [parent=#QualitySettings] #boolean softVegetation
+
+---
+-- @field [parent=#QualitySettings] #number lodBias
+
+---
+-- @field [parent=#QualitySettings] integer#integer asyncUploadBufferSize
+
+---
+-- @field [parent=#QualitySettings] integer#integer maxQueuedFrames
+
+---
+-- @field [parent=#QualitySettings] blendWeights
+
+---
+-- @field [parent=#QualitySettings] shadows
+
+---
+-- @field [parent=#QualitySettings] #boolean billboardsFaceCameraPosition
+
+---
+-- @field [parent=#QualitySettings] shadowResolution
+
+---
+-- @field [parent=#QualitySettings] #boolean softParticles
+
+---
+-- @field [parent=#QualitySettings] integer#integer particleRaycastBudget
+
+---
+-- @field [parent=#QualitySettings] integer#integer maximumLODLevel
+
+---
+-- @field [parent=#QualitySettings] anisotropicFiltering
+
+---
+-- @field [parent=#QualitySettings] names
+
+return nil

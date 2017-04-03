@@ -1,0 +1,160 @@
+---
+-- @module UnityEngine_Application
+
+---
+-- @type Application
+
+---
+-- @function [parent=#Application] HasUserAuthorization
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Application] Quit
+
+---
+-- @function [parent=#Application] HasProLicense
+-- @return #boolean
+
+---
+-- @function [parent=#Application] OpenURL
+-- @param arg0
+
+---
+-- @function [parent=#Application] Unload
+
+---
+-- @function [parent=#Application] GetStreamProgressForLevel
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Application] CaptureScreenshot
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Application] GetStackTraceLogType
+-- @param arg0
+-- @return UnityEngine_StackTraceLogType#StackTraceLogType
+
+---
+-- @function [parent=#Application] CanStreamedLevelBeLoaded
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Application] ExternalCall
+
+---
+-- @function [parent=#Application] CancelQuit
+
+---
+-- @function [parent=#Application] RequestUserAuthorization
+-- @param arg0
+-- @return UnityEngine_AsyncOperation#AsyncOperation
+
+---
+-- @function [parent=#Application] SetStackTraceLogType
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Application] RequestAdvertisingIdentifierAsync
+-- @param arg0
+-- @return #boolean
+
+---
+-- @field [parent=#Application] backgroundLoadingPriority
+
+---
+-- @field [parent=#Application] integer#integer streamedBytes
+
+---
+-- @field [parent=#Application] #boolean isWebPlayer
+
+---
+-- @field [parent=#Application] #string dataPath
+
+---
+-- @field [parent=#Application] #string installerName
+
+---
+-- @field [parent=#Application] #string absoluteURL
+
+---
+-- @field [parent=#Application] #boolean isPlaying
+
+---
+-- @field [parent=#Application] #boolean genuine
+
+---
+-- @field [parent=#Application] sandboxType
+
+---
+-- @field [parent=#Application] #string temporaryCachePath
+
+---
+-- @field [parent=#Application] platform
+
+---
+-- @field [parent=#Application] logMessageReceived
+
+---
+-- @field [parent=#Application] #string bundleIdentifier
+
+---
+-- @field [parent=#Application] #string unityVersion
+
+---
+-- @field [parent=#Application] #boolean genuineCheckAvailable
+
+---
+-- @field [parent=#Application] #string version
+
+---
+-- @field [parent=#Application] #string persistentDataPath
+
+---
+-- @field [parent=#Application] #boolean isConsolePlatform
+
+---
+-- @field [parent=#Application] #string companyName
+
+---
+-- @field [parent=#Application] systemLanguage
+
+---
+-- @field [parent=#Application] #string streamingAssetsPath
+
+---
+-- @field [parent=#Application] #string cloudProjectId
+
+---
+-- @field [parent=#Application] #string productName
+
+---
+-- @field [parent=#Application] installMode
+
+---
+-- @field [parent=#Application] #boolean isMobilePlatform
+
+---
+-- @field [parent=#Application] internetReachability
+
+---
+-- @field [parent=#Application] integer#integer targetFrameRate
+
+---
+-- @field [parent=#Application] logMessageReceivedThreaded
+
+---
+-- @field [parent=#Application] #boolean isEditor
+
+---
+-- @field [parent=#Application] #string srcValue
+
+---
+-- @field [parent=#Application] #boolean runInBackground
+
+return nil

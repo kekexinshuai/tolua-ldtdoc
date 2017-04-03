@@ -1,0 +1,76 @@
+---
+-- @module UnityEngine_RenderSettings
+
+---
+-- @type RenderSettings
+
+---
+-- @field [parent=#RenderSettings] #number flareStrength
+
+---
+-- @field [parent=#RenderSettings] ambientEquatorColor
+
+---
+-- @field [parent=#RenderSettings] fogMode
+
+---
+-- @field [parent=#RenderSettings] #number flareFadeSpeed
+
+---
+-- @field [parent=#RenderSettings] ambientGroundColor
+
+---
+-- @field [parent=#RenderSettings] #number fogEndDistance
+
+---
+-- @field [parent=#RenderSettings] ambientProbe
+
+---
+-- @field [parent=#RenderSettings] skybox
+
+---
+-- @field [parent=#RenderSettings] integer#integer defaultReflectionResolution
+
+---
+-- @field [parent=#RenderSettings] sun
+
+---
+-- @field [parent=#RenderSettings] ambientMode
+
+---
+-- @field [parent=#RenderSettings] #boolean fog
+
+---
+-- @field [parent=#RenderSettings] #number fogDensity
+
+---
+-- @field [parent=#RenderSettings] #number ambientIntensity
+
+---
+-- @field [parent=#RenderSettings] ambientSkyColor
+
+---
+-- @field [parent=#RenderSettings] defaultReflectionMode
+
+---
+-- @field [parent=#RenderSettings] integer#integer reflectionBounces
+
+---
+-- @field [parent=#RenderSettings] #number fogStartDistance
+
+---
+-- @field [parent=#RenderSettings] ambientLight
+
+---
+-- @field [parent=#RenderSettings] #number haloStrength
+
+---
+-- @field [parent=#RenderSettings] #number reflectionIntensity
+
+---
+-- @field [parent=#RenderSettings] customReflection
+
+---
+-- @field [parent=#RenderSettings] fogColor
+
+return nil

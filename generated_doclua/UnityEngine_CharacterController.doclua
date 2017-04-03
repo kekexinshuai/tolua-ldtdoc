@@ -1,0 +1,53 @@
+---
+-- @module UnityEngine_CharacterController
+
+---
+-- @type CharacterController
+-- @extends UnityEngine_Collider#Collider
+
+---
+-- @function [parent=#CharacterController] Move
+-- @param self
+-- @param arg0
+-- @return UnityEngine_CollisionFlags#CollisionFlags
+
+---
+-- @function [parent=#CharacterController] SimpleMove
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @field [parent=#CharacterController] #boolean detectCollisions
+
+---
+-- @field [parent=#CharacterController] UnityEngine_Vector3#Vector3 center
+
+---
+-- @field [parent=#CharacterController] UnityEngine_CollisionFlags#CollisionFlags collisionFlags
+
+---
+-- @field [parent=#CharacterController] #number slopeLimit
+
+---
+-- @field [parent=#CharacterController] #number stepOffset
+
+---
+-- @field [parent=#CharacterController] #number height
+
+---
+-- @field [parent=#CharacterController] #number radius
+
+---
+-- @field [parent=#CharacterController] #boolean enableOverlapRecovery
+
+---
+-- @field [parent=#CharacterController] #number skinWidth
+
+---
+-- @field [parent=#CharacterController] UnityEngine_Vector3#Vector3 velocity
+
+---
+-- @field [parent=#CharacterController] #boolean isGrounded
+
+return nil
