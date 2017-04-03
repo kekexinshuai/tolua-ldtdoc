@@ -130,6 +130,7 @@ def parse(ifile,odir):
 
 		# output
 		ldt_type = cstype_map_to_ldttype(parsing_class["name"])
+		print ldt_type
 		parsing_module = ldt_type.split("#")[0]
 		parsing_type = ldt_type.split("#")[1]
 		with open(os.path.join(odir,parsing_module+".doclua"),"w") as of:
@@ -154,7 +155,7 @@ def parse(ifile,odir):
 			for _, field in filed_defs.iteritems():
 				if not "valid" in field: continue
 				of.write("---\n")
-				_type = field["type"] + " " or ""
+				_type = field["type"] + " " if field["type"] is not None else ""
 				of.write("-- @field [parent=#%s] %s%s\n\n" % (parsing_type, _type, field["name"]))
 			of.write("return nil\n")
 
