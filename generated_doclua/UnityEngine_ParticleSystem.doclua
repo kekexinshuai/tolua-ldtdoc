@@ -50,7 +50,7 @@
 -- @function [parent=#ParticleSystem] GetParticles
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#ParticleSystem] SetParticles
@@ -63,7 +63,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#ParticleSystem] Emit
@@ -75,7 +75,7 @@
 -- @field [parent=#ParticleSystem] #number randomSeed
 
 ---
--- @field [parent=#ParticleSystem] integer#integer particleCount
+-- @field [parent=#ParticleSystem] #number particleCount
 
 ---
 -- @field [parent=#ParticleSystem] UnityEngine_ParticleSystem_TrailModule#TrailModule trails

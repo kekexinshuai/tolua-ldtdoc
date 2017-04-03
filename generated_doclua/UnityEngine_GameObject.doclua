@@ -109,7 +109,7 @@
 -- @return #list<UnityEngine_Component#Component>
 
 ---
--- @field [parent=#GameObject] integer#integer layer
+-- @field [parent=#GameObject] #number layer
 
 ---
 -- @field [parent=#GameObject] UnityEngine_SceneManagement_Scene#Scene scene

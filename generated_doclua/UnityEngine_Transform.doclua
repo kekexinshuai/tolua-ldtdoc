@@ -45,7 +45,7 @@
 ---
 -- @function [parent=#Transform] GetSiblingIndex
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Transform] LookAt
@@ -155,7 +155,7 @@
 -- @field [parent=#Transform] UnityEngine_Transform#Transform parent
 
 ---
--- @field [parent=#Transform] integer#integer hierarchyCount
+-- @field [parent=#Transform] #number hierarchyCount
 
 ---
 -- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion localRotation
@@ -164,7 +164,7 @@
 -- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localScale
 
 ---
--- @field [parent=#Transform] integer#integer hierarchyCapacity
+-- @field [parent=#Transform] #number hierarchyCapacity
 
 ---
 -- @field [parent=#Transform] UnityEngine_Vector3#Vector3 up
@@ -191,7 +191,7 @@
 -- @field [parent=#Transform] UnityEngine_Transform#Transform root
 
 ---
--- @field [parent=#Transform] integer#integer childCount
+-- @field [parent=#Transform] #number childCount
 
 ---
 -- @field [parent=#Transform] #boolean hasChanged

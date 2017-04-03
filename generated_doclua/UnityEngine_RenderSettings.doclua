@@ -29,7 +29,7 @@
 -- @field [parent=#RenderSettings] skybox
 
 ---
--- @field [parent=#RenderSettings] integer#integer defaultReflectionResolution
+-- @field [parent=#RenderSettings] #number defaultReflectionResolution
 
 ---
 -- @field [parent=#RenderSettings] sun
@@ -53,7 +53,7 @@
 -- @field [parent=#RenderSettings] defaultReflectionMode
 
 ---
--- @field [parent=#RenderSettings] integer#integer reflectionBounces
+-- @field [parent=#RenderSettings] #number reflectionBounces
 
 ---
 -- @field [parent=#RenderSettings] #number fogStartDistance

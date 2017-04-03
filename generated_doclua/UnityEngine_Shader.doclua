@@ -28,7 +28,7 @@
 ---
 -- @function [parent=#Shader] GetGlobalInt
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Shader] WarmupAllShaders
@@ -62,7 +62,7 @@
 ---
 -- @function [parent=#Shader] PropertyToID
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Shader] GetGlobalColor
@@ -133,12 +133,12 @@
 -- @field [parent=#Shader] #boolean isSupported
 
 ---
--- @field [parent=#Shader] integer#integer renderQueue
+-- @field [parent=#Shader] #number renderQueue
 
 ---
--- @field [parent=#Shader] integer#integer maximumLOD
+-- @field [parent=#Shader] #number maximumLOD
 
 ---
--- @field [parent=#Shader] integer#integer globalMaximumLOD
+-- @field [parent=#Shader] #number globalMaximumLOD
 
 return nil

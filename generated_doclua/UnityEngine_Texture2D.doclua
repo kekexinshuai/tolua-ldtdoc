@@ -150,7 +150,7 @@
 -- @field [parent=#Texture2D] blackTexture
 
 ---
--- @field [parent=#Texture2D] integer#integer mipmapCount
+-- @field [parent=#Texture2D] #number mipmapCount
 
 ---
 -- @field [parent=#Texture2D] UnityEngine_TextureFormat#TextureFormat format

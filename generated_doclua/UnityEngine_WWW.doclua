@@ -80,7 +80,7 @@
 -- @field [parent=#WWW] UnityEngine_AssetBundle#AssetBundle assetBundle
 
 ---
--- @field [parent=#WWW] integer#integer bytesDownloaded
+-- @field [parent=#WWW] #number bytesDownloaded
 
 ---
 -- @field [parent=#WWW] UnityEngine_ThreadPriority#ThreadPriority threadPriority
@@ -98,6 +98,6 @@
 -- @field [parent=#WWW] #boolean isDone
 
 ---
--- @field [parent=#WWW] integer#integer size
+-- @field [parent=#WWW] #number size
 
 return nil

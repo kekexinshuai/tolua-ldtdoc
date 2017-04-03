@@ -17,7 +17,7 @@
 -- @param arg0
 
 ---
--- @field [parent=#AnimationState] integer#integer layer
+-- @field [parent=#AnimationState] #number layer
 
 ---
 -- @field [parent=#AnimationState] UnityEngine_AnimationClip#AnimationClip clip

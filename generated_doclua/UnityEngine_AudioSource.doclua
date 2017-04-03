@@ -112,7 +112,7 @@
 -- @field [parent=#AudioSource] #number pitch
 
 ---
--- @field [parent=#AudioSource] integer#integer timeSamples
+-- @field [parent=#AudioSource] #number timeSamples
 
 ---
 -- @field [parent=#AudioSource] #boolean playOnAwake
@@ -130,7 +130,7 @@
 -- @field [parent=#AudioSource] #number dopplerLevel
 
 ---
--- @field [parent=#AudioSource] integer#integer priority
+-- @field [parent=#AudioSource] #number priority
 
 ---
 -- @field [parent=#AudioSource] #number panStereo

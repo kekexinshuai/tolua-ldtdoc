@@ -27,10 +27,10 @@
 -- @field [parent=#Screen] #boolean autorotateToLandscapeRight
 
 ---
--- @field [parent=#Screen] integer#integer height
+-- @field [parent=#Screen] #number height
 
 ---
--- @field [parent=#Screen] integer#integer width
+-- @field [parent=#Screen] #number width
 
 ---
 -- @field [parent=#Screen] currentResolution
@@ -39,7 +39,7 @@
 -- @field [parent=#Screen] #boolean autorotateToPortraitUpsideDown
 
 ---
--- @field [parent=#Screen] integer#integer sleepTimeout
+-- @field [parent=#Screen] #number sleepTimeout
 
 ---
 -- @field [parent=#Screen] resolutions

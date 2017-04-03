@@ -118,7 +118,7 @@
 -- @field [parent=#Input] #boolean touchSupported
 
 ---
--- @field [parent=#Input] integer#integer touchCount
+-- @field [parent=#Input] #number touchCount
 
 ---
 -- @field [parent=#Input] #boolean simulateMouseWithTouches
@@ -145,7 +145,7 @@
 -- @field [parent=#Input] #boolean anyKey
 
 ---
--- @field [parent=#Input] integer#integer accelerationEventCount
+-- @field [parent=#Input] #number accelerationEventCount
 
 ---
 -- @field [parent=#Input] #string compositionString

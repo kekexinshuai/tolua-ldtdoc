@@ -78,7 +78,7 @@
 ---
 -- @function [parent=#Camera] GetAllCameras
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Camera] SetReplacementShader
@@ -219,7 +219,7 @@
 -- @field [parent=#Camera] #boolean stereoMirrorMode
 
 ---
--- @field [parent=#Camera] integer#integer allCamerasCount
+-- @field [parent=#Camera] #number allCamerasCount
 
 ---
 -- @field [parent=#Camera] #boolean layerCullSpherical
@@ -249,7 +249,7 @@
 -- @field [parent=#Camera] UnityEngine_Color#Color backgroundColor
 
 ---
--- @field [parent=#Camera] integer#integer pixelHeight
+-- @field [parent=#Camera] #number pixelHeight
 
 ---
 -- @field [parent=#Camera] main
@@ -264,7 +264,7 @@
 -- @field [parent=#Camera] #list<float#float> layerCullDistances
 
 ---
--- @field [parent=#Camera] integer#integer targetDisplay
+-- @field [parent=#Camera] #number targetDisplay
 
 ---
 -- @field [parent=#Camera] UnityEngine_CameraType#CameraType cameraType
@@ -273,7 +273,7 @@
 -- @field [parent=#Camera] UnityEngine_RenderingPath#RenderingPath renderingPath
 
 ---
--- @field [parent=#Camera] integer#integer eventMask
+-- @field [parent=#Camera] #number eventMask
 
 ---
 -- @field [parent=#Camera] #number fieldOfView
@@ -297,7 +297,7 @@
 -- @field [parent=#Camera] UnityEngine_Vector3#Vector3 velocity
 
 ---
--- @field [parent=#Camera] integer#integer pixelWidth
+-- @field [parent=#Camera] #number pixelWidth
 
 ---
 -- @field [parent=#Camera] onPreCull
@@ -312,7 +312,7 @@
 -- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 nonJitteredProjectionMatrix
 
 ---
--- @field [parent=#Camera] integer#integer commandBufferCount
+-- @field [parent=#Camera] #number commandBufferCount
 
 ---
 -- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 cameraToWorldMatrix
@@ -342,6 +342,6 @@
 -- @field [parent=#Camera] UnityEngine_Rect#Rect pixelRect
 
 ---
--- @field [parent=#Camera] integer#integer cullingMask
+-- @field [parent=#Camera] #number cullingMask
 
 return nil

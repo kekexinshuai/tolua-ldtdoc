@@ -20,7 +20,7 @@
 -- @field [parent=#Time] #number unscaledTime
 
 ---
--- @field [parent=#Time] integer#integer renderedFrameCount
+-- @field [parent=#Time] #number renderedFrameCount
 
 ---
 -- @field [parent=#Time] #number realtimeSinceStartup
@@ -35,7 +35,7 @@
 -- @field [parent=#Time] #number unscaledDeltaTime
 
 ---
--- @field [parent=#Time] integer#integer captureFramerate
+-- @field [parent=#Time] #number captureFramerate
 
 ---
 -- @field [parent=#Time] #number time
@@ -47,6 +47,6 @@
 -- @field [parent=#Time] #number maximumParticleDeltaTime
 
 ---
--- @field [parent=#Time] integer#integer frameCount
+-- @field [parent=#Time] #number frameCount
 
 return nil

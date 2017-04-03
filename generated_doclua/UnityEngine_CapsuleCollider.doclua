@@ -6,7 +6,7 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
--- @field [parent=#CapsuleCollider] integer#integer direction
+-- @field [parent=#CapsuleCollider] #number direction
 
 ---
 -- @field [parent=#CapsuleCollider] #number radius

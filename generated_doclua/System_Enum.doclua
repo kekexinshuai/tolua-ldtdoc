@@ -31,7 +31,7 @@
 
 ---
 -- @function [parent=#Enum] ToInt
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Enum] Equals
@@ -65,12 +65,12 @@
 -- @function [parent=#Enum] CompareTo
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Enum] GetHashCode
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Enum] GetUnderlyingType

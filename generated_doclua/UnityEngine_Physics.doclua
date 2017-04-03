@@ -21,7 +21,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] OverlapSphere
@@ -59,7 +59,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] Linecast
@@ -116,7 +116,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] OverlapCapsule
@@ -137,7 +137,7 @@
 -- @param arg5
 -- @param arg6
 -- @param arg7
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] GetIgnoreLayerCollision
@@ -172,7 +172,7 @@
 -- @param arg4
 -- @param arg5
 -- @param arg6
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] OverlapBox
@@ -202,7 +202,7 @@
 -- @param arg5
 -- @param arg6
 -- @param arg7
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] OverlapCapsuleNonAlloc
@@ -212,7 +212,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Physics] IgnoreCollision
@@ -256,10 +256,10 @@
 -- @field [parent=#Physics] #number sleepThreshold
 
 ---
--- @field [parent=#Physics] integer#integer defaultSolverVelocityIterations
+-- @field [parent=#Physics] #number defaultSolverVelocityIterations
 
 ---
--- @field [parent=#Physics] integer#integer defaultSolverIterations
+-- @field [parent=#Physics] #number defaultSolverIterations
 
 ---
 -- @field [parent=#Physics] #boolean queriesHitBackfaces

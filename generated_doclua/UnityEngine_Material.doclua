@@ -124,7 +124,7 @@
 -- @function [parent=#Material] FindPass
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Material] GetMatrixArray
@@ -185,7 +185,7 @@
 -- @function [parent=#Material] GetInt
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Material] GetMatrix
@@ -241,13 +241,13 @@
 -- @field [parent=#Material] #list<string#string> shaderKeywords
 
 ---
--- @field [parent=#Material] integer#integer passCount
+-- @field [parent=#Material] #number passCount
 
 ---
 -- @field [parent=#Material] UnityEngine_MaterialGlobalIlluminationFlags#MaterialGlobalIlluminationFlags globalIlluminationFlags
 
 ---
--- @field [parent=#Material] integer#integer renderQueue
+-- @field [parent=#Material] #number renderQueue
 
 ---
 -- @field [parent=#Material] UnityEngine_Texture#Texture mainTexture

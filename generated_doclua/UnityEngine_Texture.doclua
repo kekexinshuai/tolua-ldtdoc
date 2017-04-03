@@ -8,7 +8,7 @@
 ---
 -- @function [parent=#Texture] GetNativeTexturePtr
 -- @param self
--- @return lightuserdata#lightuserdata
+-- @return #number
 
 ---
 -- @function [parent=#Texture] SetGlobalAnisotropicFilteringLimits
@@ -22,16 +22,16 @@
 -- @field [parent=#Texture] UnityEngine_FilterMode#FilterMode filterMode
 
 ---
--- @field [parent=#Texture] integer#integer masterTextureLimit
+-- @field [parent=#Texture] #number masterTextureLimit
 
 ---
--- @field [parent=#Texture] integer#integer anisoLevel
+-- @field [parent=#Texture] #number anisoLevel
 
 ---
--- @field [parent=#Texture] integer#integer height
+-- @field [parent=#Texture] #number height
 
 ---
--- @field [parent=#Texture] integer#integer width
+-- @field [parent=#Texture] #number width
 
 ---
 -- @field [parent=#Texture] UnityEngine_TextureWrapMode#TextureWrapMode wrapMode

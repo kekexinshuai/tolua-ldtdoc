@@ -24,10 +24,10 @@
 -- @field [parent=#Renderer] UnityEngine_Rendering_LightProbeUsage#LightProbeUsage lightProbeUsage
 
 ---
--- @field [parent=#Renderer] integer#integer lightmapIndex
+-- @field [parent=#Renderer] #number lightmapIndex
 
 ---
--- @field [parent=#Renderer] integer#integer sortingOrder
+-- @field [parent=#Renderer] #number sortingOrder
 
 ---
 -- @field [parent=#Renderer] #string sortingLayerName
@@ -45,7 +45,7 @@
 -- @field [parent=#Renderer] #list<UnityEngine_Material#Material> sharedMaterials
 
 ---
--- @field [parent=#Renderer] integer#integer realtimeLightmapIndex
+-- @field [parent=#Renderer] #number realtimeLightmapIndex
 
 ---
 -- @field [parent=#Renderer] UnityEngine_Material#Material material
@@ -57,7 +57,7 @@
 -- @field [parent=#Renderer] #boolean isPartOfStaticBatch
 
 ---
--- @field [parent=#Renderer] integer#integer sortingLayerID
+-- @field [parent=#Renderer] #number sortingLayerID
 
 ---
 -- @field [parent=#Renderer] UnityEngine_Matrix4x4#Matrix4x4 localToWorldMatrix

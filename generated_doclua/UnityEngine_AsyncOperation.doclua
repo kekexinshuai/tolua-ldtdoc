@@ -6,7 +6,7 @@
 -- @extends System_Object#Object
 
 ---
--- @field [parent=#AsyncOperation] integer#integer priority
+-- @field [parent=#AsyncOperation] #number priority
 
 ---
 -- @field [parent=#AsyncOperation] #number progress

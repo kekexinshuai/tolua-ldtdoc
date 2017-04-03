@@ -8,7 +8,7 @@
 ---
 -- @function [parent=#TrackedReference] GetHashCode
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#TrackedReference] Equals

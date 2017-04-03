@@ -47,13 +47,13 @@
 -- @field [parent=#AudioClip] UnityEngine_AudioClipLoadType#AudioClipLoadType loadType
 
 ---
--- @field [parent=#AudioClip] integer#integer channels
+-- @field [parent=#AudioClip] #number channels
 
 ---
 -- @field [parent=#AudioClip] #number length
 
 ---
--- @field [parent=#AudioClip] integer#integer frequency
+-- @field [parent=#AudioClip] #number frequency
 
 ---
 -- @field [parent=#AudioClip] #boolean preloadAudioData
@@ -62,6 +62,6 @@
 -- @field [parent=#AudioClip] #boolean loadInBackground
 
 ---
--- @field [parent=#AudioClip] integer#integer samples
+-- @field [parent=#AudioClip] #number samples
 
 return nil

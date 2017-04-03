@@ -9,7 +9,7 @@
 -- @function [parent=#Array] GetUpperBound
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] GetEnumerator
@@ -28,7 +28,7 @@
 -- @function [parent=#Array] GetLowerBound
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] LastIndexOf
@@ -36,7 +36,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] Clone
@@ -50,7 +50,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] Initialize
@@ -82,7 +82,7 @@
 -- @function [parent=#Array] GetLength
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] Clear
@@ -132,7 +132,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Array] ToTable
@@ -149,10 +149,10 @@
 -- @field [parent=#Array] #boolean IsSynchronized
 
 ---
--- @field [parent=#Array] integer#integer Length
+-- @field [parent=#Array] #number Length
 
 ---
--- @field [parent=#Array] integer#integer Rank
+-- @field [parent=#Array] #number Rank
 
 ---
 -- @field [parent=#Array] #boolean IsFixedSize

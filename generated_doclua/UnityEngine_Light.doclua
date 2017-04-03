@@ -42,7 +42,7 @@
 -- @field [parent=#Light] UnityEngine_LightShadows#LightShadows shadows
 
 ---
--- @field [parent=#Light] integer#integer bakedIndex
+-- @field [parent=#Light] #number bakedIndex
 
 ---
 -- @field [parent=#Light] UnityEngine_Flare#Flare flare
@@ -54,7 +54,7 @@
 -- @field [parent=#Light] UnityEngine_Color#Color color
 
 ---
--- @field [parent=#Light] integer#integer shadowCustomResolution
+-- @field [parent=#Light] #number shadowCustomResolution
 
 ---
 -- @field [parent=#Light] UnityEngine_Rendering_LightShadowResolution#LightShadowResolution shadowResolution
@@ -87,7 +87,7 @@
 -- @field [parent=#Light] #number shadowBias
 
 ---
--- @field [parent=#Light] integer#integer commandBufferCount
+-- @field [parent=#Light] #number commandBufferCount
 
 ---
 -- @field [parent=#Light] UnityEngine_LightRenderMode#LightRenderMode renderMode
@@ -99,6 +99,6 @@
 -- @field [parent=#Light] #number shadowNormalBias
 
 ---
--- @field [parent=#Light] integer#integer cullingMask
+-- @field [parent=#Light] #number cullingMask
 
 return nil

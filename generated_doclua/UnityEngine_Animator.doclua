@@ -44,7 +44,7 @@
 -- @function [parent=#Animator] GetInteger
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animator] StopRecording
@@ -70,7 +70,7 @@
 ---
 -- @function [parent=#Animator] StringToHash
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animator] SetIKHintPositionWeight
@@ -202,7 +202,7 @@
 -- @function [parent=#Animator] GetLayerIndex
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animator] ApplyBuiltinRootMotion
@@ -271,7 +271,7 @@
 -- @function [parent=#Animator] GetNextAnimatorClipInfoCount
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animator] SetIKRotationWeight
@@ -301,7 +301,7 @@
 -- @function [parent=#Animator] GetCurrentAnimatorClipInfoCount
 -- @param self
 -- @param arg0
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animator] GetIKRotation
@@ -334,7 +334,7 @@
 -- @field [parent=#Animator] UnityEngine_AnimatorCullingMode#AnimatorCullingMode cullingMode
 
 ---
--- @field [parent=#Animator] integer#integer layerCount
+-- @field [parent=#Animator] #number layerCount
 
 ---
 -- @field [parent=#Animator] #boolean linearVelocityBlending
@@ -424,7 +424,7 @@
 -- @field [parent=#Animator] #number rightFeetBottomHeight
 
 ---
--- @field [parent=#Animator] integer#integer parameterCount
+-- @field [parent=#Animator] #number parameterCount
 
 ---
 -- @field [parent=#Animator] #boolean applyRootMotion

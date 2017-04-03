@@ -46,7 +46,7 @@
 ---
 -- @function [parent=#Delegate] GetHashCode
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Delegate] Destroy

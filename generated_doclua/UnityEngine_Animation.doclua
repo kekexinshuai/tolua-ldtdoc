@@ -29,7 +29,7 @@
 ---
 -- @function [parent=#Animation] GetClipCount
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Animation] GetClip

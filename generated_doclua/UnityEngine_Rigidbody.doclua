@@ -131,7 +131,7 @@
 -- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 worldCenterOfMass
 
 ---
--- @field [parent=#Rigidbody] integer#integer solverIterations
+-- @field [parent=#Rigidbody] #number solverIterations
 
 ---
 -- @field [parent=#Rigidbody] #boolean isKinematic
@@ -143,7 +143,7 @@
 -- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 angularVelocity
 
 ---
--- @field [parent=#Rigidbody] integer#integer solverVelocityIterations
+-- @field [parent=#Rigidbody] #number solverVelocityIterations
 
 ---
 -- @field [parent=#Rigidbody] #number mass

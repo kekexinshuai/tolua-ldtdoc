@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#QualitySettings] GetQualityLevel
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#QualitySettings] DecreaseLevel
@@ -34,31 +34,31 @@
 -- @field [parent=#QualitySettings] #number shadowCascade2Split
 
 ---
--- @field [parent=#QualitySettings] integer#integer antiAliasing
+-- @field [parent=#QualitySettings] #number antiAliasing
 
 ---
 -- @field [parent=#QualitySettings] #number shadowNearPlaneOffset
 
 ---
--- @field [parent=#QualitySettings] integer#integer shadowCascades
+-- @field [parent=#QualitySettings] #number shadowCascades
 
 ---
 -- @field [parent=#QualitySettings] #boolean realtimeReflectionProbes
 
 ---
--- @field [parent=#QualitySettings] integer#integer vSyncCount
+-- @field [parent=#QualitySettings] #number vSyncCount
 
 ---
--- @field [parent=#QualitySettings] integer#integer pixelLightCount
+-- @field [parent=#QualitySettings] #number pixelLightCount
 
 ---
 -- @field [parent=#QualitySettings] activeColorSpace
 
 ---
--- @field [parent=#QualitySettings] integer#integer masterTextureLimit
+-- @field [parent=#QualitySettings] #number masterTextureLimit
 
 ---
--- @field [parent=#QualitySettings] integer#integer asyncUploadTimeSlice
+-- @field [parent=#QualitySettings] #number asyncUploadTimeSlice
 
 ---
 -- @field [parent=#QualitySettings] #number shadowDistance
@@ -70,10 +70,10 @@
 -- @field [parent=#QualitySettings] #number lodBias
 
 ---
--- @field [parent=#QualitySettings] integer#integer asyncUploadBufferSize
+-- @field [parent=#QualitySettings] #number asyncUploadBufferSize
 
 ---
--- @field [parent=#QualitySettings] integer#integer maxQueuedFrames
+-- @field [parent=#QualitySettings] #number maxQueuedFrames
 
 ---
 -- @field [parent=#QualitySettings] blendWeights
@@ -91,10 +91,10 @@
 -- @field [parent=#QualitySettings] #boolean softParticles
 
 ---
--- @field [parent=#QualitySettings] integer#integer particleRaycastBudget
+-- @field [parent=#QualitySettings] #number particleRaycastBudget
 
 ---
--- @field [parent=#QualitySettings] integer#integer maximumLODLevel
+-- @field [parent=#QualitySettings] #number maximumLODLevel
 
 ---
 -- @field [parent=#QualitySettings] anisotropicFiltering

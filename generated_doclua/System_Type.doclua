@@ -24,7 +24,7 @@
 ---
 -- @function [parent=#Type] GetHashCode
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Type] GetGenericTypeDefinition
@@ -78,7 +78,7 @@
 ---
 -- @function [parent=#Type] GetArrayRank
 -- @param self
--- @return integer#integer
+-- @return #number
 
 ---
 -- @function [parent=#Type] GetGenericArguments
@@ -346,7 +346,7 @@
 -- @field [parent=#Type] System_Reflection_TypeAttributes#TypeAttributes Attributes
 
 ---
--- @field [parent=#Type] integer#integer GenericParameterPosition
+-- @field [parent=#Type] #number GenericParameterPosition
 
 ---
 -- @field [parent=#Type] #boolean IsArray
