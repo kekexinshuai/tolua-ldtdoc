@@ -21,8 +21,9 @@ require("ldt_debugger")(nil,nil,nil,nil,nil,"path to your source code")
 ```
 ### 3. fix for debugger.lua(line number may not exactly as I said)
 ```lua
-comment out this line if you don't want debugger exits unity when detach
-line 379 --  os.exit(1)
-comment out this line to fix debugger crash when inspect variables
-line 636 --    { tag = "context", attr = { name = "Global",  id = 1 } }, 
+-- comment out this line if you don't want debugger exits unity when detach
+  os.exit(1) -- line 379
+
+-- comment out this line to fix debugger crash when inspect variables
+   { tag = "context", attr = { name = "Global",  id = 1 } }, -- line 636
 ```
