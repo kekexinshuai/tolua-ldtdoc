@@ -6,6 +6,10 @@
 -- @extends UnityEngine_TrackedReference#TrackedReference
 
 ---
+-- @function [parent=#AnimationState] New
+-- @return UnityEngine_AnimationState#AnimationState
+
+---
 -- @function [parent=#AnimationState] AddMixingTransform
 -- @param self
 -- @param arg0

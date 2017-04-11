@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
+-- @function [parent=#CapsuleCollider] New
+-- @return UnityEngine_CapsuleCollider#CapsuleCollider
+
+---
 -- @field [parent=#CapsuleCollider] #number direction
 
 ---

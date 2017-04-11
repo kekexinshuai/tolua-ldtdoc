@@ -45,6 +45,10 @@
 -- @return #number
 
 ---
+-- @function [parent=#Shader] New
+-- @return UnityEngine_Shader#Shader
+
+---
 -- @function [parent=#Shader] SetGlobalVector
 -- @param arg0
 -- @param arg1

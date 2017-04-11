@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
+-- @function [parent=#SphereCollider] New
+-- @return UnityEngine_SphereCollider#SphereCollider
+
+---
 -- @field [parent=#SphereCollider] #number radius
 
 ---

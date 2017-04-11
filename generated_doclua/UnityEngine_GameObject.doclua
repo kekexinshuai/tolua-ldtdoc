@@ -24,6 +24,10 @@
 -- @param arg2
 
 ---
+-- @function [parent=#GameObject] New
+-- @return UnityEngine_GameObject#GameObject
+
+---
 -- @function [parent=#GameObject] SetActive
 -- @param self
 -- @param arg0

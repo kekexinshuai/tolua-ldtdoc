@@ -1,0 +1,80 @@
+---
+-- @module UnityEngine_Canvas
+
+---
+-- @type Canvas
+-- @extends UnityEngine_Behaviour#Behaviour
+
+---
+-- @function [parent=#Canvas] GetDefaultCanvasMaterial
+-- @return UnityEngine_Material#Material
+
+---
+-- @function [parent=#Canvas] New
+-- @return UnityEngine_Canvas#Canvas
+
+---
+-- @function [parent=#Canvas] ForceUpdateCanvases
+
+---
+-- @function [parent=#Canvas] GetETC1SupportedCanvasMaterial
+-- @return UnityEngine_Material#Material
+
+---
+-- @field [parent=#Canvas] #number renderOrder
+
+---
+-- @field [parent=#Canvas] UnityEngine_Rect#Rect pixelRect
+
+---
+-- @field [parent=#Canvas] #string sortingLayerName
+
+---
+-- @field [parent=#Canvas] UnityEngine_Canvas#Canvas rootCanvas
+
+---
+-- @field [parent=#Canvas] #boolean isRootCanvas
+
+---
+-- @field [parent=#Canvas] UnityEngine_Camera#Camera worldCamera
+
+---
+-- @field [parent=#Canvas] #boolean overridePixelPerfect
+
+---
+-- @field [parent=#Canvas] #number referencePixelsPerUnit
+
+---
+-- @field [parent=#Canvas] #number planeDistance
+
+---
+-- @field [parent=#Canvas] #number cachedSortingLayerValue
+
+---
+-- @field [parent=#Canvas] #number sortingOrder
+
+---
+-- @field [parent=#Canvas] #boolean pixelPerfect
+
+---
+-- @field [parent=#Canvas] #number targetDisplay
+
+---
+-- @field [parent=#Canvas] #number normalizedSortingGridSize
+
+---
+-- @field [parent=#Canvas] willRenderCanvases
+
+---
+-- @field [parent=#Canvas] #number sortingLayerID
+
+---
+-- @field [parent=#Canvas] UnityEngine_RenderMode#RenderMode renderMode
+
+---
+-- @field [parent=#Canvas] #number scaleFactor
+
+---
+-- @field [parent=#Canvas] #boolean overrideSorting
+
+return nil

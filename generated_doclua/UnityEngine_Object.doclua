@@ -11,6 +11,10 @@
 -- @return #number
 
 ---
+-- @function [parent=#Object] New
+-- @return UnityEngine_Object#Object
+
+---
 -- @function [parent=#Object] Instantiate
 -- @param arg0
 -- @param arg1

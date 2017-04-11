@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Component#Component
 
 ---
+-- @function [parent=#Behaviour] New
+-- @return UnityEngine_Behaviour#Behaviour
+
+---
 -- @field [parent=#Behaviour] #boolean isActiveAndEnabled
 
 ---

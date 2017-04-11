@@ -21,6 +21,10 @@
 -- @param self
 
 ---
+-- @function [parent=#Light] New
+-- @return UnityEngine_Light#Light
+
+---
 -- @function [parent=#Light] GetCommandBuffers
 -- @param self
 -- @param arg0

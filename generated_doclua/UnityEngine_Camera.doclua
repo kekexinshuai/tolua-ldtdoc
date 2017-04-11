@@ -49,6 +49,10 @@
 -- @param arg1
 
 ---
+-- @function [parent=#Camera] New
+-- @return UnityEngine_Camera#Camera
+
+---
 -- @function [parent=#Camera] CalculateFrustumCorners
 -- @param self
 -- @param arg0

@@ -78,6 +78,10 @@
 -- @param arg1
 
 ---
+-- @function [parent=#Material] New
+-- @return UnityEngine_Material#Material
+
+---
 -- @function [parent=#Material] SetTextureScale
 -- @param self
 -- @param arg0

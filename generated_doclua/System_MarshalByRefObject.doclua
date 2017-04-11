@@ -1,0 +1,24 @@
+---
+-- @module System_MarshalByRefObject
+
+---
+-- @type MarshalByRefObject
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#MarshalByRefObject] GetLifetimeService
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#MarshalByRefObject] InitializeLifetimeService
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#MarshalByRefObject] CreateObjRef
+-- @param self
+-- @param arg0
+-- @return System_Runtime_Remoting_ObjRef#ObjRef
+
+return nil

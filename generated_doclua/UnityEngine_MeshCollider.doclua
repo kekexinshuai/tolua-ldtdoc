@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
+-- @function [parent=#MeshCollider] New
+-- @return UnityEngine_MeshCollider#MeshCollider
+
+---
 -- @field [parent=#MeshCollider] #number skinWidth
 
 ---

@@ -1,0 +1,22 @@
+---
+-- @module UnityEngine_UI_Shadow
+
+---
+-- @type Shadow
+-- @extends UnityEngine_UI_BaseMeshEffect#BaseMeshEffect
+
+---
+-- @function [parent=#Shadow] ModifyMesh
+-- @param self
+-- @param arg0
+
+---
+-- @field [parent=#Shadow] #boolean useGraphicAlpha
+
+---
+-- @field [parent=#Shadow] UnityEngine_Vector2#Vector2 effectDistance
+
+---
+-- @field [parent=#Shadow] UnityEngine_Color#Color effectColor
+
+return nil

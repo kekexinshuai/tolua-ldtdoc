@@ -82,6 +82,10 @@
 -- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
 
 ---
+-- @function [parent=#AssetBundle] New
+-- @return UnityEngine_AssetBundle#AssetBundle
+
+---
 -- @function [parent=#AssetBundle] GetAllAssetNames
 -- @param self
 -- @return #list<string#string>

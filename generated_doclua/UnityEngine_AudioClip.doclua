@@ -27,6 +27,10 @@
 -- @return UnityEngine_AudioClip#AudioClip
 
 ---
+-- @function [parent=#AudioClip] New
+-- @return UnityEngine_AudioClip#AudioClip
+
+---
 -- @function [parent=#AudioClip] GetData
 -- @param self
 -- @param arg0

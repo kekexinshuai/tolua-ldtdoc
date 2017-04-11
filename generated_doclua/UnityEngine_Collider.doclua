@@ -20,6 +20,10 @@
 -- @return #boolean
 
 ---
+-- @function [parent=#Collider] New
+-- @return UnityEngine_Collider#Collider
+
+---
 -- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial sharedMaterial
 
 ---

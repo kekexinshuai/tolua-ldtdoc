@@ -78,6 +78,10 @@
 -- @param arg0
 
 ---
+-- @function [parent=#AudioSource] New
+-- @return UnityEngine_AudioSource#AudioSource
+
+---
 -- @function [parent=#AudioSource] GetCustomCurve
 -- @param self
 -- @param arg0

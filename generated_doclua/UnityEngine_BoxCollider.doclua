@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
+-- @function [parent=#BoxCollider] New
+-- @return UnityEngine_BoxCollider#BoxCollider
+
+---
 -- @field [parent=#BoxCollider] UnityEngine_Vector3#Vector3 center
 
 ---

@@ -79,6 +79,10 @@
 -- @param arg1
 
 ---
+-- @function [parent=#Animator] New
+-- @return UnityEngine_Animator#Animator
+
+---
 -- @function [parent=#Animator] StartPlayback
 -- @param self
 

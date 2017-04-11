@@ -1,0 +1,110 @@
+---
+-- @module System_IO_BinaryReader
+
+---
+-- @type BinaryReader
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#BinaryReader] ReadUInt64
+-- @param self
+-- @return ulong#ulong
+
+---
+-- @function [parent=#BinaryReader] ReadInt32
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadInt16
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] Read
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadChars
+-- @param self
+-- @param arg0
+-- @return #list<char#char>
+
+---
+-- @function [parent=#BinaryReader] ReadBoolean
+-- @param self
+-- @return #boolean
+
+---
+-- @function [parent=#BinaryReader] ReadInt64
+-- @param self
+-- @return long#long
+
+---
+-- @function [parent=#BinaryReader] ReadSingle
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadByte
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadBytes
+-- @param self
+-- @param arg0
+-- @return #list<byte#byte>
+
+---
+-- @function [parent=#BinaryReader] PeekChar
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadDouble
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadChar
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] Close
+-- @param self
+
+---
+-- @function [parent=#BinaryReader] ReadDecimal
+-- @param self
+-- @return decimal#decimal
+
+---
+-- @function [parent=#BinaryReader] ReadUInt16
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadSByte
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#BinaryReader] ReadString
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#BinaryReader] ReadUInt32
+-- @param self
+-- @return #number
+
+---
+-- @field [parent=#BinaryReader] System_IO_Stream#Stream BaseStream
+
+return nil

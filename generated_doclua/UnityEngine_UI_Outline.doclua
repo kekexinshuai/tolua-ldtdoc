@@ -1,0 +1,13 @@
+---
+-- @module UnityEngine_UI_Outline
+
+---
+-- @type Outline
+-- @extends UnityEngine_UI_Shadow#Shadow
+
+---
+-- @function [parent=#Outline] ModifyMesh
+-- @param self
+-- @param arg0
+
+return nil

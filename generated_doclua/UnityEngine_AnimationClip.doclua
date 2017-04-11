@@ -27,6 +27,10 @@
 -- @param self
 
 ---
+-- @function [parent=#AnimationClip] New
+-- @return UnityEngine_AnimationClip#AnimationClip
+
+---
 -- @function [parent=#AnimationClip] SampleAnimation
 -- @param self
 -- @param arg0

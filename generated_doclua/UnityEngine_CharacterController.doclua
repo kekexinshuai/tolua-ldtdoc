@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Collider#Collider
 
 ---
+-- @function [parent=#CharacterController] New
+-- @return UnityEngine_CharacterController#CharacterController
+
+---
 -- @function [parent=#CharacterController] Move
 -- @param self
 -- @param arg0

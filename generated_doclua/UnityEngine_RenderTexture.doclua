@@ -49,6 +49,10 @@
 -- @param self
 
 ---
+-- @function [parent=#RenderTexture] New
+-- @return UnityEngine_RenderTexture#RenderTexture
+
+---
 -- @function [parent=#RenderTexture] SupportsStencil
 -- @param arg0
 -- @return #boolean

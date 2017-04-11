@@ -16,6 +16,10 @@
 -- @param arg0
 
 ---
+-- @function [parent=#Renderer] New
+-- @return UnityEngine_Renderer#Renderer
+
+---
 -- @function [parent=#Renderer] SetPropertyBlock
 -- @param self
 -- @param arg0

@@ -11,6 +11,10 @@
 -- @param arg0
 
 ---
+-- @function [parent=#SkinnedMeshRenderer] New
+-- @return UnityEngine_SkinnedMeshRenderer#SkinnedMeshRenderer
+
+---
 -- @function [parent=#SkinnedMeshRenderer] GetBlendShapeWeight
 -- @param self
 -- @param arg0

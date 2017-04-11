@@ -20,6 +20,10 @@
 -- @return #boolean
 
 ---
+-- @function [parent=#Rigidbody] New
+-- @return UnityEngine_Rigidbody#Rigidbody
+
+---
 -- @function [parent=#Rigidbody] GetPointVelocity
 -- @param self
 -- @param arg0

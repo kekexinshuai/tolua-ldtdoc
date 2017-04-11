@@ -20,6 +20,10 @@
 -- @return #list<byte#byte>
 
 ---
+-- @function [parent=#Texture2D] New
+-- @return UnityEngine_Texture2D#Texture2D
+
+---
 -- @function [parent=#Texture2D] SetPixels32
 -- @param self
 -- @param arg0

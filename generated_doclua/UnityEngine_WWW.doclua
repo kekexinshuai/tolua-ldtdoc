@@ -44,6 +44,10 @@
 -- @param self
 
 ---
+-- @function [parent=#WWW] New
+-- @return UnityEngine_WWW#WWW
+
+---
 -- @function [parent=#WWW] LoadFromCacheOrDownload
 -- @param arg0
 -- @param arg1

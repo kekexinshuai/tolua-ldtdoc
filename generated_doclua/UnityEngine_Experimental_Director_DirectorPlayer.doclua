@@ -34,4 +34,8 @@
 -- @param self
 -- @param arg0
 
+---
+-- @function [parent=#DirectorPlayer] New
+-- @return UnityEngine_Experimental_Director_DirectorPlayer#DirectorPlayer
+
 return nil

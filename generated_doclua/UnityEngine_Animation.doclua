@@ -86,6 +86,10 @@
 -- @param arg0
 
 ---
+-- @function [parent=#Animation] New
+-- @return UnityEngine_Animation#Animation
+
+---
 -- @function [parent=#Animation] IsPlaying
 -- @param self
 -- @param arg0
@@ -97,12 +101,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
-
----
--- @function [parent=#Animation] get_Item
--- @param self
--- @param arg0
--- @return UnityEngine_AnimationState#AnimationState
 
 ---
 -- @field [parent=#Animation] UnityEngine_AnimationClip#AnimationClip clip

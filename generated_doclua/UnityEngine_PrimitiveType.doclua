@@ -1,0 +1,29 @@
+---
+-- @module UnityEngine_PrimitiveType
+
+---
+-- @type PrimitiveType
+
+---
+-- @function [parent=#PrimitiveType] IntToEnum
+-- @return UnityEngine_PrimitiveType#PrimitiveType
+
+---
+-- @field [parent=#PrimitiveType] Cylinder
+
+---
+-- @field [parent=#PrimitiveType] Cube
+
+---
+-- @field [parent=#PrimitiveType] Sphere
+
+---
+-- @field [parent=#PrimitiveType] Capsule
+
+---
+-- @field [parent=#PrimitiveType] Plane
+
+---
+-- @field [parent=#PrimitiveType] Quad
+
+return nil

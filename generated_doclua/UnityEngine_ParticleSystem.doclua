@@ -66,6 +66,10 @@
 -- @return #number
 
 ---
+-- @function [parent=#ParticleSystem] New
+-- @return UnityEngine_ParticleSystem#ParticleSystem
+
+---
 -- @function [parent=#ParticleSystem] Emit
 -- @param self
 -- @param arg0

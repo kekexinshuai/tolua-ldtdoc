@@ -1,0 +1,120 @@
+---
+-- @module System_IO_Stream
+
+---
+-- @type Stream
+-- @extends System_MarshalByRefObject#MarshalByRefObject
+
+---
+-- @function [parent=#Stream] EndRead
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Stream] Synchronized
+-- @param arg0
+-- @return System_IO_Stream#Stream
+
+---
+-- @function [parent=#Stream] Read
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return #number
+
+---
+-- @function [parent=#Stream] EndWrite
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Stream] Dispose
+-- @param self
+
+---
+-- @function [parent=#Stream] BeginWrite
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return System_IAsyncResult#IAsyncResult
+
+---
+-- @function [parent=#Stream] Write
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+
+---
+-- @function [parent=#Stream] ReadByte
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Stream] WriteByte
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Stream] Flush
+-- @param self
+
+---
+-- @function [parent=#Stream] Close
+-- @param self
+
+---
+-- @function [parent=#Stream] Seek
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return long#long
+
+---
+-- @function [parent=#Stream] SetLength
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#Stream] BeginRead
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @return System_IAsyncResult#IAsyncResult
+
+---
+-- @field [parent=#Stream] long#long Position
+
+---
+-- @field [parent=#Stream] #boolean CanTimeout
+
+---
+-- @field [parent=#Stream] long#long Length
+
+---
+-- @field [parent=#Stream] #boolean CanWrite
+
+---
+-- @field [parent=#Stream] #boolean CanSeek
+
+---
+-- @field [parent=#Stream] #boolean CanRead
+
+---
+-- @field [parent=#Stream] #number WriteTimeout
+
+---
+-- @field [parent=#Stream] Null
+
+---
+-- @field [parent=#Stream] #number ReadTimeout
+
+return nil

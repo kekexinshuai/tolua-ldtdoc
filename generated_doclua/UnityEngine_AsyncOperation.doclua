@@ -6,6 +6,10 @@
 -- @extends System_Object#Object
 
 ---
+-- @function [parent=#AsyncOperation] New
+-- @return UnityEngine_AsyncOperation#AsyncOperation
+
+---
 -- @field [parent=#AsyncOperation] #number priority
 
 ---

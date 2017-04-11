@@ -1,0 +1,60 @@
+---
+-- @module UnityEngine_PlayerPrefs
+
+---
+-- @type PlayerPrefs
+-- @extends System_Object#Object
+
+---
+-- @function [parent=#PlayerPrefs] GetFloat
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#PlayerPrefs] Save
+
+---
+-- @function [parent=#PlayerPrefs] GetString
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#PlayerPrefs] SetFloat
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#PlayerPrefs] SetString
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#PlayerPrefs] SetInt
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#PlayerPrefs] GetInt
+-- @param arg0
+-- @param arg1
+-- @return #number
+
+---
+-- @function [parent=#PlayerPrefs] DeleteAll
+
+---
+-- @function [parent=#PlayerPrefs] New
+-- @return UnityEngine_PlayerPrefs#PlayerPrefs
+
+---
+-- @function [parent=#PlayerPrefs] HasKey
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#PlayerPrefs] DeleteKey
+-- @param arg0
+
+return nil

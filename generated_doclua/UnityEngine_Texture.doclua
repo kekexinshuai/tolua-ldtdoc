@@ -6,6 +6,10 @@
 -- @extends UnityEngine_Object#Object
 
 ---
+-- @function [parent=#Texture] New
+-- @return UnityEngine_Texture#Texture
+
+---
 -- @function [parent=#Texture] GetNativeTexturePtr
 -- @param self
 -- @return #number
