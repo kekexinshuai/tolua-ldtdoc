@@ -12,26 +12,31 @@ builtin_types_map = {
 	"lightuserdata": "#number"
 }
 
+def get_class_name_from_file_name(ifile):
+	file_name = os.path.basename(ifile)
+	if file_name.endswith("Wrap.cs"):
+		return file_name[:-7].replace("_",".")
+
+def cstype_map_to_ldttype(cs_type):
+	ldt_type = None
+	if cs_type is not None:
+		if cs_type in builtin_types_map:
+			ldt_type = builtin_types_map[cs_type]
+		elif cs_type.endswith("[]"):
+			cs_type = cs_type[:-2]
+			module = cs_type.replace(".","_")
+			_type = cs_type.split(".")[-1]
+			ldt_type = "#list<%s>" % (module + "#" + _type)
+		else:
+			module = cs_type.replace(".","_")
+			_type = cs_type.split(".")[-1]
+			ldt_type = module + "#" + _type
+	return ldt_type
+
 def parse(ifile,odir):
 	parsing_class = None
 	function_defs = {}
 	filed_defs = {}
-
-	def cstype_map_to_ldttype(cs_type):
-		ldt_type = None
-		if cs_type is not None:
-			if cs_type in builtin_types_map:
-				ldt_type = builtin_types_map[cs_type]
-			elif cs_type.endswith("[]"):
-				cs_type = cs_type[:-2]
-				module = cs_type.replace(".","_")
-				_type = cs_type.split(".")[-1]
-				ldt_type = "#list<%s>" % (module + "#" + _type)
-			else:
-				module = cs_type.replace(".","_")
-				_type = cs_type.split(".")[-1]
-				ldt_type = module + "#" + _type
-		return ldt_type
 
 	with open(ifile,"r") as f:
 		brace_level = 0
@@ -46,18 +51,26 @@ def parse(ifile,odir):
 				brace_level = brace_level - 1
 				if brace_level == cs_function_def_breace_level and cs_function_def_parsing_func_name is not None:
 					# will out c# function
-					if cs_function_def_parsing_func_name in function_defs:
-						function_def = function_defs[cs_function_def_parsing_func_name]
+					def_func_name = cs_function_def_parsing_func_name
+					if cs_function_def_parsing_func_name.startswith("_CreateUnityEngine_"):
+						def_func_name = "New"
+						cs_function_def_is_static = True
+						cs_function_def_max_args = 0
+						cs_function_def_return_type = parsing_class["name"]
+					elif cs_function_def_parsing_func_name.startswith("get_"):
+						def_func_name = cs_function_def_parsing_func_name[len("get_"):]
+
+
+					if def_func_name in function_defs:
+						function_def = function_defs[def_func_name]
 						function_def["param_count"] = cs_function_def_max_args
 						function_def["return_type"] = cstype_map_to_ldttype(cs_function_def_return_type)
 						function_def["is_static"] = cs_function_def_is_static
 						function_def["valid"] = True
-					if cs_function_def_parsing_func_name.startswith("get_"):
-						getter_for_func_name = cs_function_def_parsing_func_name[4:]
-						if getter_for_func_name in filed_defs:
-							filed_def = filed_defs[getter_for_func_name]
-							filed_def["type"] = cstype_map_to_ldttype(cs_function_def_return_type)
-							filed_def["valid"] = True
+					elif def_func_name in filed_defs:
+						filed_def = filed_defs[def_func_name]
+						filed_def["type"] = cstype_map_to_ldttype(cs_function_def_return_type)
+						filed_def["valid"] = True
 					cs_function_def_breace_level = -1
 
 			if cs_function_def_breace_level >= 0:
@@ -86,26 +99,21 @@ def parse(ifile,odir):
 					cs_function_def_return_type = cs_function_def_return_match.group(1)
 				continue
 
-			def get_class_name_from_file_name():
-				file_name = os.path.basename(ifile)
-				if file_name.endswith("Wrap.cs"):
-					name = file_name[:-7].replace("_",".")
-				return name
 			class_def_match = re.match(r'^\s*L\.BeginClass\(typeof\((.*?)\), typeof\((.*?)[,\)]', line)
 			if class_def_match:
 				assert(parsing_class == None)
-				parsing_class = {"name": get_class_name_from_file_name(),
+				parsing_class = {"name": get_class_name_from_file_name(ifile),
 								 "parent": class_def_match.group(2)}
 
 			class_def_match = re.match(r'^\s*L\.BeginClass\(typeof\((.*?)\), null[,\)]', line)
 			if class_def_match:
 				assert(parsing_class == None)
-				parsing_class = {"name": get_class_name_from_file_name()}
+				parsing_class = {"name": get_class_name_from_file_name(ifile)}
 
 			class_def_match = re.match(r'^\s*L\.BeginStaticLibs\("(.*?)"\)', line)
 			if class_def_match:
 				assert(parsing_class == None)
-				parsing_class = {"name": get_class_name_from_file_name()}
+				parsing_class = {"name": get_class_name_from_file_name(ifile)}
 
 			class_def_match = re.match(r'^\s*L\.BeginEnum\(typeof\((.*?)\)', line)
 			if class_def_match:
@@ -164,7 +172,7 @@ def parse(ifile,odir):
 if __name__ == "__main__":
 	srcdir1 = r"D:\unity_projects\test2\Assets\Source\Generate"
 	srcdir2 = r"D:\unity_projects\test2\Assets\3rd\tolua\ToLua\BaseType"
-	destdir = r"D:\unity_projects\test2\Assets\Source\generate_doclua"
+	destdir = r"E:\src\ps5mh_github\generated_doclua"
 	ignore_files = [
 		"LuaInterface_LuaOutWrap.cs", 
 		"System_Collections_Generic_DictionaryWrap.cs", 
@@ -175,6 +183,25 @@ if __name__ == "__main__":
 		"System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs"]
 	flist1 = [os.path.join(srcdir1,f) for f in os.listdir(srcdir1)]
 	flist2 = [os.path.join(srcdir2,f) for f in os.listdir(srcdir2)]
+
 	for fpath in flist1 + flist2:
-		if fpath.endswith("Wrap.cs") and os.path.basename(fpath) not in ignore_files:
+		fname = os.path.basename(fpath)
+		if fpath.endswith("Wrap.cs") and fname not in ignore_files:
 			parse(fpath, destdir)
+
+	# generate doclua for root module (ex: UnityEngine.doclua)
+	root_module_to_fields = {} # {module_name: {field_name:{type: }, ...}, ...}
+	for fpath in flist1 + flist2:
+		module_name = get_class_name_from_file_name(fpath)
+		if module_name:
+			module_paths = module_name.split(".")
+			if len(module_paths) == 2: # field directly under root module
+				root_module, filed_name = module_paths[0], module_paths[1]
+				root_module_fields = root_module_to_fields.setdefault(root_module,{})
+				root_module_fields[filed_name] = {"type": cstype_map_to_ldttype(module_name)}
+	for module,fields in root_module_to_fields.iteritems():
+		with open(os.path.join(destdir, module + ".doclua"),"w") as of:
+			of.write("---\n-- @module %s\n\n" % module)
+			for field, field_info in fields.iteritems():
+				of.write("---\n-- @field [parent=#%s] %s %s\n\n" % (module, field_info["type"], field))
+			of.write("return nil\n")
