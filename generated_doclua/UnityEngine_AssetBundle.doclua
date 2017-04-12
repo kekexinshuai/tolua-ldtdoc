@@ -59,7 +59,7 @@
 ---
 -- @function [parent=#AssetBundle] GetAllScenePaths
 -- @param self
--- @return #list<string#string>
+-- @return #list<#string>
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetWithSubAssets
@@ -88,7 +88,7 @@
 ---
 -- @function [parent=#AssetBundle] GetAllAssetNames
 -- @param self
--- @return #list<string#string>
+-- @return #list<#string>
 
 ---
 -- @function [parent=#AssetBundle] LoadAllAssets

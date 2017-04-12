@@ -52,7 +52,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #list<string#string>
+-- @return #list<#string>
 
 ---
 -- @function [parent=#String] ToUpper

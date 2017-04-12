@@ -31,7 +31,7 @@
 
 ---
 -- @function [parent=#Input] GetJoystickNames
--- @return #list<string#string>
+-- @return #list<#string>
 
 ---
 -- @function [parent=#Input] GetMouseButton

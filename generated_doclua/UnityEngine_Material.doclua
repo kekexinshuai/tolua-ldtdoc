@@ -92,7 +92,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<float#float>
+-- @return #list<#number>
 
 ---
 -- @function [parent=#Material] SetTexture

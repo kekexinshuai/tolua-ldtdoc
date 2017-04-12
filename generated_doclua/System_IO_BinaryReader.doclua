@@ -58,7 +58,7 @@
 -- @function [parent=#BinaryReader] ReadBytes
 -- @param self
 -- @param arg0
--- @return #list<byte#byte>
+-- @return #list<#number>
 
 ---
 -- @function [parent=#BinaryReader] PeekChar

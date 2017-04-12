@@ -29,9 +29,7 @@ def cstype_map_to_ldttype(cs_type):
 			ldt_type = builtin_types_map[cs_type]
 		elif cs_type.endswith("[]"):
 			cs_type = cs_type[:-2]
-			module = cs_type.replace(".","_")
-			_type = cs_type.split(".")[-1]
-			ldt_type = "#list<%s>" % (module + "#" + _type)
+			ldt_type = "#list<%s>" % cstype_map_to_ldttype(cs_type)
 		else:
 			module = cs_type.replace(".","_")
 			_type = cs_type.split(".")[-1]

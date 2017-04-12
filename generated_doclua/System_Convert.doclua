@@ -25,14 +25,14 @@
 ---
 -- @function [parent=#Convert] FromBase64String
 -- @param arg0
--- @return #list<byte#byte>
+-- @return #list<#number>
 
 ---
 -- @function [parent=#Convert] FromBase64CharArray
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #list<byte#byte>
+-- @return #list<#number>
 
 ---
 -- @function [parent=#Convert] IsDBNull
