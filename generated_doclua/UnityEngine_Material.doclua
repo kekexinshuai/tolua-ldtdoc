@@ -62,14 +62,14 @@
 -- @function [parent=#Material] GetTextureOffset
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector2#Vector2
+-- @return #
 
 ---
 -- @function [parent=#Material] GetColorArray
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Color#Color>
+-- @return #
 
 ---
 -- @function [parent=#Material] SetMatrixArray
@@ -92,7 +92,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<float#float>
+-- @return #
 
 ---
 -- @function [parent=#Material] SetTexture
@@ -104,7 +104,7 @@
 -- @function [parent=#Material] GetTexture
 -- @param self
 -- @param arg0
--- @return UnityEngine_Texture#Texture
+-- @return #
 
 ---
 -- @function [parent=#Material] GetPassName
@@ -135,7 +135,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Matrix4x4#Matrix4x4>
+-- @return #
 
 ---
 -- @function [parent=#Material] HasProperty
@@ -153,7 +153,7 @@
 -- @function [parent=#Material] GetVector
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector4#Vector4
+-- @return #
 
 ---
 -- @function [parent=#Material] SetFloatArray
@@ -170,13 +170,13 @@
 -- @function [parent=#Material] GetTextureScale
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector2#Vector2
+-- @return #
 
 ---
 -- @function [parent=#Material] GetColor
 -- @param self
 -- @param arg0
--- @return UnityEngine_Color#Color
+-- @return #
 
 ---
 -- @function [parent=#Material] Lerp
@@ -227,7 +227,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Vector4#Vector4>
+-- @return #
 
 ---
 -- @field [parent=#Material] UnityEngine_Color#Color color

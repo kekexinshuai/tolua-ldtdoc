@@ -25,14 +25,14 @@
 ---
 -- @function [parent=#Convert] FromBase64String
 -- @param arg0
--- @return #list<byte#byte>
+-- @return #
 
 ---
 -- @function [parent=#Convert] FromBase64CharArray
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #list<byte#byte>
+-- @return #
 
 ---
 -- @function [parent=#Convert] IsDBNull
@@ -66,7 +66,7 @@
 ---
 -- @function [parent=#Convert] GetTypeCode
 -- @param arg0
--- @return System_TypeCode#TypeCode
+-- @return #
 
 ---
 -- @function [parent=#Convert] ToInt32
@@ -133,7 +133,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return object#object
+-- @return #
 
 ---
 -- @function [parent=#Convert] ToSingle
@@ -142,6 +142,6 @@
 -- @return #number
 
 ---
--- @field [parent=#Convert] DBNull
+-- @field [parent=#Convert] System_Convert#Convert DBNull
 
 return nil

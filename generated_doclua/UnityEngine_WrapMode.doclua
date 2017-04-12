@@ -6,24 +6,24 @@
 
 ---
 -- @function [parent=#WrapMode] IntToEnum
--- @return UnityEngine_WrapMode#WrapMode
+-- @return #
 
 ---
--- @field [parent=#WrapMode] Clamp
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Clamp
 
 ---
--- @field [parent=#WrapMode] ClampForever
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode ClampForever
 
 ---
--- @field [parent=#WrapMode] Default
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Default
 
 ---
--- @field [parent=#WrapMode] PingPong
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode PingPong
 
 ---
--- @field [parent=#WrapMode] Loop
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Loop
 
 ---
--- @field [parent=#WrapMode] Once
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Once
 
 return nil

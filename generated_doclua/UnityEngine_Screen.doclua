@@ -21,7 +21,7 @@
 -- @field [parent=#Screen] #boolean autorotateToLandscapeLeft
 
 ---
--- @field [parent=#Screen] orientation
+-- @field [parent=#Screen] UnityEngine_Screen#Screen orientation
 
 ---
 -- @field [parent=#Screen] #boolean autorotateToLandscapeRight
@@ -42,7 +42,7 @@
 -- @field [parent=#Screen] #number sleepTimeout
 
 ---
--- @field [parent=#Screen] resolutions
+-- @field [parent=#Screen] UnityEngine_Screen#Screen resolutions
 
 ---
 -- @field [parent=#Screen] #number dpi

@@ -17,13 +17,13 @@
 ---
 -- @function [parent=#Shader] GetGlobalTexture
 -- @param arg0
--- @return UnityEngine_Texture#Texture
+-- @return #
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrixArray
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Matrix4x4#Matrix4x4>
+-- @return #
 
 ---
 -- @function [parent=#Shader] GetGlobalInt
@@ -37,7 +37,7 @@
 -- @function [parent=#Shader] GetGlobalFloatArray
 -- @param arg0
 -- @param arg1
--- @return #list<float#float>
+-- @return #
 
 ---
 -- @function [parent=#Shader] GetGlobalFloat
@@ -71,13 +71,13 @@
 ---
 -- @function [parent=#Shader] GetGlobalColor
 -- @param arg0
--- @return UnityEngine_Color#Color
+-- @return #
 
 ---
 -- @function [parent=#Shader] GetGlobalVectorArray
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Vector4#Vector4>
+-- @return #
 
 ---
 -- @function [parent=#Shader] SetGlobalColor
@@ -87,7 +87,7 @@
 ---
 -- @function [parent=#Shader] GetGlobalVector
 -- @param arg0
--- @return UnityEngine_Vector4#Vector4
+-- @return #
 
 ---
 -- @function [parent=#Shader] IsKeywordEnabled
@@ -126,7 +126,7 @@
 ---
 -- @function [parent=#Shader] Find
 -- @param arg0
--- @return UnityEngine_Shader#Shader
+-- @return #
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrix

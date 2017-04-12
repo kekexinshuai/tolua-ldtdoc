@@ -8,7 +8,7 @@
 ---
 -- @function [parent=#MemoryStream] ToArray
 -- @param self
--- @return #list<byte#byte>
+-- @return #
 
 ---
 -- @function [parent=#MemoryStream] Read
@@ -47,7 +47,7 @@
 ---
 -- @function [parent=#MemoryStream] GetBuffer
 -- @param self
--- @return #list<byte#byte>
+-- @return #
 
 ---
 -- @function [parent=#MemoryStream] Seek

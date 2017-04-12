@@ -6,12 +6,12 @@
 
 ---
 -- @function [parent=#QueueMode] IntToEnum
--- @return UnityEngine_QueueMode#QueueMode
+-- @return #
 
 ---
--- @field [parent=#QueueMode] PlayNow
+-- @field [parent=#QueueMode] UnityEngine_QueueMode#QueueMode PlayNow
 
 ---
--- @field [parent=#QueueMode] CompleteOthers
+-- @field [parent=#QueueMode] UnityEngine_QueueMode#QueueMode CompleteOthers
 
 return nil

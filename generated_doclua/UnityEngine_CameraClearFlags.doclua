@@ -6,21 +6,21 @@
 
 ---
 -- @function [parent=#CameraClearFlags] IntToEnum
--- @return UnityEngine_CameraClearFlags#CameraClearFlags
+-- @return #
 
 ---
--- @field [parent=#CameraClearFlags] Skybox
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Skybox
 
 ---
--- @field [parent=#CameraClearFlags] Color
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Color
 
 ---
--- @field [parent=#CameraClearFlags] Depth
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Depth
 
 ---
--- @field [parent=#CameraClearFlags] Nothing
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Nothing
 
 ---
--- @field [parent=#CameraClearFlags] SolidColor
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags SolidColor
 
 return nil

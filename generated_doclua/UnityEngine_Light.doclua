@@ -28,13 +28,13 @@
 -- @function [parent=#Light] GetCommandBuffers
 -- @param self
 -- @param arg0
--- @return #list<UnityEngine_Rendering_CommandBuffer#CommandBuffer>
+-- @return #
 
 ---
 -- @function [parent=#Light] GetLights
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Light#Light>
+-- @return #
 
 ---
 -- @function [parent=#Light] RemoveCommandBuffer

@@ -29,7 +29,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #list<UnityEngine_Collider#Collider>
+-- @return #
 
 ---
 -- @function [parent=#Physics] BoxCastAll
@@ -40,7 +40,7 @@
 -- @param arg4
 -- @param arg5
 -- @param arg6
--- @return #list<UnityEngine_RaycastHit#RaycastHit>
+-- @return #
 
 ---
 -- @function [parent=#Physics] SphereCastAll
@@ -50,7 +50,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return #list<UnityEngine_RaycastHit#RaycastHit>
+-- @return #
 
 ---
 -- @function [parent=#Physics] OverlapSphereNonAlloc
@@ -68,7 +68,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Physics] SphereCast
@@ -79,7 +79,7 @@
 -- @param arg4
 -- @param arg5
 -- @param arg6
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Physics] CheckCapsule
@@ -98,7 +98,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Physics] CheckSphere
@@ -125,7 +125,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return #list<UnityEngine_Collider#Collider>
+-- @return #
 
 ---
 -- @function [parent=#Physics] BoxCastNonAlloc
@@ -155,7 +155,7 @@
 -- @param arg5
 -- @param arg6
 -- @param arg7
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Physics] IgnoreLayerCollision
@@ -181,7 +181,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return #list<UnityEngine_Collider#Collider>
+-- @return #
 
 ---
 -- @function [parent=#Physics] RaycastAll
@@ -190,7 +190,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return #list<UnityEngine_RaycastHit#RaycastHit>
+-- @return #
 
 ---
 -- @function [parent=#Physics] CapsuleCastNonAlloc
@@ -230,7 +230,7 @@
 -- @param arg5
 -- @param arg6
 -- @param arg7
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Physics] CapsuleCastAll
@@ -241,13 +241,13 @@
 -- @param arg4
 -- @param arg5
 -- @param arg6
--- @return #list<UnityEngine_RaycastHit#RaycastHit>
+-- @return #
 
 ---
 -- @field [parent=#Physics] #number bounceThreshold
 
 ---
--- @field [parent=#Physics] gravity
+-- @field [parent=#Physics] UnityEngine_Physics#Physics gravity
 
 ---
 -- @field [parent=#Physics] #boolean queriesHitTriggers

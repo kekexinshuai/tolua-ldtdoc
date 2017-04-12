@@ -8,18 +8,18 @@
 -- @function [parent=#Resources] Load
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_Object#Object
+-- @return #
 
 ---
 -- @function [parent=#Resources] FindObjectsOfTypeAll
 -- @param arg0
--- @return #list<UnityEngine_Object#Object>
+-- @return #
 
 ---
 -- @function [parent=#Resources] GetBuiltinResource
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_Object#Object
+-- @return #
 
 ---
 -- @function [parent=#Resources] LoadAsync
@@ -31,7 +31,7 @@
 -- @function [parent=#Resources] LoadAll
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Object#Object>
+-- @return #
 
 ---
 -- @function [parent=#Resources] UnloadUnusedAssets

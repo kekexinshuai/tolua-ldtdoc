@@ -24,7 +24,7 @@
 -- @param arg4
 -- @param arg5
 -- @param arg6
--- @return UnityEngine_AudioClip#AudioClip
+-- @return #
 
 ---
 -- @function [parent=#AudioClip] New

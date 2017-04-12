@@ -6,12 +6,12 @@
 
 ---
 -- @function [parent=#PlayMode] IntToEnum
--- @return UnityEngine_PlayMode#PlayMode
+-- @return #
 
 ---
--- @field [parent=#PlayMode] StopSameLayer
+-- @field [parent=#PlayMode] UnityEngine_PlayMode#PlayMode StopSameLayer
 
 ---
--- @field [parent=#PlayMode] StopAll
+-- @field [parent=#PlayMode] UnityEngine_PlayMode#PlayMode StopAll
 
 return nil

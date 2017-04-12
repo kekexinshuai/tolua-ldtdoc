@@ -7,7 +7,7 @@
 
 ---
 -- @function [parent=#Canvas] GetDefaultCanvasMaterial
--- @return UnityEngine_Material#Material
+-- @return #
 
 ---
 -- @function [parent=#Canvas] New
@@ -18,7 +18,7 @@
 
 ---
 -- @function [parent=#Canvas] GetETC1SupportedCanvasMaterial
--- @return UnityEngine_Material#Material
+-- @return #
 
 ---
 -- @field [parent=#Canvas] #number renderOrder
@@ -63,7 +63,7 @@
 -- @field [parent=#Canvas] #number normalizedSortingGridSize
 
 ---
--- @field [parent=#Canvas] willRenderCanvases
+-- @field [parent=#Canvas] new EventObject("UnityEngine_Canvas#Canvas willRenderCanvases
 
 ---
 -- @field [parent=#Canvas] #number sortingLayerID

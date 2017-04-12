@@ -30,7 +30,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_Object#Object
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] Unload
@@ -42,7 +42,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_AssetBundle#AssetBundle
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] Contains
@@ -59,20 +59,20 @@
 ---
 -- @function [parent=#AssetBundle] GetAllScenePaths
 -- @param self
--- @return #list<string#string>
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetWithSubAssets
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Object#Object>
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] LoadFromMemory
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_AssetBundle#AssetBundle
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetAsync
@@ -88,13 +88,13 @@
 ---
 -- @function [parent=#AssetBundle] GetAllAssetNames
 -- @param self
--- @return #list<string#string>
+-- @return #
 
 ---
 -- @function [parent=#AssetBundle] LoadAllAssets
 -- @param self
 -- @param arg0
--- @return #list<UnityEngine_Object#Object>
+-- @return #
 
 ---
 -- @field [parent=#AssetBundle] UnityEngine_Object#Object mainAsset

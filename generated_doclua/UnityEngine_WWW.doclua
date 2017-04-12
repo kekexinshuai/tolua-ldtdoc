@@ -23,7 +23,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_AudioClip#AudioClip
+-- @return #
 
 ---
 -- @function [parent=#WWW] InitWWW
@@ -37,7 +37,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_AudioClip#AudioClip
+-- @return #
 
 ---
 -- @function [parent=#WWW] Dispose

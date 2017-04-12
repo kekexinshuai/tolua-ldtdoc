@@ -14,7 +14,7 @@
 ---
 -- @function [parent=#Array] GetEnumerator
 -- @param self
--- @return System_Collections_IEnumerator#IEnumerator
+-- @return #
 
 ---
 -- @function [parent=#Array] GetValue
@@ -22,7 +22,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return object#object
+-- @return #
 
 ---
 -- @function [parent=#Array] GetLowerBound
@@ -41,7 +41,7 @@
 ---
 -- @function [parent=#Array] Clone
 -- @param self
--- @return object#object
+-- @return #
 
 ---
 -- @function [parent=#Array] BinarySearch
@@ -96,7 +96,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return System_Array#Array
+-- @return #
 
 ---
 -- @function [parent=#Array] CopyTo
@@ -137,7 +137,7 @@
 ---
 -- @function [parent=#Array] ToTable
 -- @param self
--- @return Color#Color
+-- @return #
 
 ---
 -- @field [parent=#Array] object#object SyncRoot

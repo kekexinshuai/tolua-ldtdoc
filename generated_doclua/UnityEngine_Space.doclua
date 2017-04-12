@@ -6,12 +6,12 @@
 
 ---
 -- @function [parent=#Space] IntToEnum
--- @return UnityEngine_Space#Space
+-- @return #
 
 ---
--- @field [parent=#Space] World
+-- @field [parent=#Space] UnityEngine_Space#Space World
 
 ---
--- @field [parent=#Space] Self
+-- @field [parent=#Space] UnityEngine_Space#Space Self
 
 return nil

@@ -31,7 +31,7 @@
 
 ---
 -- @function [parent=#Input] GetJoystickNames
--- @return #list<string#string>
+-- @return #
 
 ---
 -- @function [parent=#Input] GetMouseButton
@@ -60,7 +60,7 @@
 
 ---
 -- @function [parent=#Input] GetTouch
--- @return UnityEngine_Touch#Touch
+-- @return #
 
 ---
 -- @function [parent=#Input] GetAccelerationEvent
@@ -82,7 +82,7 @@
 -- @field [parent=#Input] #boolean compensateSensors
 
 ---
--- @field [parent=#Input] mouseScrollDelta
+-- @field [parent=#Input] UnityEngine_Input#Input mouseScrollDelta
 
 ---
 -- @field [parent=#Input] #boolean anyKeyDown
@@ -91,16 +91,16 @@
 -- @field [parent=#Input] #boolean mousePresent
 
 ---
--- @field [parent=#Input] deviceOrientation
+-- @field [parent=#Input] UnityEngine_Input#Input deviceOrientation
 
 ---
--- @field [parent=#Input] compositionCursorPos
+-- @field [parent=#Input] UnityEngine_Input#Input compositionCursorPos
 
 ---
--- @field [parent=#Input] acceleration
+-- @field [parent=#Input] UnityEngine_Input#Input acceleration
 
 ---
--- @field [parent=#Input] touches
+-- @field [parent=#Input] UnityEngine_Input#Input touches
 
 ---
 -- @field [parent=#Input] #string inputString
@@ -112,7 +112,7 @@
 -- @field [parent=#Input] #boolean touchPressureSupported
 
 ---
--- @field [parent=#Input] accelerationEvents
+-- @field [parent=#Input] UnityEngine_Input#Input accelerationEvents
 
 ---
 -- @field [parent=#Input] #boolean touchSupported
@@ -127,7 +127,7 @@
 -- @field [parent=#Input] #boolean stylusTouchSupported
 
 ---
--- @field [parent=#Input] imeCompositionMode
+-- @field [parent=#Input] UnityEngine_Input#Input imeCompositionMode
 
 ---
 -- @field [parent=#Input] compass
@@ -136,7 +136,7 @@
 -- @field [parent=#Input] #boolean imeIsSelected
 
 ---
--- @field [parent=#Input] mousePosition
+-- @field [parent=#Input] UnityEngine_Input#Input mousePosition
 
 ---
 -- @field [parent=#Input] gyro

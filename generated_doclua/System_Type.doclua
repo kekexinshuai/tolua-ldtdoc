@@ -13,7 +13,7 @@
 ---
 -- @function [parent=#Type] GetElementType
 -- @param self
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] IsSubclassOf
@@ -29,12 +29,12 @@
 ---
 -- @function [parent=#Type] GetGenericTypeDefinition
 -- @param self
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetGenericParameterConstraints
 -- @param self
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @function [parent=#Type] FindMembers
@@ -43,7 +43,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #list<System_Reflection_MemberInfo#MemberInfo>
+-- @return #
 
 ---
 -- @function [parent=#Type] InvokeMember
@@ -56,13 +56,13 @@
 -- @param arg5
 -- @param arg6
 -- @param arg7
--- @return object#object
+-- @return #
 
 ---
 -- @function [parent=#Type] GetNestedTypes
 -- @param self
 -- @param arg0
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @function [parent=#Type] Equals
@@ -73,7 +73,7 @@
 ---
 -- @function [parent=#Type] GetTypeCode
 -- @param arg0
--- @return System_TypeCode#TypeCode
+-- @return #
 
 ---
 -- @function [parent=#Type] GetArrayRank
@@ -83,12 +83,12 @@
 ---
 -- @function [parent=#Type] GetGenericArguments
 -- @param self
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @function [parent=#Type] MakeByRefType
 -- @param self
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] IsAssignableFrom
@@ -99,14 +99,14 @@
 ---
 -- @function [parent=#Type] MakePointerType
 -- @param self
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetNestedType
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] ToString
@@ -116,45 +116,45 @@
 ---
 -- @function [parent=#Type] MakeGenericType
 -- @param self
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] FindInterfaces
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @function [parent=#Type] GetDefaultMembers
 -- @param self
--- @return #list<System_Reflection_MemberInfo#MemberInfo>
+-- @return #
 
 ---
 -- @function [parent=#Type] GetInterfaces
 -- @param self
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @function [parent=#Type] GetType
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetTypeFromProgID
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetTypeFromCLSID
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] IsInstanceOfType
@@ -165,14 +165,14 @@
 ---
 -- @function [parent=#Type] GetTypeFromHandle
 -- @param arg0
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetInterface
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetInterfaceMap
@@ -184,19 +184,19 @@
 -- @function [parent=#Type] MakeArrayType
 -- @param self
 -- @param arg0
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] ReflectionOnlyGetType
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return System_Type#Type
+-- @return #
 
 ---
 -- @function [parent=#Type] GetTypeArray
 -- @param arg0
--- @return #list<System_Type#Type>
+-- @return #
 
 ---
 -- @field [parent=#Type] #boolean IsByRef
@@ -217,7 +217,7 @@
 -- @field [parent=#Type] #boolean IsPrimitive
 
 ---
--- @field [parent=#Type] FilterName
+-- @field [parent=#Type] System_Type#Type FilterName
 
 ---
 -- @field [parent=#Type] #boolean IsPointer
@@ -262,7 +262,7 @@
 -- @field [parent=#Type] System_Type#Type DeclaringType
 
 ---
--- @field [parent=#Type] Missing
+-- @field [parent=#Type] System_Type#Type Missing
 
 ---
 -- @field [parent=#Type] System_Type#Type BaseType
@@ -304,7 +304,7 @@
 -- @field [parent=#Type] #boolean IsNestedPrivate
 
 ---
--- @field [parent=#Type] EmptyTypes
+-- @field [parent=#Type] System_Type#Type EmptyTypes
 
 ---
 -- @field [parent=#Type] #boolean IsSealed
@@ -337,7 +337,7 @@
 -- @field [parent=#Type] System_Reflection_ConstructorInfo#ConstructorInfo TypeInitializer
 
 ---
--- @field [parent=#Type] FilterAttribute
+-- @field [parent=#Type] System_Type#Type FilterAttribute
 
 ---
 -- @field [parent=#Type] System_Runtime_InteropServices_StructLayoutAttribute#StructLayoutAttribute StructLayoutAttribute
@@ -376,7 +376,7 @@
 -- @field [parent=#Type] #boolean ContainsGenericParameters
 
 ---
--- @field [parent=#Type] FilterNameIgnoreCase
+-- @field [parent=#Type] System_Type#Type FilterNameIgnoreCase
 
 ---
 -- @field [parent=#Type] #boolean IsExplicitLayout

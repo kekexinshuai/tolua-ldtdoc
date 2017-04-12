@@ -9,18 +9,18 @@
 -- @function [parent=#Transform] GetChild
 -- @param self
 -- @param arg0
--- @return UnityEngine_Transform#Transform
+-- @return #
 
 ---
 -- @function [parent=#Transform] GetEnumerator
 -- @param self
--- @return System_Collections_IEnumerator#IEnumerator
+-- @return #
 
 ---
 -- @function [parent=#Transform] FindChild
 -- @param self
 -- @param arg0
--- @return UnityEngine_Transform#Transform
+-- @return #
 
 ---
 -- @function [parent=#Transform] InverseTransformVector
@@ -28,7 +28,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] DetachChildren
@@ -71,7 +71,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] SetParent
@@ -91,7 +91,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] SetSiblingIndex
@@ -108,7 +108,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] InverseTransformPoint
@@ -116,7 +116,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] RotateAround
@@ -131,13 +131,13 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Transform] Find
 -- @param self
 -- @param arg0
--- @return UnityEngine_Transform#Transform
+-- @return #
 
 ---
 -- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix

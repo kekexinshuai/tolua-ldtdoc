@@ -13,7 +13,7 @@
 ---
 -- @function [parent=#DirectorPlayer] GetTimeUpdateMode
 -- @param self
--- @return UnityEngine_Experimental_Director_DirectorUpdateMode#DirectorUpdateMode
+-- @return #
 
 ---
 -- @function [parent=#DirectorPlayer] GetTime

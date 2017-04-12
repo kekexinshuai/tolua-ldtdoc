@@ -20,12 +20,12 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return UnityEngine_Object#Object
+-- @return #
 
 ---
 -- @function [parent=#Object] FindObjectsOfType
 -- @param arg0
--- @return #list<UnityEngine_Object#Object>
+-- @return #
 
 ---
 -- @function [parent=#Object] Equals
@@ -36,7 +36,7 @@
 ---
 -- @function [parent=#Object] FindObjectOfType
 -- @param arg0
--- @return UnityEngine_Object#Object
+-- @return #
 
 ---
 -- @function [parent=#Object] DontDestroyOnLoad

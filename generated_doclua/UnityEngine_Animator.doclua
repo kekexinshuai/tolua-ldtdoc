@@ -59,7 +59,7 @@
 -- @function [parent=#Animator] GetBoneTransform
 -- @param self
 -- @param arg0
--- @return UnityEngine_Transform#Transform
+-- @return #
 
 ---
 -- @function [parent=#Animator] SetIKRotation
@@ -95,7 +95,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_AnimatorClipInfo#AnimatorClipInfo>
+-- @return #
 
 ---
 -- @function [parent=#Animator] GetLayerWeight
@@ -167,7 +167,7 @@
 -- @function [parent=#Animator] GetIKPosition
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Animator] GetIKPositionWeight
@@ -252,7 +252,7 @@
 -- @function [parent=#Animator] GetIKHintPosition
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Animator] GetIKHintPositionWeight
@@ -311,14 +311,14 @@
 -- @function [parent=#Animator] GetIKRotation
 -- @param self
 -- @param arg0
--- @return UnityEngine_Quaternion#Quaternion
+-- @return #
 
 ---
 -- @function [parent=#Animator] GetNextAnimatorClipInfo
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_AnimatorClipInfo#AnimatorClipInfo>
+-- @return #
 
 ---
 -- @function [parent=#Animator] CrossFadeInFixedTime

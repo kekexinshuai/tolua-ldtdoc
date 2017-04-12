@@ -8,13 +8,13 @@
 ---
 -- @function [parent=#GameObject] FindWithTag
 -- @param arg0
--- @return UnityEngine_GameObject#GameObject
+-- @return #
 
 ---
 -- @function [parent=#GameObject] AddComponent
 -- @param self
 -- @param arg0
--- @return UnityEngine_Component#Component
+-- @return #
 
 ---
 -- @function [parent=#GameObject] BroadcastMessage
@@ -37,23 +37,23 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_Component#Component
+-- @return #
 
 ---
 -- @function [parent=#GameObject] GetComponentInParent
 -- @param self
 -- @param arg0
--- @return UnityEngine_Component#Component
+-- @return #
 
 ---
 -- @function [parent=#GameObject] Find
 -- @param arg0
--- @return UnityEngine_GameObject#GameObject
+-- @return #
 
 ---
 -- @function [parent=#GameObject] CreatePrimitive
 -- @param arg0
--- @return UnityEngine_GameObject#GameObject
+-- @return #
 
 ---
 -- @function [parent=#GameObject] SendMessageUpwards
@@ -73,31 +73,31 @@
 -- @function [parent=#GameObject] GetComponent
 -- @param self
 -- @param arg0
--- @return UnityEngine_Component#Component
+-- @return #
 
 ---
 -- @function [parent=#GameObject] GetComponentsInChildren
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Component#Component>
+-- @return #
 
 ---
 -- @function [parent=#GameObject] GetComponentsInParent
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Component#Component>
+-- @return #
 
 ---
 -- @function [parent=#GameObject] FindGameObjectsWithTag
 -- @param arg0
--- @return #list<UnityEngine_GameObject#GameObject>
+-- @return #
 
 ---
 -- @function [parent=#GameObject] FindGameObjectWithTag
 -- @param arg0
--- @return UnityEngine_GameObject#GameObject
+-- @return #
 
 ---
 -- @function [parent=#GameObject] CompareTag
@@ -110,7 +110,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Component#Component>
+-- @return #
 
 ---
 -- @field [parent=#GameObject] #number layer

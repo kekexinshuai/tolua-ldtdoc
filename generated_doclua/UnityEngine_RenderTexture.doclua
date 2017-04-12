@@ -17,7 +17,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return UnityEngine_RenderTexture#RenderTexture
+-- @return #
 
 ---
 -- @function [parent=#RenderTexture] Create
@@ -103,7 +103,7 @@
 -- @field [parent=#RenderTexture] #boolean isPowerOfTwo
 
 ---
--- @field [parent=#RenderTexture] active
+-- @field [parent=#RenderTexture] UnityEngine_RenderTexture#RenderTexture active
 
 ---
 -- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer colorBuffer

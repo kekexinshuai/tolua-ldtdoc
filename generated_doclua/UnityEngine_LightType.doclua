@@ -6,18 +6,18 @@
 
 ---
 -- @function [parent=#LightType] IntToEnum
--- @return UnityEngine_LightType#LightType
+-- @return #
 
 ---
--- @field [parent=#LightType] Area
+-- @field [parent=#LightType] UnityEngine_LightType#LightType Area
 
 ---
--- @field [parent=#LightType] Point
+-- @field [parent=#LightType] UnityEngine_LightType#LightType Point
 
 ---
--- @field [parent=#LightType] Spot
+-- @field [parent=#LightType] UnityEngine_LightType#LightType Spot
 
 ---
--- @field [parent=#LightType] Directional
+-- @field [parent=#LightType] UnityEngine_LightType#LightType Directional
 
 return nil

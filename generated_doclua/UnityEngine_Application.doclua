@@ -36,7 +36,7 @@
 ---
 -- @function [parent=#Application] GetStackTraceLogType
 -- @param arg0
--- @return UnityEngine_StackTraceLogType#StackTraceLogType
+-- @return #
 
 ---
 -- @function [parent=#Application] CanStreamedLevelBeLoaded
@@ -65,7 +65,7 @@
 -- @return #boolean
 
 ---
--- @field [parent=#Application] backgroundLoadingPriority
+-- @field [parent=#Application] UnityEngine_Application#Application backgroundLoadingPriority
 
 ---
 -- @field [parent=#Application] #number streamedBytes
@@ -89,16 +89,16 @@
 -- @field [parent=#Application] #boolean genuine
 
 ---
--- @field [parent=#Application] sandboxType
+-- @field [parent=#Application] UnityEngine_Application#Application sandboxType
 
 ---
 -- @field [parent=#Application] #string temporaryCachePath
 
 ---
--- @field [parent=#Application] platform
+-- @field [parent=#Application] UnityEngine_Application#Application platform
 
 ---
--- @field [parent=#Application] logMessageReceived
+-- @field [parent=#Application] new EventObject("UnityEngine_Application#Application logMessageReceived
 
 ---
 -- @field [parent=#Application] #string bundleIdentifier
@@ -122,7 +122,7 @@
 -- @field [parent=#Application] #string companyName
 
 ---
--- @field [parent=#Application] systemLanguage
+-- @field [parent=#Application] UnityEngine_Application#Application systemLanguage
 
 ---
 -- @field [parent=#Application] #string streamingAssetsPath
@@ -134,19 +134,19 @@
 -- @field [parent=#Application] #string productName
 
 ---
--- @field [parent=#Application] installMode
+-- @field [parent=#Application] UnityEngine_Application#Application installMode
 
 ---
 -- @field [parent=#Application] #boolean isMobilePlatform
 
 ---
--- @field [parent=#Application] internetReachability
+-- @field [parent=#Application] UnityEngine_Application#Application internetReachability
 
 ---
 -- @field [parent=#Application] #number targetFrameRate
 
 ---
--- @field [parent=#Application] logMessageReceivedThreaded
+-- @field [parent=#Application] new EventObject("UnityEngine_Application#Application logMessageReceivedThreaded
 
 ---
 -- @field [parent=#Application] #boolean isEditor

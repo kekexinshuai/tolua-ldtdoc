@@ -6,24 +6,24 @@
 
 ---
 -- @function [parent=#PrimitiveType] IntToEnum
--- @return UnityEngine_PrimitiveType#PrimitiveType
+-- @return #
 
 ---
--- @field [parent=#PrimitiveType] Cylinder
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Cylinder
 
 ---
--- @field [parent=#PrimitiveType] Cube
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Cube
 
 ---
--- @field [parent=#PrimitiveType] Sphere
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Sphere
 
 ---
--- @field [parent=#PrimitiveType] Capsule
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Capsule
 
 ---
--- @field [parent=#PrimitiveType] Plane
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Plane
 
 ---
--- @field [parent=#PrimitiveType] Quad
+-- @field [parent=#PrimitiveType] UnityEngine_PrimitiveType#PrimitiveType Quad
 
 return nil

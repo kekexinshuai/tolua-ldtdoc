@@ -12,7 +12,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Rigidbody] IsSleeping
@@ -27,7 +27,7 @@
 -- @function [parent=#Rigidbody] GetPointVelocity
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Rigidbody] ResetCenterOfMass
@@ -52,7 +52,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #list<UnityEngine_RaycastHit#RaycastHit>
+-- @return #
 
 ---
 -- @function [parent=#Rigidbody] AddTorque
@@ -81,13 +81,13 @@
 -- @function [parent=#Rigidbody] ClosestPointOnBounds
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Rigidbody] GetRelativePointVelocity
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Rigidbody] ResetInertiaTensor

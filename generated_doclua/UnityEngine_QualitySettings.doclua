@@ -22,13 +22,13 @@
 -- @param arg0
 
 ---
--- @field [parent=#QualitySettings] shadowCascade4Split
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowCascade4Split
 
 ---
--- @field [parent=#QualitySettings] shadowProjection
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowProjection
 
 ---
--- @field [parent=#QualitySettings] desiredColorSpace
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings desiredColorSpace
 
 ---
 -- @field [parent=#QualitySettings] #number shadowCascade2Split
@@ -52,7 +52,7 @@
 -- @field [parent=#QualitySettings] #number pixelLightCount
 
 ---
--- @field [parent=#QualitySettings] activeColorSpace
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings activeColorSpace
 
 ---
 -- @field [parent=#QualitySettings] #number masterTextureLimit
@@ -76,16 +76,16 @@
 -- @field [parent=#QualitySettings] #number maxQueuedFrames
 
 ---
--- @field [parent=#QualitySettings] blendWeights
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings blendWeights
 
 ---
--- @field [parent=#QualitySettings] shadows
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadows
 
 ---
 -- @field [parent=#QualitySettings] #boolean billboardsFaceCameraPosition
 
 ---
--- @field [parent=#QualitySettings] shadowResolution
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings shadowResolution
 
 ---
 -- @field [parent=#QualitySettings] #boolean softParticles
@@ -97,9 +97,9 @@
 -- @field [parent=#QualitySettings] #number maximumLODLevel
 
 ---
--- @field [parent=#QualitySettings] anisotropicFiltering
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings anisotropicFiltering
 
 ---
--- @field [parent=#QualitySettings] names
+-- @field [parent=#QualitySettings] UnityEngine_QualitySettings#QualitySettings names
 
 return nil

@@ -9,7 +9,7 @@
 -- @function [parent=#Collider] ClosestPointOnBounds
 -- @param self
 -- @param arg0
--- @return UnityEngine_Vector3#Vector3
+-- @return #
 
 ---
 -- @function [parent=#Collider] Raycast
@@ -17,7 +17,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #boolean
+-- @return #
 
 ---
 -- @function [parent=#Collider] New

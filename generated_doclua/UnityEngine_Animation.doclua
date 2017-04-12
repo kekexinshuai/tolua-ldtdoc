@@ -35,7 +35,7 @@
 -- @function [parent=#Animation] GetClip
 -- @param self
 -- @param arg0
--- @return UnityEngine_AnimationClip#AnimationClip
+-- @return #
 
 ---
 -- @function [parent=#Animation] PlayQueued
@@ -43,7 +43,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_AnimationState#AnimationState
+-- @return #
 
 ---
 -- @function [parent=#Animation] Stop
@@ -57,7 +57,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return UnityEngine_AnimationState#AnimationState
+-- @return #
 
 ---
 -- @function [parent=#Animation] Sample
@@ -73,7 +73,7 @@
 ---
 -- @function [parent=#Animation] GetEnumerator
 -- @param self
--- @return System_Collections_IEnumerator#IEnumerator
+-- @return #
 
 ---
 -- @function [parent=#Animation] SyncLayer

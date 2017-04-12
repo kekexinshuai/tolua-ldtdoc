@@ -8,7 +8,7 @@
 ---
 -- @function [parent=#Delegate] Clone
 -- @param self
--- @return object#object
+-- @return #
 
 ---
 -- @function [parent=#Delegate] Equals
@@ -20,7 +20,7 @@
 -- @function [parent=#Delegate] Remove
 -- @param arg0
 -- @param arg1
--- @return System_Delegate#Delegate
+-- @return #
 
 ---
 -- @function [parent=#Delegate] CreateDelegate
@@ -29,19 +29,19 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return System_Delegate#Delegate
+-- @return #
 
 ---
 -- @function [parent=#Delegate] RemoveAll
 -- @param arg0
 -- @param arg1
--- @return System_Delegate#Delegate
+-- @return #
 
 ---
 -- @function [parent=#Delegate] Combine
 -- @param arg0
 -- @param arg1
--- @return System_Delegate#Delegate
+-- @return #
 
 ---
 -- @function [parent=#Delegate] GetHashCode
@@ -54,7 +54,7 @@
 ---
 -- @function [parent=#Delegate] GetInvocationList
 -- @param self
--- @return #list<System_Delegate#Delegate>
+-- @return #
 
 ---
 -- @function [parent=#Delegate] GetObjectData
@@ -65,7 +65,7 @@
 ---
 -- @function [parent=#Delegate] DynamicInvoke
 -- @param self
--- @return object#object
+-- @return #
 
 ---
 -- @field [parent=#Delegate] System_Reflection_MethodInfo#MethodInfo Method

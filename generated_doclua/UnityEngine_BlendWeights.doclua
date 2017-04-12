@@ -6,15 +6,15 @@
 
 ---
 -- @function [parent=#BlendWeights] IntToEnum
--- @return UnityEngine_BlendWeights#BlendWeights
+-- @return #
 
 ---
--- @field [parent=#BlendWeights] FourBones
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights FourBones
 
 ---
--- @field [parent=#BlendWeights] OneBone
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights OneBone
 
 ---
--- @field [parent=#BlendWeights] TwoBones
+-- @field [parent=#BlendWeights] UnityEngine_BlendWeights#BlendWeights TwoBones
 
 return nil

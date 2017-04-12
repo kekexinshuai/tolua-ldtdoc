@@ -44,7 +44,7 @@
 -- @field [parent=#Texture] UnityEngine_Vector2#Vector2 texelSize
 
 ---
--- @field [parent=#Texture] anisotropicFiltering
+-- @field [parent=#Texture] UnityEngine_Texture#Texture anisotropicFiltering
 
 ---
 -- @field [parent=#Texture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension

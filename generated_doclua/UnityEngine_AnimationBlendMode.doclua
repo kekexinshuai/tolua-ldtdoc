@@ -6,12 +6,12 @@
 
 ---
 -- @function [parent=#AnimationBlendMode] IntToEnum
--- @return UnityEngine_AnimationBlendMode#AnimationBlendMode
+-- @return #
 
 ---
--- @field [parent=#AnimationBlendMode] Additive
+-- @field [parent=#AnimationBlendMode] UnityEngine_AnimationBlendMode#AnimationBlendMode Additive
 
 ---
--- @field [parent=#AnimationBlendMode] Blend
+-- @field [parent=#AnimationBlendMode] UnityEngine_AnimationBlendMode#AnimationBlendMode Blend
 
 return nil
