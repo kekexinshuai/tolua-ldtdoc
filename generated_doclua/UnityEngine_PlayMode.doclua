@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#PlayMode] IntToEnum
--- @return #
+-- @return UnityEngine_PlayMode#PlayMode
 
 ---
 -- @field [parent=#PlayMode] UnityEngine_PlayMode#PlayMode StopSameLayer

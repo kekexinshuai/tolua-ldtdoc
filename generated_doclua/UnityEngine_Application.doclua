@@ -36,7 +36,7 @@
 ---
 -- @function [parent=#Application] GetStackTraceLogType
 -- @param arg0
--- @return #
+-- @return UnityEngine_StackTraceLogType#StackTraceLogType
 
 ---
 -- @function [parent=#Application] CanStreamedLevelBeLoaded

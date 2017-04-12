@@ -10,9 +10,9 @@
 -- @return UnityEngine_SphereCollider#SphereCollider
 
 ---
--- @field [parent=#SphereCollider] #number radius
+-- @field [parent=#SphereCollider] object#object radius
 
 ---
--- @field [parent=#SphereCollider] UnityEngine_Vector3#Vector3 center
+-- @field [parent=#SphereCollider] object#object center
 
 return nil

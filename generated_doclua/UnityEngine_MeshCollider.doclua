@@ -10,15 +10,15 @@
 -- @return UnityEngine_MeshCollider#MeshCollider
 
 ---
--- @field [parent=#MeshCollider] #number skinWidth
+-- @field [parent=#MeshCollider] object#object skinWidth
 
 ---
--- @field [parent=#MeshCollider] #boolean inflateMesh
+-- @field [parent=#MeshCollider] object#object inflateMesh
 
 ---
--- @field [parent=#MeshCollider] UnityEngine_Mesh#Mesh sharedMesh
+-- @field [parent=#MeshCollider] object#object sharedMesh
 
 ---
--- @field [parent=#MeshCollider] #boolean convex
+-- @field [parent=#MeshCollider] object#object convex
 
 return nil

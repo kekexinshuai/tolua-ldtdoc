@@ -52,7 +52,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return #list<string#string>
 
 ---
 -- @function [parent=#String] ToUpper
@@ -116,12 +116,12 @@
 ---
 -- @function [parent=#String] Clone
 -- @param self
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#String] GetEnumerator
 -- @param self
--- @return #
+-- @return System_CharEnumerator#CharEnumerator
 
 ---
 -- @function [parent=#String] Equals
@@ -133,7 +133,7 @@
 ---
 -- @function [parent=#String] GetTypeCode
 -- @param self
--- @return #
+-- @return System_TypeCode#TypeCode
 
 ---
 -- @function [parent=#String] Copy
@@ -276,10 +276,10 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<char#char>
 
 ---
--- @field [parent=#String] #number Length
+-- @field [parent=#String] object#object Length
 
 ---
 -- @field [parent=#String] #string Empty

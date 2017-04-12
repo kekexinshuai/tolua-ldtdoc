@@ -17,13 +17,13 @@
 ---
 -- @function [parent=#Shader] GetGlobalTexture
 -- @param arg0
--- @return #
+-- @return UnityEngine_Texture#Texture
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrixArray
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Matrix4x4#Matrix4x4>
 
 ---
 -- @function [parent=#Shader] GetGlobalInt
@@ -37,7 +37,7 @@
 -- @function [parent=#Shader] GetGlobalFloatArray
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<float#float>
 
 ---
 -- @function [parent=#Shader] GetGlobalFloat
@@ -71,13 +71,13 @@
 ---
 -- @function [parent=#Shader] GetGlobalColor
 -- @param arg0
--- @return #
+-- @return UnityEngine_Color#Color
 
 ---
 -- @function [parent=#Shader] GetGlobalVectorArray
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Vector4#Vector4>
 
 ---
 -- @function [parent=#Shader] SetGlobalColor
@@ -87,7 +87,7 @@
 ---
 -- @function [parent=#Shader] GetGlobalVector
 -- @param arg0
--- @return #
+-- @return UnityEngine_Vector4#Vector4
 
 ---
 -- @function [parent=#Shader] IsKeywordEnabled
@@ -126,7 +126,7 @@
 ---
 -- @function [parent=#Shader] Find
 -- @param arg0
--- @return #
+-- @return UnityEngine_Shader#Shader
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrix
@@ -134,13 +134,13 @@
 -- @return UnityEngine_Matrix4x4#Matrix4x4
 
 ---
--- @field [parent=#Shader] #boolean isSupported
+-- @field [parent=#Shader] object#object isSupported
 
 ---
--- @field [parent=#Shader] #number renderQueue
+-- @field [parent=#Shader] object#object renderQueue
 
 ---
--- @field [parent=#Shader] #number maximumLOD
+-- @field [parent=#Shader] object#object maximumLOD
 
 ---
 -- @field [parent=#Shader] #number globalMaximumLOD

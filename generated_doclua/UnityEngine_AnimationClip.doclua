@@ -37,24 +37,24 @@
 -- @param arg1
 
 ---
--- @field [parent=#AnimationClip] UnityEngine_Bounds#Bounds localBounds
+-- @field [parent=#AnimationClip] object#object localBounds
 
 ---
--- @field [parent=#AnimationClip] #boolean humanMotion
+-- @field [parent=#AnimationClip] object#object humanMotion
 
 ---
--- @field [parent=#AnimationClip] #number frameRate
+-- @field [parent=#AnimationClip] object#object frameRate
 
 ---
--- @field [parent=#AnimationClip] #number length
+-- @field [parent=#AnimationClip] object#object length
 
 ---
--- @field [parent=#AnimationClip] #boolean legacy
+-- @field [parent=#AnimationClip] object#object legacy
 
 ---
--- @field [parent=#AnimationClip] UnityEngine_WrapMode#WrapMode wrapMode
+-- @field [parent=#AnimationClip] object#object wrapMode
 
 ---
--- @field [parent=#AnimationClip] #list<UnityEngine_AnimationEvent#AnimationEvent> events
+-- @field [parent=#AnimationClip] object#object events
 
 return nil

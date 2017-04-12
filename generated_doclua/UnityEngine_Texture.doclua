@@ -12,7 +12,7 @@
 ---
 -- @function [parent=#Texture] GetNativeTexturePtr
 -- @param self
--- @return #number
+-- @return System_IntPtr#IntPtr
 
 ---
 -- @function [parent=#Texture] SetGlobalAnisotropicFilteringLimits
@@ -20,33 +20,33 @@
 -- @param arg1
 
 ---
--- @field [parent=#Texture] #number mipMapBias
+-- @field [parent=#Texture] object#object mipMapBias
 
 ---
--- @field [parent=#Texture] UnityEngine_FilterMode#FilterMode filterMode
+-- @field [parent=#Texture] object#object filterMode
 
 ---
 -- @field [parent=#Texture] #number masterTextureLimit
 
 ---
--- @field [parent=#Texture] #number anisoLevel
+-- @field [parent=#Texture] object#object anisoLevel
 
 ---
--- @field [parent=#Texture] #number height
+-- @field [parent=#Texture] object#object height
 
 ---
--- @field [parent=#Texture] #number width
+-- @field [parent=#Texture] object#object width
 
 ---
--- @field [parent=#Texture] UnityEngine_TextureWrapMode#TextureWrapMode wrapMode
+-- @field [parent=#Texture] object#object wrapMode
 
 ---
--- @field [parent=#Texture] UnityEngine_Vector2#Vector2 texelSize
+-- @field [parent=#Texture] object#object texelSize
 
 ---
 -- @field [parent=#Texture] UnityEngine_Texture#Texture anisotropicFiltering
 
 ---
--- @field [parent=#Texture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
+-- @field [parent=#Texture] object#object dimension
 
 return nil

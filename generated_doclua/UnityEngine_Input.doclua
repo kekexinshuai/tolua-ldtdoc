@@ -31,7 +31,7 @@
 
 ---
 -- @function [parent=#Input] GetJoystickNames
--- @return #
+-- @return #list<string#string>
 
 ---
 -- @function [parent=#Input] GetMouseButton
@@ -60,7 +60,7 @@
 
 ---
 -- @function [parent=#Input] GetTouch
--- @return #
+-- @return UnityEngine_Touch#Touch
 
 ---
 -- @function [parent=#Input] GetAccelerationEvent

@@ -7,7 +7,7 @@
 ---
 -- @function [parent=#Object] GetType
 -- @param self
--- @return #
+-- @return System_Type#Type
 
 ---
 -- @function [parent=#Object] Equals

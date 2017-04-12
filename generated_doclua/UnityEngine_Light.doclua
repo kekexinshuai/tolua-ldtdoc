@@ -28,13 +28,13 @@
 -- @function [parent=#Light] GetCommandBuffers
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<UnityEngine_Rendering_CommandBuffer#CommandBuffer>
 
 ---
 -- @function [parent=#Light] GetLights
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Light#Light>
 
 ---
 -- @function [parent=#Light] RemoveCommandBuffer
@@ -43,66 +43,66 @@
 -- @param arg1
 
 ---
--- @field [parent=#Light] UnityEngine_LightShadows#LightShadows shadows
+-- @field [parent=#Light] object#object shadows
 
 ---
--- @field [parent=#Light] #number bakedIndex
+-- @field [parent=#Light] object#object bakedIndex
 
 ---
--- @field [parent=#Light] UnityEngine_Flare#Flare flare
+-- @field [parent=#Light] object#object flare
 
 ---
--- @field [parent=#Light] #boolean isBaked
+-- @field [parent=#Light] object#object isBaked
 
 ---
--- @field [parent=#Light] UnityEngine_Color#Color color
+-- @field [parent=#Light] object#object color
 
 ---
--- @field [parent=#Light] #number shadowCustomResolution
+-- @field [parent=#Light] object#object shadowCustomResolution
 
 ---
--- @field [parent=#Light] UnityEngine_Rendering_LightShadowResolution#LightShadowResolution shadowResolution
+-- @field [parent=#Light] object#object shadowResolution
 
 ---
--- @field [parent=#Light] #number cookieSize
+-- @field [parent=#Light] object#object cookieSize
 
 ---
--- @field [parent=#Light] #number bounceIntensity
+-- @field [parent=#Light] object#object bounceIntensity
 
 ---
--- @field [parent=#Light] #number range
+-- @field [parent=#Light] object#object range
 
 ---
--- @field [parent=#Light] #number spotAngle
+-- @field [parent=#Light] object#object spotAngle
 
 ---
--- @field [parent=#Light] #number shadowStrength
+-- @field [parent=#Light] object#object shadowStrength
 
 ---
--- @field [parent=#Light] #number intensity
+-- @field [parent=#Light] object#object intensity
 
 ---
--- @field [parent=#Light] UnityEngine_Texture#Texture cookie
+-- @field [parent=#Light] object#object cookie
 
 ---
--- @field [parent=#Light] #number shadowNearPlane
+-- @field [parent=#Light] object#object shadowNearPlane
 
 ---
--- @field [parent=#Light] #number shadowBias
+-- @field [parent=#Light] object#object shadowBias
 
 ---
--- @field [parent=#Light] #number commandBufferCount
+-- @field [parent=#Light] object#object commandBufferCount
 
 ---
--- @field [parent=#Light] UnityEngine_LightRenderMode#LightRenderMode renderMode
+-- @field [parent=#Light] object#object renderMode
 
 ---
--- @field [parent=#Light] UnityEngine_LightType#LightType type
+-- @field [parent=#Light] object#object type
 
 ---
--- @field [parent=#Light] #number shadowNormalBias
+-- @field [parent=#Light] object#object shadowNormalBias
 
 ---
--- @field [parent=#Light] #number cullingMask
+-- @field [parent=#Light] object#object cullingMask
 
 return nil

@@ -9,7 +9,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#Enum] Format
@@ -21,7 +21,7 @@
 ---
 -- @function [parent=#Enum] GetNames
 -- @param arg0
--- @return #
+-- @return #list<string#string>
 
 ---
 -- @function [parent=#Enum] GetName
@@ -48,12 +48,12 @@
 ---
 -- @function [parent=#Enum] GetValues
 -- @param arg0
--- @return #
+-- @return System_Array#Array
 
 ---
 -- @function [parent=#Enum] GetTypeCode
 -- @param self
--- @return #
+-- @return System_TypeCode#TypeCode
 
 ---
 -- @function [parent=#Enum] ToString
@@ -75,12 +75,12 @@
 ---
 -- @function [parent=#Enum] GetUnderlyingType
 -- @param arg0
--- @return #
+-- @return System_Type#Type
 
 ---
 -- @function [parent=#Enum] ToObject
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return object#object
 
 return nil

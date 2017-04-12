@@ -8,31 +8,31 @@
 -- @function [parent=#Convert] ToUInt32
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return uint#uint
 
 ---
 -- @function [parent=#Convert] ToUInt16
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return ushort#ushort
 
 ---
 -- @function [parent=#Convert] ToDouble
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return double#double
 
 ---
 -- @function [parent=#Convert] FromBase64String
 -- @param arg0
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#Convert] FromBase64CharArray
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#Convert] IsDBNull
@@ -43,7 +43,7 @@
 -- @function [parent=#Convert] ToInt16
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return short#short
 
 ---
 -- @function [parent=#Convert] ToDecimal
@@ -55,18 +55,18 @@
 -- @function [parent=#Convert] ToByte
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return byte#byte
 
 ---
 -- @function [parent=#Convert] ToChar
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return char#char
 
 ---
 -- @function [parent=#Convert] GetTypeCode
 -- @param arg0
--- @return #
+-- @return System_TypeCode#TypeCode
 
 ---
 -- @function [parent=#Convert] ToInt32
@@ -110,7 +110,7 @@
 -- @function [parent=#Convert] ToSByte
 -- @param arg0
 -- @param arg1
--- @return #number
+-- @return sbyte#sbyte
 
 ---
 -- @function [parent=#Convert] ToInt64
@@ -133,7 +133,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#Convert] ToSingle

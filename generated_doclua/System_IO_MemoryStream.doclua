@@ -8,7 +8,7 @@
 ---
 -- @function [parent=#MemoryStream] ToArray
 -- @param self
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#MemoryStream] Read
@@ -47,7 +47,7 @@
 ---
 -- @function [parent=#MemoryStream] GetBuffer
 -- @param self
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#MemoryStream] Seek
@@ -62,21 +62,21 @@
 -- @param arg0
 
 ---
--- @field [parent=#MemoryStream] #number Capacity
+-- @field [parent=#MemoryStream] object#object Capacity
 
 ---
--- @field [parent=#MemoryStream] long#long Position
+-- @field [parent=#MemoryStream] object#object Position
 
 ---
--- @field [parent=#MemoryStream] long#long Length
+-- @field [parent=#MemoryStream] object#object Length
 
 ---
--- @field [parent=#MemoryStream] #boolean CanWrite
+-- @field [parent=#MemoryStream] object#object CanWrite
 
 ---
--- @field [parent=#MemoryStream] #boolean CanSeek
+-- @field [parent=#MemoryStream] object#object CanSeek
 
 ---
--- @field [parent=#MemoryStream] #boolean CanRead
+-- @field [parent=#MemoryStream] object#object CanRead
 
 return nil

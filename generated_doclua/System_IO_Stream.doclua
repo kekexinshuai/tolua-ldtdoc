@@ -91,30 +91,30 @@
 -- @return System_IAsyncResult#IAsyncResult
 
 ---
--- @field [parent=#Stream] long#long Position
+-- @field [parent=#Stream] object#object Position
 
 ---
--- @field [parent=#Stream] #boolean CanTimeout
+-- @field [parent=#Stream] object#object CanTimeout
 
 ---
--- @field [parent=#Stream] long#long Length
+-- @field [parent=#Stream] object#object Length
 
 ---
--- @field [parent=#Stream] #boolean CanWrite
+-- @field [parent=#Stream] object#object CanWrite
 
 ---
--- @field [parent=#Stream] #boolean CanSeek
+-- @field [parent=#Stream] object#object CanSeek
 
 ---
--- @field [parent=#Stream] #boolean CanRead
+-- @field [parent=#Stream] object#object CanRead
 
 ---
--- @field [parent=#Stream] #number WriteTimeout
+-- @field [parent=#Stream] object#object WriteTimeout
 
 ---
 -- @field [parent=#Stream] Null
 
 ---
--- @field [parent=#Stream] #number ReadTimeout
+-- @field [parent=#Stream] object#object ReadTimeout
 
 return nil

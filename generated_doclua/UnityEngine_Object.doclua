@@ -20,12 +20,12 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #
+-- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#Object] FindObjectsOfType
 -- @param arg0
--- @return #
+-- @return #list<UnityEngine_Object#Object>
 
 ---
 -- @function [parent=#Object] Equals
@@ -36,7 +36,7 @@
 ---
 -- @function [parent=#Object] FindObjectOfType
 -- @param arg0
--- @return #
+-- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#Object] DontDestroyOnLoad
@@ -63,9 +63,9 @@
 -- @param arg1
 
 ---
--- @field [parent=#Object] UnityEngine_HideFlags#HideFlags hideFlags
+-- @field [parent=#Object] object#object hideFlags
 
 ---
--- @field [parent=#Object] #string name
+-- @field [parent=#Object] object#object name
 
 return nil

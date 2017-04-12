@@ -30,7 +30,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#AssetBundle] Unload
@@ -42,7 +42,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return UnityEngine_AssetBundle#AssetBundle
 
 ---
 -- @function [parent=#AssetBundle] Contains
@@ -59,20 +59,20 @@
 ---
 -- @function [parent=#AssetBundle] GetAllScenePaths
 -- @param self
--- @return #
+-- @return #list<string#string>
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetWithSubAssets
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Object#Object>
 
 ---
 -- @function [parent=#AssetBundle] LoadFromMemory
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return UnityEngine_AssetBundle#AssetBundle
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetAsync
@@ -88,18 +88,18 @@
 ---
 -- @function [parent=#AssetBundle] GetAllAssetNames
 -- @param self
--- @return #
+-- @return #list<string#string>
 
 ---
 -- @function [parent=#AssetBundle] LoadAllAssets
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<UnityEngine_Object#Object>
 
 ---
--- @field [parent=#AssetBundle] UnityEngine_Object#Object mainAsset
+-- @field [parent=#AssetBundle] object#object mainAsset
 
 ---
--- @field [parent=#AssetBundle] #boolean isStreamedSceneAssetBundle
+-- @field [parent=#AssetBundle] object#object isStreamedSceneAssetBundle
 
 return nil

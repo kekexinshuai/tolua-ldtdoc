@@ -90,22 +90,23 @@ def parse(ifile,odir):
 					cs_function_def_is_static = False
 					if cs_function_def_max_args == 0:
 						cs_function_def_max_args = 1
-				cs_function_def_return_match = re.match(r'^\s*(.*?) o = .*;$', line)
-				if cs_function_def_return_match is None:
-					cs_function_def_return_match = re.match(r'^\s*(.*?) ret = .*;$', line)
-				if cs_function_def_return_match is None:
-					cs_function_def_return_match = re.match(r'^\s*LuaDLL\.lua_push(.*?)\(', line)
-				# kinda bad
-				if cs_function_def_return_match is None:
-					try_match = re.match(r'^\s*ToLua\.Push\(L, (.*?)\)', line)
-					if try_match is not None and try_match.group(1) != "ret":
-						fs = try_match.group(1).split(".")
-						fs = fs[:-1]
-						k = ".".join(fs)
-						cs_function_def_return_type = k
+				if cs_function_def_return_type is None:
+					cs_function_def_return_match = re.match(r'^\s*(.*?) o = .*;$', line)
+					if cs_function_def_return_match is None:
+						cs_function_def_return_match = re.match(r'^\s*(.*?) ret = .*;$', line)
+					if cs_function_def_return_match is None:
+						cs_function_def_return_match = re.match(r'^\s*LuaDLL\.lua_push(.*?)\(', line)
+					# kinda bad
+					if cs_function_def_return_match is None:
+						try_match = re.match(r'^\s*ToLua\.Push\(L, (.*?)\)', line)
+						if try_match is not None and try_match.group(1) != "ret":
+							fs = try_match.group(1).split(".")
+							fs = fs[:-1]
+							k = ".".join(fs)
+							cs_function_def_return_type = k
 
-				if cs_function_def_return_match:
-					cs_function_def_return_type = cs_function_def_return_match.group(1)
+					if cs_function_def_return_match:
+						cs_function_def_return_type = cs_function_def_return_match.group(1)
 				continue
 
 			class_def_match = re.match(r'^\s*L\.BeginClass\(typeof\((.*?)\), typeof\((.*?)[,\)]', line)

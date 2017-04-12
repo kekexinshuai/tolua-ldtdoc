@@ -17,7 +17,7 @@
 -- @function [parent=#Texture2D] EncodeToJPG
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#Texture2D] New
@@ -36,14 +36,14 @@
 ---
 -- @function [parent=#Texture2D] GetRawTextureData
 -- @param self
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#Texture2D] GetPixel
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return UnityEngine_Color#Color
 
 ---
 -- @function [parent=#Texture2D] Compress
@@ -60,7 +60,7 @@
 ---
 -- @function [parent=#Texture2D] EncodeToPNG
 -- @param self
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#Texture2D] Resize
@@ -79,7 +79,7 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @return #
+-- @return #list<UnityEngine_Color#Color>
 
 ---
 -- @function [parent=#Texture2D] PackTextures
@@ -88,7 +88,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #
+-- @return #list<UnityEngine_Rect#Rect>
 
 ---
 -- @function [parent=#Texture2D] SetPixels
@@ -111,14 +111,14 @@
 -- @function [parent=#Texture2D] GetPixels32
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<UnityEngine_Color32#Color32>
 
 ---
 -- @function [parent=#Texture2D] GetPixelBilinear
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return UnityEngine_Color#Color
 
 ---
 -- @function [parent=#Texture2D] LoadRawTextureData
@@ -134,7 +134,7 @@
 -- @param arg3
 -- @param arg4
 -- @param arg5
--- @return #
+-- @return UnityEngine_Texture2D#Texture2D
 
 ---
 -- @function [parent=#Texture2D] Apply
@@ -154,9 +154,9 @@
 -- @field [parent=#Texture2D] UnityEngine_Texture2D#Texture2D blackTexture
 
 ---
--- @field [parent=#Texture2D] #number mipmapCount
+-- @field [parent=#Texture2D] object#object mipmapCount
 
 ---
--- @field [parent=#Texture2D] UnityEngine_TextureFormat#TextureFormat format
+-- @field [parent=#Texture2D] object#object format
 
 return nil

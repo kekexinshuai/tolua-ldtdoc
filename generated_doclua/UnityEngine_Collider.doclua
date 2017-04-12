@@ -9,7 +9,7 @@
 -- @function [parent=#Collider] ClosestPointOnBounds
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Collider] Raycast
@@ -17,31 +17,31 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return #boolean
 
 ---
 -- @function [parent=#Collider] New
 -- @return UnityEngine_Collider#Collider
 
 ---
--- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial sharedMaterial
+-- @field [parent=#Collider] object#object sharedMaterial
 
 ---
--- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial material
+-- @field [parent=#Collider] object#object material
 
 ---
--- @field [parent=#Collider] #boolean enabled
+-- @field [parent=#Collider] object#object enabled
 
 ---
--- @field [parent=#Collider] UnityEngine_Bounds#Bounds bounds
+-- @field [parent=#Collider] object#object bounds
 
 ---
--- @field [parent=#Collider] #number contactOffset
+-- @field [parent=#Collider] object#object contactOffset
 
 ---
--- @field [parent=#Collider] UnityEngine_Rigidbody#Rigidbody attachedRigidbody
+-- @field [parent=#Collider] object#object attachedRigidbody
 
 ---
--- @field [parent=#Collider] #boolean isTrigger
+-- @field [parent=#Collider] object#object isTrigger
 
 return nil

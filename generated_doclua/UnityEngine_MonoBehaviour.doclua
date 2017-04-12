@@ -50,6 +50,6 @@
 -- @param arg2
 
 ---
--- @field [parent=#MonoBehaviour] #boolean useGUILayout
+-- @field [parent=#MonoBehaviour] object#object useGUILayout
 
 return nil

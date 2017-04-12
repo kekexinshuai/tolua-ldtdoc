@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#WrapMode] IntToEnum
--- @return #
+-- @return UnityEngine_WrapMode#WrapMode
 
 ---
 -- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Clamp

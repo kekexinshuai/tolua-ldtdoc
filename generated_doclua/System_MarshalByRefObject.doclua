@@ -8,12 +8,12 @@
 ---
 -- @function [parent=#MarshalByRefObject] GetLifetimeService
 -- @param self
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#MarshalByRefObject] InitializeLifetimeService
 -- @param self
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#MarshalByRefObject] CreateObjRef

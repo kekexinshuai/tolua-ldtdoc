@@ -13,7 +13,7 @@
 -- @function [parent=#CharacterController] Move
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_CollisionFlags#CollisionFlags
 
 ---
 -- @function [parent=#CharacterController] SimpleMove
@@ -22,36 +22,36 @@
 -- @return #boolean
 
 ---
--- @field [parent=#CharacterController] #boolean detectCollisions
+-- @field [parent=#CharacterController] object#object detectCollisions
 
 ---
--- @field [parent=#CharacterController] UnityEngine_Vector3#Vector3 center
+-- @field [parent=#CharacterController] object#object center
 
 ---
--- @field [parent=#CharacterController] UnityEngine_CollisionFlags#CollisionFlags collisionFlags
+-- @field [parent=#CharacterController] object#object collisionFlags
 
 ---
--- @field [parent=#CharacterController] #number slopeLimit
+-- @field [parent=#CharacterController] object#object slopeLimit
 
 ---
--- @field [parent=#CharacterController] #number stepOffset
+-- @field [parent=#CharacterController] object#object stepOffset
 
 ---
--- @field [parent=#CharacterController] #number height
+-- @field [parent=#CharacterController] object#object height
 
 ---
--- @field [parent=#CharacterController] #number radius
+-- @field [parent=#CharacterController] object#object radius
 
 ---
--- @field [parent=#CharacterController] #boolean enableOverlapRecovery
+-- @field [parent=#CharacterController] object#object enableOverlapRecovery
 
 ---
--- @field [parent=#CharacterController] #number skinWidth
+-- @field [parent=#CharacterController] object#object skinWidth
 
 ---
--- @field [parent=#CharacterController] UnityEngine_Vector3#Vector3 velocity
+-- @field [parent=#CharacterController] object#object velocity
 
 ---
--- @field [parent=#CharacterController] #boolean isGrounded
+-- @field [parent=#CharacterController] object#object isGrounded
 
 return nil

@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#KeyCode] IntToEnum
--- @return #
+-- @return UnityEngine_KeyCode#KeyCode
 
 ---
 -- @field [parent=#KeyCode] UnityEngine_KeyCode#KeyCode Alpha2

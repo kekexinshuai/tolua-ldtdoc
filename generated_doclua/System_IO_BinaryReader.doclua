@@ -18,7 +18,7 @@
 ---
 -- @function [parent=#BinaryReader] ReadInt16
 -- @param self
--- @return #number
+-- @return short#short
 
 ---
 -- @function [parent=#BinaryReader] Read
@@ -32,7 +32,7 @@
 -- @function [parent=#BinaryReader] ReadChars
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<char#char>
 
 ---
 -- @function [parent=#BinaryReader] ReadBoolean
@@ -52,13 +52,13 @@
 ---
 -- @function [parent=#BinaryReader] ReadByte
 -- @param self
--- @return #number
+-- @return byte#byte
 
 ---
 -- @function [parent=#BinaryReader] ReadBytes
 -- @param self
 -- @param arg0
--- @return #
+-- @return #list<byte#byte>
 
 ---
 -- @function [parent=#BinaryReader] PeekChar
@@ -68,12 +68,12 @@
 ---
 -- @function [parent=#BinaryReader] ReadDouble
 -- @param self
--- @return #number
+-- @return double#double
 
 ---
 -- @function [parent=#BinaryReader] ReadChar
 -- @param self
--- @return #number
+-- @return char#char
 
 ---
 -- @function [parent=#BinaryReader] Close
@@ -87,12 +87,12 @@
 ---
 -- @function [parent=#BinaryReader] ReadUInt16
 -- @param self
--- @return #number
+-- @return ushort#ushort
 
 ---
 -- @function [parent=#BinaryReader] ReadSByte
 -- @param self
--- @return #number
+-- @return sbyte#sbyte
 
 ---
 -- @function [parent=#BinaryReader] ReadString
@@ -102,9 +102,9 @@
 ---
 -- @function [parent=#BinaryReader] ReadUInt32
 -- @param self
--- @return #number
+-- @return uint#uint
 
 ---
--- @field [parent=#BinaryReader] System_IO_Stream#Stream BaseStream
+-- @field [parent=#BinaryReader] object#object BaseStream
 
 return nil

@@ -62,14 +62,14 @@
 -- @function [parent=#Material] GetTextureOffset
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Vector2#Vector2
 
 ---
 -- @function [parent=#Material] GetColorArray
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Color#Color>
 
 ---
 -- @function [parent=#Material] SetMatrixArray
@@ -92,7 +92,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<float#float>
 
 ---
 -- @function [parent=#Material] SetTexture
@@ -104,7 +104,7 @@
 -- @function [parent=#Material] GetTexture
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Texture#Texture
 
 ---
 -- @function [parent=#Material] GetPassName
@@ -135,7 +135,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Matrix4x4#Matrix4x4>
 
 ---
 -- @function [parent=#Material] HasProperty
@@ -153,7 +153,7 @@
 -- @function [parent=#Material] GetVector
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Vector4#Vector4
 
 ---
 -- @function [parent=#Material] SetFloatArray
@@ -170,13 +170,13 @@
 -- @function [parent=#Material] GetTextureScale
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Vector2#Vector2
 
 ---
 -- @function [parent=#Material] GetColor
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Color#Color
 
 ---
 -- @function [parent=#Material] Lerp
@@ -227,33 +227,33 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Vector4#Vector4>
 
 ---
--- @field [parent=#Material] UnityEngine_Color#Color color
+-- @field [parent=#Material] object#object color
 
 ---
--- @field [parent=#Material] UnityEngine_Vector2#Vector2 mainTextureOffset
+-- @field [parent=#Material] object#object mainTextureOffset
 
 ---
--- @field [parent=#Material] UnityEngine_Shader#Shader shader
+-- @field [parent=#Material] object#object shader
 
 ---
--- @field [parent=#Material] UnityEngine_Vector2#Vector2 mainTextureScale
+-- @field [parent=#Material] object#object mainTextureScale
 
 ---
--- @field [parent=#Material] #list<string#string> shaderKeywords
+-- @field [parent=#Material] object#object shaderKeywords
 
 ---
--- @field [parent=#Material] #number passCount
+-- @field [parent=#Material] object#object passCount
 
 ---
--- @field [parent=#Material] UnityEngine_MaterialGlobalIlluminationFlags#MaterialGlobalIlluminationFlags globalIlluminationFlags
+-- @field [parent=#Material] object#object globalIlluminationFlags
 
 ---
--- @field [parent=#Material] #number renderQueue
+-- @field [parent=#Material] object#object renderQueue
 
 ---
--- @field [parent=#Material] UnityEngine_Texture#Texture mainTexture
+-- @field [parent=#Material] object#object mainTexture
 
 return nil

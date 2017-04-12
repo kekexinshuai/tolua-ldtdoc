@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#AnimationBlendMode] IntToEnum
--- @return #
+-- @return UnityEngine_AnimationBlendMode#AnimationBlendMode
 
 ---
 -- @field [parent=#AnimationBlendMode] UnityEngine_AnimationBlendMode#AnimationBlendMode Additive

@@ -14,7 +14,7 @@
 ---
 -- @function [parent=#Array] GetEnumerator
 -- @param self
--- @return #
+-- @return System_Collections_IEnumerator#IEnumerator
 
 ---
 -- @function [parent=#Array] GetValue
@@ -22,7 +22,7 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#Array] GetLowerBound
@@ -41,7 +41,7 @@
 ---
 -- @function [parent=#Array] Clone
 -- @param self
--- @return #
+-- @return object#object
 
 ---
 -- @function [parent=#Array] BinarySearch
@@ -96,7 +96,7 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @return #
+-- @return System_Array#Array
 
 ---
 -- @function [parent=#Array] CopyTo
@@ -108,7 +108,7 @@
 -- @function [parent=#Array] GetLongLength
 -- @param self
 -- @param arg0
--- @return #number
+-- @return long#long
 
 ---
 -- @function [parent=#Array] ConstrainedCopy
@@ -137,27 +137,27 @@
 ---
 -- @function [parent=#Array] ToTable
 -- @param self
--- @return #
+-- @return #number
 
 ---
 -- @field [parent=#Array] object#object SyncRoot
 
 ---
--- @field [parent=#Array] #boolean IsReadOnly
+-- @field [parent=#Array] object#object IsReadOnly
 
 ---
--- @field [parent=#Array] #boolean IsSynchronized
+-- @field [parent=#Array] object#object IsSynchronized
 
 ---
 -- @field [parent=#Array] #number Length
 
 ---
--- @field [parent=#Array] #number Rank
+-- @field [parent=#Array] object#object Rank
 
 ---
--- @field [parent=#Array] #boolean IsFixedSize
+-- @field [parent=#Array] object#object IsFixedSize
 
 ---
--- @field [parent=#Array] #number LongLength
+-- @field [parent=#Array] object#object LongLength
 
 return nil

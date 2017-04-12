@@ -10,9 +10,9 @@
 -- @return UnityEngine_BoxCollider#BoxCollider
 
 ---
--- @field [parent=#BoxCollider] UnityEngine_Vector3#Vector3 center
+-- @field [parent=#BoxCollider] object#object center
 
 ---
--- @field [parent=#BoxCollider] UnityEngine_Vector3#Vector3 size
+-- @field [parent=#BoxCollider] object#object size
 
 return nil

@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#QueueMode] IntToEnum
--- @return #
+-- @return UnityEngine_QueueMode#QueueMode
 
 ---
 -- @field [parent=#QueueMode] UnityEngine_QueueMode#QueueMode PlayNow

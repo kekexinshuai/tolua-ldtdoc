@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#CameraClearFlags] IntToEnum
--- @return #
+-- @return UnityEngine_CameraClearFlags#CameraClearFlags
 
 ---
 -- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Skybox

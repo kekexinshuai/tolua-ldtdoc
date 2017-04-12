@@ -6,7 +6,7 @@
 
 ---
 -- @function [parent=#LightType] IntToEnum
--- @return #
+-- @return UnityEngine_LightType#LightType
 
 ---
 -- @field [parent=#LightType] UnityEngine_LightType#LightType Area

@@ -17,13 +17,13 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return UnityEngine_Component#Component
 
 ---
 -- @function [parent=#Component] GetComponentInParent
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Component#Component
 
 ---
 -- @function [parent=#Component] SendMessageUpwards
@@ -43,21 +43,21 @@
 -- @function [parent=#Component] GetComponent
 -- @param self
 -- @param arg0
--- @return #
+-- @return UnityEngine_Component#Component
 
 ---
 -- @function [parent=#Component] GetComponentsInChildren
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Component#Component>
 
 ---
 -- @function [parent=#Component] GetComponentsInParent
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Component#Component>
 
 ---
 -- @function [parent=#Component] New
@@ -74,15 +74,15 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #
+-- @return #list<UnityEngine_Component#Component>
 
 ---
--- @field [parent=#Component] UnityEngine_GameObject#GameObject gameObject
+-- @field [parent=#Component] object#object gameObject
 
 ---
--- @field [parent=#Component] #string tag
+-- @field [parent=#Component] object#object tag
 
 ---
--- @field [parent=#Component] UnityEngine_Transform#Transform transform
+-- @field [parent=#Component] object#object transform
 
 return nil
