@@ -42,7 +42,7 @@
 ---
 -- @function [parent=#BinaryReader] ReadInt64
 -- @param self
--- @return long#long
+-- @return #number
 
 ---
 -- @function [parent=#BinaryReader] ReadSingle
@@ -52,7 +52,7 @@
 ---
 -- @function [parent=#BinaryReader] ReadByte
 -- @param self
--- @return byte#byte
+-- @return #number
 
 ---
 -- @function [parent=#BinaryReader] ReadBytes
@@ -87,12 +87,12 @@
 ---
 -- @function [parent=#BinaryReader] ReadUInt16
 -- @param self
--- @return ushort#ushort
+-- @return #number
 
 ---
 -- @function [parent=#BinaryReader] ReadSByte
 -- @param self
--- @return sbyte#sbyte
+-- @return #number
 
 ---
 -- @function [parent=#BinaryReader] ReadString

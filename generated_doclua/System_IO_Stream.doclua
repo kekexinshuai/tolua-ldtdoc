@@ -73,7 +73,7 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return long#long
+-- @return #number
 
 ---
 -- @function [parent=#Stream] SetLength

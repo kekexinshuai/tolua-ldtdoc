@@ -108,7 +108,7 @@
 -- @function [parent=#Array] GetLongLength
 -- @param self
 -- @param arg0
--- @return long#long
+-- @return #number
 
 ---
 -- @function [parent=#Array] ConstrainedCopy

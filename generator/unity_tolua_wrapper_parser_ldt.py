@@ -9,6 +9,11 @@ builtin_types_map = {
 	"boolean": "#boolean",
 	"float": "#number",
 	"integer": "#number",
+	"ushort": "#number",
+	"sbyte": "#number",
+	"unit": "#number",
+	"byte": "#number",
+	"long": "#number",
 	"lightuserdata": "#number"
 }
 
@@ -91,7 +96,7 @@ def parse(ifile,odir):
 					if cs_function_def_max_args == 0:
 						cs_function_def_max_args = 1
 				if cs_function_def_return_type is None:
-					cs_function_def_return_match = re.match(r'^\s*(.*?) o = .*;$', line)
+					cs_function_def_return_match = re.match(r'^\s*([^\s]+?) o = .*;$', line)
 					if cs_function_def_return_match is None:
 						cs_function_def_return_match = re.match(r'^\s*(.*?) ret = .*;$', line)
 					if cs_function_def_return_match is None:

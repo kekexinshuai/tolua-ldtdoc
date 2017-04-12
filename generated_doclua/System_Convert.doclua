@@ -14,7 +14,7 @@
 -- @function [parent=#Convert] ToUInt16
 -- @param arg0
 -- @param arg1
--- @return ushort#ushort
+-- @return #number
 
 ---
 -- @function [parent=#Convert] ToDouble
@@ -55,7 +55,7 @@
 -- @function [parent=#Convert] ToByte
 -- @param arg0
 -- @param arg1
--- @return byte#byte
+-- @return #number
 
 ---
 -- @function [parent=#Convert] ToChar
@@ -110,13 +110,13 @@
 -- @function [parent=#Convert] ToSByte
 -- @param arg0
 -- @param arg1
--- @return sbyte#sbyte
+-- @return #number
 
 ---
 -- @function [parent=#Convert] ToInt64
 -- @param arg0
 -- @param arg1
--- @return long#long
+-- @return #number
 
 ---
 -- @function [parent=#Convert] ToBase64CharArray
