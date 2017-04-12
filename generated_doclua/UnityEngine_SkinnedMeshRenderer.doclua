@@ -27,24 +27,24 @@
 -- @param arg1
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object sharedMesh
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Mesh#Mesh sharedMesh
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object localBounds
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Bounds#Bounds localBounds
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object bones
+-- @field [parent=#SkinnedMeshRenderer] #list<UnityEngine_Transform#Transform> bones
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object updateWhenOffscreen
+-- @field [parent=#SkinnedMeshRenderer] #boolean updateWhenOffscreen
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object rootBone
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Transform#Transform rootBone
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object quality
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_SkinQuality#SkinQuality quality
 
 ---
--- @field [parent=#SkinnedMeshRenderer] object#object skinnedMotionVectors
+-- @field [parent=#SkinnedMeshRenderer] #boolean skinnedMotionVectors
 
 return nil

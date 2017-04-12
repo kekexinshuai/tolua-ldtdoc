@@ -68,7 +68,7 @@
 -- @return object#object
 
 ---
--- @field [parent=#Delegate] object#object Method
+-- @field [parent=#Delegate] System_Reflection_MethodInfo#MethodInfo Method
 
 ---
 -- @field [parent=#Delegate] object#object Target

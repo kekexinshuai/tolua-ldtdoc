@@ -105,6 +105,6 @@
 -- @return uint#uint
 
 ---
--- @field [parent=#BinaryReader] object#object BaseStream
+-- @field [parent=#BinaryReader] System_IO_Stream#Stream BaseStream
 
 return nil

@@ -67,48 +67,48 @@
 -- @param arg0
 
 ---
--- @field [parent=#RenderTexture] object#object useMipMap
+-- @field [parent=#RenderTexture] #boolean useMipMap
 
 ---
--- @field [parent=#RenderTexture] object#object volumeDepth
+-- @field [parent=#RenderTexture] #number volumeDepth
 
 ---
--- @field [parent=#RenderTexture] object#object enableRandomWrite
+-- @field [parent=#RenderTexture] #boolean enableRandomWrite
 
 ---
--- @field [parent=#RenderTexture] object#object format
+-- @field [parent=#RenderTexture] UnityEngine_RenderTextureFormat#RenderTextureFormat format
 
 ---
--- @field [parent=#RenderTexture] object#object antiAliasing
+-- @field [parent=#RenderTexture] #number antiAliasing
 
 ---
--- @field [parent=#RenderTexture] object#object autoGenerateMips
+-- @field [parent=#RenderTexture] #boolean autoGenerateMips
 
 ---
--- @field [parent=#RenderTexture] object#object height
+-- @field [parent=#RenderTexture] #number height
 
 ---
--- @field [parent=#RenderTexture] object#object width
+-- @field [parent=#RenderTexture] #number width
 
 ---
--- @field [parent=#RenderTexture] object#object depth
+-- @field [parent=#RenderTexture] #number depth
 
 ---
--- @field [parent=#RenderTexture] object#object sRGB
+-- @field [parent=#RenderTexture] #boolean sRGB
 
 ---
--- @field [parent=#RenderTexture] object#object depthBuffer
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer depthBuffer
 
 ---
--- @field [parent=#RenderTexture] object#object isPowerOfTwo
+-- @field [parent=#RenderTexture] #boolean isPowerOfTwo
 
 ---
 -- @field [parent=#RenderTexture] UnityEngine_RenderTexture#RenderTexture active
 
 ---
--- @field [parent=#RenderTexture] object#object colorBuffer
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer colorBuffer
 
 ---
--- @field [parent=#RenderTexture] object#object dimension
+-- @field [parent=#RenderTexture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
 
 return nil

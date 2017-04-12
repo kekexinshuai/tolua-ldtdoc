@@ -279,7 +279,7 @@
 -- @return #list<char#char>
 
 ---
--- @field [parent=#String] object#object Length
+-- @field [parent=#String] #number Length
 
 ---
 -- @field [parent=#String] #string Empty

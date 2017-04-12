@@ -10,15 +10,15 @@
 -- @return UnityEngine_AsyncOperation#AsyncOperation
 
 ---
--- @field [parent=#AsyncOperation] object#object priority
+-- @field [parent=#AsyncOperation] #number priority
 
 ---
--- @field [parent=#AsyncOperation] object#object progress
+-- @field [parent=#AsyncOperation] #number progress
 
 ---
--- @field [parent=#AsyncOperation] object#object isDone
+-- @field [parent=#AsyncOperation] #boolean isDone
 
 ---
--- @field [parent=#AsyncOperation] object#object allowSceneActivation
+-- @field [parent=#AsyncOperation] #boolean allowSceneActivation
 
 return nil

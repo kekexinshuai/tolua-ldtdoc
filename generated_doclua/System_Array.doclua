@@ -143,21 +143,21 @@
 -- @field [parent=#Array] object#object SyncRoot
 
 ---
--- @field [parent=#Array] object#object IsReadOnly
+-- @field [parent=#Array] #boolean IsReadOnly
 
 ---
--- @field [parent=#Array] object#object IsSynchronized
+-- @field [parent=#Array] #boolean IsSynchronized
 
 ---
 -- @field [parent=#Array] #number Length
 
 ---
--- @field [parent=#Array] object#object Rank
+-- @field [parent=#Array] #number Rank
 
 ---
--- @field [parent=#Array] object#object IsFixedSize
+-- @field [parent=#Array] #boolean IsFixedSize
 
 ---
--- @field [parent=#Array] object#object LongLength
+-- @field [parent=#Array] #number LongLength
 
 return nil

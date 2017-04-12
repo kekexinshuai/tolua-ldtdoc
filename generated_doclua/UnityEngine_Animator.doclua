@@ -335,126 +335,126 @@
 -- @param arg1
 
 ---
--- @field [parent=#Animator] object#object cullingMode
+-- @field [parent=#Animator] UnityEngine_AnimatorCullingMode#AnimatorCullingMode cullingMode
 
 ---
--- @field [parent=#Animator] object#object layerCount
+-- @field [parent=#Animator] #number layerCount
 
 ---
--- @field [parent=#Animator] object#object linearVelocityBlending
+-- @field [parent=#Animator] #boolean linearVelocityBlending
 
 ---
--- @field [parent=#Animator] object#object deltaRotation
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion deltaRotation
 
 ---
--- @field [parent=#Animator] object#object recorderStopTime
+-- @field [parent=#Animator] #number recorderStopTime
 
 ---
--- @field [parent=#Animator] object#object bodyRotation
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion bodyRotation
 
 ---
--- @field [parent=#Animator] object#object targetPosition
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 targetPosition
 
 ---
--- @field [parent=#Animator] object#object rootPosition
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 rootPosition
 
 ---
--- @field [parent=#Animator] object#object deltaPosition
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 deltaPosition
 
 ---
--- @field [parent=#Animator] object#object speed
+-- @field [parent=#Animator] #number speed
 
 ---
--- @field [parent=#Animator] object#object playbackTime
+-- @field [parent=#Animator] #number playbackTime
 
 ---
--- @field [parent=#Animator] object#object fireEvents
+-- @field [parent=#Animator] #boolean fireEvents
 
 ---
--- @field [parent=#Animator] object#object rootRotation
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion rootRotation
 
 ---
--- @field [parent=#Animator] object#object pivotWeight
+-- @field [parent=#Animator] #number pivotWeight
 
 ---
--- @field [parent=#Animator] object#object hasRootMotion
+-- @field [parent=#Animator] #boolean hasRootMotion
 
 ---
--- @field [parent=#Animator] object#object isMatchingTarget
+-- @field [parent=#Animator] #boolean isMatchingTarget
 
 ---
--- @field [parent=#Animator] object#object angularVelocity
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 angularVelocity
 
 ---
--- @field [parent=#Animator] object#object hasTransformHierarchy
+-- @field [parent=#Animator] #boolean hasTransformHierarchy
 
 ---
--- @field [parent=#Animator] object#object isHuman
+-- @field [parent=#Animator] #boolean isHuman
 
 ---
--- @field [parent=#Animator] object#object runtimeAnimatorController
+-- @field [parent=#Animator] UnityEngine_RuntimeAnimatorController#RuntimeAnimatorController runtimeAnimatorController
 
 ---
--- @field [parent=#Animator] object#object updateMode
+-- @field [parent=#Animator] UnityEngine_AnimatorUpdateMode#AnimatorUpdateMode updateMode
 
 ---
--- @field [parent=#Animator] object#object stabilizeFeet
+-- @field [parent=#Animator] #boolean stabilizeFeet
 
 ---
--- @field [parent=#Animator] object#object humanScale
+-- @field [parent=#Animator] #number humanScale
 
 ---
--- @field [parent=#Animator] object#object gravityWeight
+-- @field [parent=#Animator] #number gravityWeight
 
 ---
--- @field [parent=#Animator] object#object pivotPosition
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 pivotPosition
 
 ---
--- @field [parent=#Animator] object#object leftFeetBottomHeight
+-- @field [parent=#Animator] #number leftFeetBottomHeight
 
 ---
--- @field [parent=#Animator] object#object recorderStartTime
+-- @field [parent=#Animator] #number recorderStartTime
 
 ---
--- @field [parent=#Animator] object#object isInitialized
+-- @field [parent=#Animator] #boolean isInitialized
 
 ---
--- @field [parent=#Animator] object#object layersAffectMassCenter
+-- @field [parent=#Animator] #boolean layersAffectMassCenter
 
 ---
--- @field [parent=#Animator] object#object bodyPosition
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 bodyPosition
 
 ---
--- @field [parent=#Animator] object#object rightFeetBottomHeight
+-- @field [parent=#Animator] #number rightFeetBottomHeight
 
 ---
--- @field [parent=#Animator] object#object parameterCount
+-- @field [parent=#Animator] #number parameterCount
 
 ---
--- @field [parent=#Animator] object#object applyRootMotion
+-- @field [parent=#Animator] #boolean applyRootMotion
 
 ---
--- @field [parent=#Animator] object#object parameters
+-- @field [parent=#Animator] #list<UnityEngine_AnimatorControllerParameter#AnimatorControllerParameter> parameters
 
 ---
--- @field [parent=#Animator] object#object feetPivotActive
+-- @field [parent=#Animator] #number feetPivotActive
 
 ---
--- @field [parent=#Animator] object#object recorderMode
+-- @field [parent=#Animator] UnityEngine_AnimatorRecorderMode#AnimatorRecorderMode recorderMode
 
 ---
--- @field [parent=#Animator] object#object avatar
+-- @field [parent=#Animator] UnityEngine_Avatar#Avatar avatar
 
 ---
--- @field [parent=#Animator] object#object logWarnings
+-- @field [parent=#Animator] #boolean logWarnings
 
 ---
--- @field [parent=#Animator] object#object targetRotation
+-- @field [parent=#Animator] UnityEngine_Quaternion#Quaternion targetRotation
 
 ---
--- @field [parent=#Animator] object#object velocity
+-- @field [parent=#Animator] UnityEngine_Vector3#Vector3 velocity
 
 ---
--- @field [parent=#Animator] object#object isOptimizable
+-- @field [parent=#Animator] #boolean isOptimizable
 
 return nil

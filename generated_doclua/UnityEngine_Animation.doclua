@@ -103,24 +103,24 @@
 -- @param arg2
 
 ---
--- @field [parent=#Animation] object#object clip
+-- @field [parent=#Animation] UnityEngine_AnimationClip#AnimationClip clip
 
 ---
--- @field [parent=#Animation] object#object cullingType
+-- @field [parent=#Animation] UnityEngine_AnimationCullingType#AnimationCullingType cullingType
 
 ---
--- @field [parent=#Animation] object#object localBounds
+-- @field [parent=#Animation] UnityEngine_Bounds#Bounds localBounds
 
 ---
--- @field [parent=#Animation] object#object playAutomatically
+-- @field [parent=#Animation] #boolean playAutomatically
 
 ---
--- @field [parent=#Animation] object#object animatePhysics
+-- @field [parent=#Animation] #boolean animatePhysics
 
 ---
--- @field [parent=#Animation] object#object wrapMode
+-- @field [parent=#Animation] UnityEngine_WrapMode#WrapMode wrapMode
 
 ---
--- @field [parent=#Animation] object#object isPlaying
+-- @field [parent=#Animation] #boolean isPlaying
 
 return nil

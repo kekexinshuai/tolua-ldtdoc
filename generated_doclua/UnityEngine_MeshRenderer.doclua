@@ -10,6 +10,6 @@
 -- @return UnityEngine_MeshRenderer#MeshRenderer
 
 ---
--- @field [parent=#MeshRenderer] object#object additionalVertexStreams
+-- @field [parent=#MeshRenderer] UnityEngine_Mesh#Mesh additionalVertexStreams
 
 return nil

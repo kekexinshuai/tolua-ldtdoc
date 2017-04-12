@@ -45,27 +45,27 @@
 -- @return #boolean
 
 ---
--- @field [parent=#AudioClip] object#object loadState
+-- @field [parent=#AudioClip] UnityEngine_AudioDataLoadState#AudioDataLoadState loadState
 
 ---
--- @field [parent=#AudioClip] object#object loadType
+-- @field [parent=#AudioClip] UnityEngine_AudioClipLoadType#AudioClipLoadType loadType
 
 ---
--- @field [parent=#AudioClip] object#object channels
+-- @field [parent=#AudioClip] #number channels
 
 ---
--- @field [parent=#AudioClip] object#object length
+-- @field [parent=#AudioClip] #number length
 
 ---
--- @field [parent=#AudioClip] object#object frequency
+-- @field [parent=#AudioClip] #number frequency
 
 ---
--- @field [parent=#AudioClip] object#object preloadAudioData
+-- @field [parent=#AudioClip] #boolean preloadAudioData
 
 ---
--- @field [parent=#AudioClip] object#object loadInBackground
+-- @field [parent=#AudioClip] #boolean loadInBackground
 
 ---
--- @field [parent=#AudioClip] object#object samples
+-- @field [parent=#AudioClip] #number samples
 
 return nil

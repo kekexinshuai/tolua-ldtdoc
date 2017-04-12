@@ -202,150 +202,150 @@
 -- @param arg1
 
 ---
--- @field [parent=#Camera] object#object orthographic
+-- @field [parent=#Camera] #boolean orthographic
 
 ---
--- @field [parent=#Camera] object#object useOcclusionCulling
+-- @field [parent=#Camera] #boolean useOcclusionCulling
 
 ---
--- @field [parent=#Camera] object#object farClipPlane
+-- @field [parent=#Camera] #number farClipPlane
 
 ---
--- @field [parent=#Camera] object#object opaqueSortMode
+-- @field [parent=#Camera] UnityEngine_Rendering_OpaqueSortMode#OpaqueSortMode opaqueSortMode
 
 ---
--- @field [parent=#Camera] object#object targetTexture
+-- @field [parent=#Camera] UnityEngine_RenderTexture#RenderTexture targetTexture
 
 ---
--- @field [parent=#Camera] object#object aspect
+-- @field [parent=#Camera] #number aspect
 
 ---
--- @field [parent=#Camera] object#object stereoMirrorMode
+-- @field [parent=#Camera] #boolean stereoMirrorMode
 
 ---
 -- @field [parent=#Camera] #number allCamerasCount
 
 ---
--- @field [parent=#Camera] object#object layerCullSpherical
+-- @field [parent=#Camera] #boolean layerCullSpherical
 
 ---
--- @field [parent=#Camera] object#object stereoActiveEye
+-- @field [parent=#Camera] UnityEngine_Camera_MonoOrStereoscopicEye#MonoOrStereoscopicEye stereoActiveEye
 
 ---
--- @field [parent=#Camera] object#object clearFlags
+-- @field [parent=#Camera] UnityEngine_CameraClearFlags#CameraClearFlags clearFlags
 
 ---
--- @field [parent=#Camera] object#object projectionMatrix
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 projectionMatrix
 
 ---
--- @field [parent=#Camera] object#object worldToCameraMatrix
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 worldToCameraMatrix
 
 ---
--- @field [parent=#Camera] object#object clearStencilAfterLightingPass
+-- @field [parent=#Camera] #boolean clearStencilAfterLightingPass
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera current
 
 ---
--- @field [parent=#Camera] object#object useJitteredProjectionMatrixForTransparentRendering
+-- @field [parent=#Camera] #boolean useJitteredProjectionMatrixForTransparentRendering
 
 ---
--- @field [parent=#Camera] object#object backgroundColor
+-- @field [parent=#Camera] UnityEngine_Color#Color backgroundColor
 
 ---
--- @field [parent=#Camera] object#object pixelHeight
+-- @field [parent=#Camera] #number pixelHeight
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera main
 
 ---
--- @field [parent=#Camera] object#object depthTextureMode
+-- @field [parent=#Camera] UnityEngine_DepthTextureMode#DepthTextureMode depthTextureMode
 
 ---
--- @field [parent=#Camera] object#object stereoConvergence
+-- @field [parent=#Camera] #number stereoConvergence
 
 ---
--- @field [parent=#Camera] object#object layerCullDistances
+-- @field [parent=#Camera] #list<#number> layerCullDistances
 
 ---
--- @field [parent=#Camera] object#object targetDisplay
+-- @field [parent=#Camera] #number targetDisplay
 
 ---
--- @field [parent=#Camera] object#object cameraType
+-- @field [parent=#Camera] UnityEngine_CameraType#CameraType cameraType
 
 ---
--- @field [parent=#Camera] object#object renderingPath
+-- @field [parent=#Camera] UnityEngine_RenderingPath#RenderingPath renderingPath
 
 ---
--- @field [parent=#Camera] object#object eventMask
+-- @field [parent=#Camera] #number eventMask
 
 ---
--- @field [parent=#Camera] object#object fieldOfView
+-- @field [parent=#Camera] #number fieldOfView
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera allCameras
 
 ---
--- @field [parent=#Camera] object#object nearClipPlane
+-- @field [parent=#Camera] #number nearClipPlane
 
 ---
--- @field [parent=#Camera] object#object stereoSeparation
+-- @field [parent=#Camera] #number stereoSeparation
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera onPreRender
 
 ---
--- @field [parent=#Camera] object#object stereoEnabled
+-- @field [parent=#Camera] #boolean stereoEnabled
 
 ---
--- @field [parent=#Camera] object#object velocity
+-- @field [parent=#Camera] UnityEngine_Vector3#Vector3 velocity
 
 ---
--- @field [parent=#Camera] object#object pixelWidth
+-- @field [parent=#Camera] #number pixelWidth
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera onPreCull
 
 ---
--- @field [parent=#Camera] object#object cullingMatrix
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 cullingMatrix
 
 ---
--- @field [parent=#Camera] object#object rect
+-- @field [parent=#Camera] UnityEngine_Rect#Rect rect
 
 ---
--- @field [parent=#Camera] object#object nonJitteredProjectionMatrix
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 nonJitteredProjectionMatrix
 
 ---
--- @field [parent=#Camera] object#object commandBufferCount
+-- @field [parent=#Camera] #number commandBufferCount
 
 ---
--- @field [parent=#Camera] object#object cameraToWorldMatrix
+-- @field [parent=#Camera] UnityEngine_Matrix4x4#Matrix4x4 cameraToWorldMatrix
 
 ---
--- @field [parent=#Camera] object#object hdr
+-- @field [parent=#Camera] #boolean hdr
 
 ---
--- @field [parent=#Camera] object#object stereoTargetEye
+-- @field [parent=#Camera] UnityEngine_StereoTargetEyeMask#StereoTargetEyeMask stereoTargetEye
 
 ---
--- @field [parent=#Camera] object#object actualRenderingPath
+-- @field [parent=#Camera] UnityEngine_RenderingPath#RenderingPath actualRenderingPath
 
 ---
--- @field [parent=#Camera] object#object depth
+-- @field [parent=#Camera] #number depth
 
 ---
--- @field [parent=#Camera] object#object transparencySortMode
+-- @field [parent=#Camera] UnityEngine_TransparencySortMode#TransparencySortMode transparencySortMode
 
 ---
--- @field [parent=#Camera] object#object orthographicSize
+-- @field [parent=#Camera] #number orthographicSize
 
 ---
 -- @field [parent=#Camera] UnityEngine_Camera#Camera onPostRender
 
 ---
--- @field [parent=#Camera] object#object pixelRect
+-- @field [parent=#Camera] UnityEngine_Rect#Rect pixelRect
 
 ---
--- @field [parent=#Camera] object#object cullingMask
+-- @field [parent=#Camera] #number cullingMask
 
 return nil

@@ -80,6 +80,9 @@
 -- @field [parent=#UnityEngine] UnityEngine_Behaviour#Behaviour Behaviour
 
 ---
+-- @field [parent=#UnityEngine] UnityEngine_MaterialGlobalIlluminationFlags#MaterialGlobalIlluminationFlags MaterialGlobalIlluminationFlags
+
+---
 -- @field [parent=#UnityEngine] UnityEngine_Texture2D#Texture2D Texture2D
 
 ---

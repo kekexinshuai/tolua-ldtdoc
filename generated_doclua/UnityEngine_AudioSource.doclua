@@ -98,87 +98,87 @@
 -- @param arg0
 
 ---
--- @field [parent=#AudioSource] object#object velocityUpdateMode
+-- @field [parent=#AudioSource] UnityEngine_AudioVelocityUpdateMode#AudioVelocityUpdateMode velocityUpdateMode
 
 ---
--- @field [parent=#AudioSource] object#object clip
+-- @field [parent=#AudioSource] UnityEngine_AudioClip#AudioClip clip
 
 ---
--- @field [parent=#AudioSource] object#object mute
+-- @field [parent=#AudioSource] #boolean mute
 
 ---
--- @field [parent=#AudioSource] object#object outputAudioMixerGroup
+-- @field [parent=#AudioSource] UnityEngine_Audio_AudioMixerGroup#AudioMixerGroup outputAudioMixerGroup
 
 ---
--- @field [parent=#AudioSource] object#object bypassEffects
+-- @field [parent=#AudioSource] #boolean bypassEffects
 
 ---
--- @field [parent=#AudioSource] object#object pitch
+-- @field [parent=#AudioSource] #number pitch
 
 ---
--- @field [parent=#AudioSource] object#object timeSamples
+-- @field [parent=#AudioSource] #number timeSamples
 
 ---
--- @field [parent=#AudioSource] object#object playOnAwake
+-- @field [parent=#AudioSource] #boolean playOnAwake
 
 ---
--- @field [parent=#AudioSource] object#object rolloffMode
+-- @field [parent=#AudioSource] UnityEngine_AudioRolloffMode#AudioRolloffMode rolloffMode
 
 ---
--- @field [parent=#AudioSource] object#object spatialBlend
+-- @field [parent=#AudioSource] #number spatialBlend
 
 ---
--- @field [parent=#AudioSource] object#object maxDistance
+-- @field [parent=#AudioSource] #number maxDistance
 
 ---
--- @field [parent=#AudioSource] object#object dopplerLevel
+-- @field [parent=#AudioSource] #number dopplerLevel
 
 ---
--- @field [parent=#AudioSource] object#object priority
+-- @field [parent=#AudioSource] #number priority
 
 ---
--- @field [parent=#AudioSource] object#object panStereo
+-- @field [parent=#AudioSource] #number panStereo
 
 ---
--- @field [parent=#AudioSource] object#object spread
+-- @field [parent=#AudioSource] #number spread
 
 ---
--- @field [parent=#AudioSource] object#object ignoreListenerPause
+-- @field [parent=#AudioSource] #boolean ignoreListenerPause
 
 ---
--- @field [parent=#AudioSource] object#object bypassReverbZones
+-- @field [parent=#AudioSource] #boolean bypassReverbZones
 
 ---
--- @field [parent=#AudioSource] object#object isVirtual
+-- @field [parent=#AudioSource] #boolean isVirtual
 
 ---
--- @field [parent=#AudioSource] object#object reverbZoneMix
+-- @field [parent=#AudioSource] #number reverbZoneMix
 
 ---
--- @field [parent=#AudioSource] object#object spatializePostEffects
+-- @field [parent=#AudioSource] #boolean spatializePostEffects
 
 ---
--- @field [parent=#AudioSource] object#object volume
+-- @field [parent=#AudioSource] #number volume
 
 ---
--- @field [parent=#AudioSource] object#object minDistance
+-- @field [parent=#AudioSource] #number minDistance
 
 ---
--- @field [parent=#AudioSource] object#object isPlaying
+-- @field [parent=#AudioSource] #boolean isPlaying
 
 ---
--- @field [parent=#AudioSource] object#object spatialize
+-- @field [parent=#AudioSource] #boolean spatialize
 
 ---
--- @field [parent=#AudioSource] object#object bypassListenerEffects
+-- @field [parent=#AudioSource] #boolean bypassListenerEffects
 
 ---
--- @field [parent=#AudioSource] object#object ignoreListenerVolume
+-- @field [parent=#AudioSource] #boolean ignoreListenerVolume
 
 ---
--- @field [parent=#AudioSource] object#object time
+-- @field [parent=#AudioSource] #number time
 
 ---
--- @field [parent=#AudioSource] object#object loop
+-- @field [parent=#AudioSource] #boolean loop
 
 return nil

@@ -24,24 +24,24 @@
 -- @return UnityEngine_Collider#Collider
 
 ---
--- @field [parent=#Collider] object#object sharedMaterial
+-- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial sharedMaterial
 
 ---
--- @field [parent=#Collider] object#object material
+-- @field [parent=#Collider] UnityEngine_PhysicMaterial#PhysicMaterial material
 
 ---
--- @field [parent=#Collider] object#object enabled
+-- @field [parent=#Collider] #boolean enabled
 
 ---
--- @field [parent=#Collider] object#object bounds
+-- @field [parent=#Collider] UnityEngine_Bounds#Bounds bounds
 
 ---
--- @field [parent=#Collider] object#object contactOffset
+-- @field [parent=#Collider] #number contactOffset
 
 ---
--- @field [parent=#Collider] object#object attachedRigidbody
+-- @field [parent=#Collider] UnityEngine_Rigidbody#Rigidbody attachedRigidbody
 
 ---
--- @field [parent=#Collider] object#object isTrigger
+-- @field [parent=#Collider] #boolean isTrigger
 
 return nil

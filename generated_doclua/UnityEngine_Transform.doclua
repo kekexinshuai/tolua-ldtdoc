@@ -140,60 +140,60 @@
 -- @return UnityEngine_Transform#Transform
 
 ---
--- @field [parent=#Transform] object#object worldToLocalMatrix
+-- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix
 
 ---
--- @field [parent=#Transform] object#object right
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 right
 
 ---
--- @field [parent=#Transform] object#object eulerAngles
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 eulerAngles
 
 ---
--- @field [parent=#Transform] object#object localPosition
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localPosition
 
 ---
--- @field [parent=#Transform] object#object parent
+-- @field [parent=#Transform] UnityEngine_Transform#Transform parent
 
 ---
--- @field [parent=#Transform] object#object hierarchyCount
+-- @field [parent=#Transform] #number hierarchyCount
 
 ---
--- @field [parent=#Transform] object#object localRotation
+-- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion localRotation
 
 ---
--- @field [parent=#Transform] object#object localScale
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localScale
 
 ---
--- @field [parent=#Transform] object#object hierarchyCapacity
+-- @field [parent=#Transform] #number hierarchyCapacity
 
 ---
--- @field [parent=#Transform] object#object up
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 up
 
 ---
--- @field [parent=#Transform] object#object localToWorldMatrix
+-- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 localToWorldMatrix
 
 ---
--- @field [parent=#Transform] object#object localEulerAngles
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localEulerAngles
 
 ---
--- @field [parent=#Transform] object#object lossyScale
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 lossyScale
 
 ---
--- @field [parent=#Transform] object#object forward
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 forward
 
 ---
--- @field [parent=#Transform] object#object position
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 position
 
 ---
--- @field [parent=#Transform] object#object rotation
+-- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion rotation
 
 ---
--- @field [parent=#Transform] object#object root
+-- @field [parent=#Transform] UnityEngine_Transform#Transform root
 
 ---
--- @field [parent=#Transform] object#object childCount
+-- @field [parent=#Transform] #number childCount
 
 ---
--- @field [parent=#Transform] object#object hasChanged
+-- @field [parent=#Transform] #boolean hasChanged
 
 return nil

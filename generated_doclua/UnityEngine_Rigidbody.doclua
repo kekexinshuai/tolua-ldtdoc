@@ -129,72 +129,72 @@
 -- @param arg0
 
 ---
--- @field [parent=#Rigidbody] object#object inertiaTensor
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 inertiaTensor
 
 ---
--- @field [parent=#Rigidbody] object#object worldCenterOfMass
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 worldCenterOfMass
 
 ---
--- @field [parent=#Rigidbody] object#object solverIterations
+-- @field [parent=#Rigidbody] #number solverIterations
 
 ---
--- @field [parent=#Rigidbody] object#object isKinematic
+-- @field [parent=#Rigidbody] #boolean isKinematic
 
 ---
--- @field [parent=#Rigidbody] object#object position
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 position
 
 ---
--- @field [parent=#Rigidbody] object#object angularVelocity
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 angularVelocity
 
 ---
--- @field [parent=#Rigidbody] object#object solverVelocityIterations
+-- @field [parent=#Rigidbody] #number solverVelocityIterations
 
 ---
--- @field [parent=#Rigidbody] object#object mass
+-- @field [parent=#Rigidbody] #number mass
 
 ---
--- @field [parent=#Rigidbody] object#object interpolation
+-- @field [parent=#Rigidbody] UnityEngine_RigidbodyInterpolation#RigidbodyInterpolation interpolation
 
 ---
--- @field [parent=#Rigidbody] object#object detectCollisions
+-- @field [parent=#Rigidbody] #boolean detectCollisions
 
 ---
--- @field [parent=#Rigidbody] object#object angularDrag
+-- @field [parent=#Rigidbody] #number angularDrag
 
 ---
--- @field [parent=#Rigidbody] object#object maxAngularVelocity
+-- @field [parent=#Rigidbody] #number maxAngularVelocity
 
 ---
--- @field [parent=#Rigidbody] object#object centerOfMass
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 centerOfMass
 
 ---
--- @field [parent=#Rigidbody] object#object drag
+-- @field [parent=#Rigidbody] #number drag
 
 ---
--- @field [parent=#Rigidbody] object#object maxDepenetrationVelocity
+-- @field [parent=#Rigidbody] #number maxDepenetrationVelocity
 
 ---
--- @field [parent=#Rigidbody] object#object freezeRotation
+-- @field [parent=#Rigidbody] #boolean freezeRotation
 
 ---
--- @field [parent=#Rigidbody] object#object rotation
+-- @field [parent=#Rigidbody] UnityEngine_Quaternion#Quaternion rotation
 
 ---
--- @field [parent=#Rigidbody] object#object collisionDetectionMode
+-- @field [parent=#Rigidbody] UnityEngine_CollisionDetectionMode#CollisionDetectionMode collisionDetectionMode
 
 ---
--- @field [parent=#Rigidbody] object#object inertiaTensorRotation
+-- @field [parent=#Rigidbody] UnityEngine_Quaternion#Quaternion inertiaTensorRotation
 
 ---
--- @field [parent=#Rigidbody] object#object useGravity
+-- @field [parent=#Rigidbody] #boolean useGravity
 
 ---
--- @field [parent=#Rigidbody] object#object sleepThreshold
+-- @field [parent=#Rigidbody] #number sleepThreshold
 
 ---
--- @field [parent=#Rigidbody] object#object velocity
+-- @field [parent=#Rigidbody] UnityEngine_Vector3#Vector3 velocity
 
 ---
--- @field [parent=#Rigidbody] object#object constraints
+-- @field [parent=#Rigidbody] UnityEngine_RigidbodyConstraints#RigidbodyConstraints constraints
 
 return nil

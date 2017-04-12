@@ -134,13 +134,13 @@
 -- @return UnityEngine_Matrix4x4#Matrix4x4
 
 ---
--- @field [parent=#Shader] object#object isSupported
+-- @field [parent=#Shader] #boolean isSupported
 
 ---
--- @field [parent=#Shader] object#object renderQueue
+-- @field [parent=#Shader] #number renderQueue
 
 ---
--- @field [parent=#Shader] object#object maximumLOD
+-- @field [parent=#Shader] #number maximumLOD
 
 ---
 -- @field [parent=#Shader] #number globalMaximumLOD

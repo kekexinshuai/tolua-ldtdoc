@@ -25,75 +25,75 @@
 -- @param arg0
 
 ---
--- @field [parent=#Renderer] object#object lightProbeUsage
+-- @field [parent=#Renderer] UnityEngine_Rendering_LightProbeUsage#LightProbeUsage lightProbeUsage
 
 ---
--- @field [parent=#Renderer] object#object lightmapIndex
+-- @field [parent=#Renderer] #number lightmapIndex
 
 ---
--- @field [parent=#Renderer] object#object sortingOrder
+-- @field [parent=#Renderer] #number sortingOrder
 
 ---
--- @field [parent=#Renderer] object#object sortingLayerName
+-- @field [parent=#Renderer] #string sortingLayerName
 
 ---
--- @field [parent=#Renderer] object#object probeAnchor
+-- @field [parent=#Renderer] UnityEngine_Transform#Transform probeAnchor
 
 ---
--- @field [parent=#Renderer] object#object lightProbeProxyVolumeOverride
+-- @field [parent=#Renderer] UnityEngine_GameObject#GameObject lightProbeProxyVolumeOverride
 
 ---
--- @field [parent=#Renderer] object#object lightmapScaleOffset
+-- @field [parent=#Renderer] UnityEngine_Vector4#Vector4 lightmapScaleOffset
 
 ---
--- @field [parent=#Renderer] object#object sharedMaterials
+-- @field [parent=#Renderer] #list<UnityEngine_Material#Material> sharedMaterials
 
 ---
--- @field [parent=#Renderer] object#object realtimeLightmapIndex
+-- @field [parent=#Renderer] #number realtimeLightmapIndex
 
 ---
--- @field [parent=#Renderer] object#object material
+-- @field [parent=#Renderer] UnityEngine_Material#Material material
 
 ---
--- @field [parent=#Renderer] object#object shadowCastingMode
+-- @field [parent=#Renderer] UnityEngine_Rendering_ShadowCastingMode#ShadowCastingMode shadowCastingMode
 
 ---
--- @field [parent=#Renderer] object#object isPartOfStaticBatch
+-- @field [parent=#Renderer] #boolean isPartOfStaticBatch
 
 ---
--- @field [parent=#Renderer] object#object sortingLayerID
+-- @field [parent=#Renderer] #number sortingLayerID
 
 ---
--- @field [parent=#Renderer] object#object localToWorldMatrix
+-- @field [parent=#Renderer] UnityEngine_Matrix4x4#Matrix4x4 localToWorldMatrix
 
 ---
--- @field [parent=#Renderer] object#object motionVectorGenerationMode
+-- @field [parent=#Renderer] UnityEngine_MotionVectorGenerationMode#MotionVectorGenerationMode motionVectorGenerationMode
 
 ---
--- @field [parent=#Renderer] object#object reflectionProbeUsage
+-- @field [parent=#Renderer] UnityEngine_Rendering_ReflectionProbeUsage#ReflectionProbeUsage reflectionProbeUsage
 
 ---
--- @field [parent=#Renderer] object#object worldToLocalMatrix
+-- @field [parent=#Renderer] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix
 
 ---
--- @field [parent=#Renderer] object#object receiveShadows
+-- @field [parent=#Renderer] #boolean receiveShadows
 
 ---
--- @field [parent=#Renderer] object#object sharedMaterial
+-- @field [parent=#Renderer] UnityEngine_Material#Material sharedMaterial
 
 ---
--- @field [parent=#Renderer] object#object enabled
+-- @field [parent=#Renderer] #boolean enabled
 
 ---
--- @field [parent=#Renderer] object#object bounds
+-- @field [parent=#Renderer] UnityEngine_Bounds#Bounds bounds
 
 ---
--- @field [parent=#Renderer] object#object realtimeLightmapScaleOffset
+-- @field [parent=#Renderer] UnityEngine_Vector4#Vector4 realtimeLightmapScaleOffset
 
 ---
--- @field [parent=#Renderer] object#object materials
+-- @field [parent=#Renderer] #list<UnityEngine_Material#Material> materials
 
 ---
--- @field [parent=#Renderer] object#object isVisible
+-- @field [parent=#Renderer] #boolean isVisible
 
 return nil

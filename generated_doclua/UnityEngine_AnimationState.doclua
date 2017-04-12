@@ -21,39 +21,39 @@
 -- @param arg0
 
 ---
--- @field [parent=#AnimationState] object#object layer
+-- @field [parent=#AnimationState] #number layer
 
 ---
--- @field [parent=#AnimationState] object#object clip
+-- @field [parent=#AnimationState] UnityEngine_AnimationClip#AnimationClip clip
 
 ---
--- @field [parent=#AnimationState] object#object weight
+-- @field [parent=#AnimationState] #number weight
 
 ---
--- @field [parent=#AnimationState] object#object normalizedSpeed
+-- @field [parent=#AnimationState] #number normalizedSpeed
 
 ---
--- @field [parent=#AnimationState] object#object enabled
+-- @field [parent=#AnimationState] #boolean enabled
 
 ---
--- @field [parent=#AnimationState] object#object length
+-- @field [parent=#AnimationState] #number length
 
 ---
--- @field [parent=#AnimationState] object#object wrapMode
+-- @field [parent=#AnimationState] UnityEngine_WrapMode#WrapMode wrapMode
 
 ---
--- @field [parent=#AnimationState] object#object time
+-- @field [parent=#AnimationState] #number time
 
 ---
--- @field [parent=#AnimationState] object#object blendMode
+-- @field [parent=#AnimationState] UnityEngine_AnimationBlendMode#AnimationBlendMode blendMode
 
 ---
--- @field [parent=#AnimationState] object#object normalizedTime
+-- @field [parent=#AnimationState] #number normalizedTime
 
 ---
--- @field [parent=#AnimationState] object#object speed
+-- @field [parent=#AnimationState] #number speed
 
 ---
--- @field [parent=#AnimationState] object#object name
+-- @field [parent=#AnimationState] #string name
 
 return nil

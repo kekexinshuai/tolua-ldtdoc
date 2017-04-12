@@ -10,15 +10,15 @@
 -- @return UnityEngine_CapsuleCollider#CapsuleCollider
 
 ---
--- @field [parent=#CapsuleCollider] object#object direction
+-- @field [parent=#CapsuleCollider] #number direction
 
 ---
--- @field [parent=#CapsuleCollider] object#object radius
+-- @field [parent=#CapsuleCollider] #number radius
 
 ---
--- @field [parent=#CapsuleCollider] object#object center
+-- @field [parent=#CapsuleCollider] UnityEngine_Vector3#Vector3 center
 
 ---
--- @field [parent=#CapsuleCollider] object#object height
+-- @field [parent=#CapsuleCollider] #number height
 
 return nil

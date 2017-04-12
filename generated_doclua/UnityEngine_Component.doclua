@@ -77,12 +77,12 @@
 -- @return #list<UnityEngine_Component#Component>
 
 ---
--- @field [parent=#Component] object#object gameObject
+-- @field [parent=#Component] UnityEngine_GameObject#GameObject gameObject
 
 ---
--- @field [parent=#Component] object#object tag
+-- @field [parent=#Component] #string tag
 
 ---
--- @field [parent=#Component] object#object transform
+-- @field [parent=#Component] UnityEngine_Transform#Transform transform
 
 return nil

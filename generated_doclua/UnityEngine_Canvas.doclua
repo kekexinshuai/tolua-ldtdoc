@@ -21,60 +21,60 @@
 -- @return UnityEngine_Material#Material
 
 ---
--- @field [parent=#Canvas] object#object renderOrder
+-- @field [parent=#Canvas] #number renderOrder
 
 ---
--- @field [parent=#Canvas] object#object pixelRect
+-- @field [parent=#Canvas] UnityEngine_Rect#Rect pixelRect
 
 ---
--- @field [parent=#Canvas] object#object sortingLayerName
+-- @field [parent=#Canvas] #string sortingLayerName
 
 ---
--- @field [parent=#Canvas] object#object rootCanvas
+-- @field [parent=#Canvas] UnityEngine_Canvas#Canvas rootCanvas
 
 ---
--- @field [parent=#Canvas] object#object isRootCanvas
+-- @field [parent=#Canvas] #boolean isRootCanvas
 
 ---
--- @field [parent=#Canvas] object#object worldCamera
+-- @field [parent=#Canvas] UnityEngine_Camera#Camera worldCamera
 
 ---
--- @field [parent=#Canvas] object#object overridePixelPerfect
+-- @field [parent=#Canvas] #boolean overridePixelPerfect
 
 ---
--- @field [parent=#Canvas] object#object referencePixelsPerUnit
+-- @field [parent=#Canvas] #number referencePixelsPerUnit
 
 ---
--- @field [parent=#Canvas] object#object planeDistance
+-- @field [parent=#Canvas] #number planeDistance
 
 ---
--- @field [parent=#Canvas] object#object cachedSortingLayerValue
+-- @field [parent=#Canvas] #number cachedSortingLayerValue
 
 ---
--- @field [parent=#Canvas] object#object sortingOrder
+-- @field [parent=#Canvas] #number sortingOrder
 
 ---
--- @field [parent=#Canvas] object#object pixelPerfect
+-- @field [parent=#Canvas] #boolean pixelPerfect
 
 ---
--- @field [parent=#Canvas] object#object targetDisplay
+-- @field [parent=#Canvas] #number targetDisplay
 
 ---
--- @field [parent=#Canvas] object#object normalizedSortingGridSize
+-- @field [parent=#Canvas] #number normalizedSortingGridSize
 
 ---
 -- @field [parent=#Canvas] new EventObject("UnityEngine_Canvas#Canvas willRenderCanvases
 
 ---
--- @field [parent=#Canvas] object#object sortingLayerID
+-- @field [parent=#Canvas] #number sortingLayerID
 
 ---
--- @field [parent=#Canvas] object#object renderMode
+-- @field [parent=#Canvas] UnityEngine_RenderMode#RenderMode renderMode
 
 ---
--- @field [parent=#Canvas] object#object scaleFactor
+-- @field [parent=#Canvas] #number scaleFactor
 
 ---
--- @field [parent=#Canvas] object#object overrideSorting
+-- @field [parent=#Canvas] #boolean overrideSorting
 
 return nil

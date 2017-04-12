@@ -97,9 +97,9 @@
 -- @return #list<UnityEngine_Object#Object>
 
 ---
--- @field [parent=#AssetBundle] object#object mainAsset
+-- @field [parent=#AssetBundle] UnityEngine_Object#Object mainAsset
 
 ---
--- @field [parent=#AssetBundle] object#object isStreamedSceneAssetBundle
+-- @field [parent=#AssetBundle] #boolean isStreamedSceneAssetBundle
 
 return nil

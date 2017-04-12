@@ -63,9 +63,9 @@
 -- @param arg1
 
 ---
--- @field [parent=#Object] object#object hideFlags
+-- @field [parent=#Object] UnityEngine_HideFlags#HideFlags hideFlags
 
 ---
--- @field [parent=#Object] object#object name
+-- @field [parent=#Object] #string name
 
 return nil

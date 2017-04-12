@@ -11,12 +11,12 @@
 -- @param arg0
 
 ---
--- @field [parent=#Shadow] object#object useGraphicAlpha
+-- @field [parent=#Shadow] #boolean useGraphicAlpha
 
 ---
--- @field [parent=#Shadow] object#object effectDistance
+-- @field [parent=#Shadow] UnityEngine_Vector2#Vector2 effectDistance
 
 ---
--- @field [parent=#Shadow] object#object effectColor
+-- @field [parent=#Shadow] UnityEngine_Color#Color effectColor
 
 return nil
