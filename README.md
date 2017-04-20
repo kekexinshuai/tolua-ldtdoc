@@ -1,6 +1,6 @@
 # tolua ldtdoc
 An eclipse-ldt doclua generator for [ToLua#](https://github.com/topameng/tolua)  
-I like eclipse lua development tools so did this.  
+With this tool, **Autocompletion** will work for Unity APIs.  
 The generator is just a fancy regex matcher. Nothing special.  
 
 # how to use
