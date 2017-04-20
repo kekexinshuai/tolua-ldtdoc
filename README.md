@@ -22,7 +22,7 @@ change LuaConst.cs, make openZbsDebugger = true, then apply [this patch](https:/
 ### 2. use the "Lua Attach to Application" configuration.
 export a dbgp debugger client from eclipse. And require it in your code when you start the debug session.
 ```lua
-require("ldt_debugger")()
+require("debugger")()
 ```
 ### 3. add these line on top of debugger.lua
 ```lua
