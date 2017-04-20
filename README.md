@@ -24,11 +24,13 @@ export a dbgp debugger client from eclipse. And require it in your code when you
 ```lua
 require("ldt_debugger")()
 ```
-### 3. fix for debugger.lua(line number may wrong)
+### 3. add these line on top of debugger.lua
 ```lua
--- comment out this line if you don't want debugger exits unity when detach
-  os.exit(1) -- line 379
-
--- comment out this line to fix debugger crash when inspect variables
-   { tag = "context", attr = { name = "Global",  id = 1 } }, -- line 636
+-- fix for tolua# __tostring may return nil when inspect metatable, as did in static int Lua_ToString(IntPtr L)
+-- fix for tolua# __tostring may crash when inspect metatable, as did in Vector2.__tostring
+local tostring = function(s) local o,r = xpcall(tostring,function()end,s) return r or "[unknown in tolua]" end
+-- don't exit app in lua
+os.exit = function()end
+-- debugger should be attached before System.coroutine, since debugger overrides coroutine.resume
+-- or unload System.coroutine then load it again after debugger attached
 ```
