@@ -5,6 +5,13 @@
 -- @type Debugger
 
 ---
+-- @function [parent=#Debugger] Log
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
 -- @function [parent=#Debugger] LogWarning
 -- @param arg0
 -- @param arg1
@@ -19,24 +26,17 @@
 -- @param arg3
 
 ---
--- @function [parent=#Debugger] Log
--- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
-
----
 -- @function [parent=#Debugger] LogException
 -- @param arg0
 -- @param arg1
 
 ---
--- @field [parent=#Debugger] logger
+-- @field [parent=#Debugger] #boolean useLog
 
 ---
 -- @field [parent=#Debugger] #string threadStack
 
 ---
--- @field [parent=#Debugger] #boolean useLog
+-- @field [parent=#Debugger] logger
 
 return nil

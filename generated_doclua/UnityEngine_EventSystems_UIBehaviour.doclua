@@ -6,12 +6,12 @@
 -- @extends UnityEngine_MonoBehaviour#MonoBehaviour
 
 ---
--- @function [parent=#UIBehaviour] IsDestroyed
+-- @function [parent=#UIBehaviour] IsActive
 -- @param self
 -- @return #boolean
 
 ---
--- @function [parent=#UIBehaviour] IsActive
+-- @function [parent=#UIBehaviour] IsDestroyed
 -- @param self
 -- @return #boolean
 

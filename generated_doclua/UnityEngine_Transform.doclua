@@ -6,33 +6,16 @@
 -- @extends UnityEngine_Component#Component
 
 ---
--- @function [parent=#Transform] GetChild
--- @param self
--- @param arg0
--- @return UnityEngine_Transform#Transform
-
----
--- @function [parent=#Transform] GetEnumerator
--- @param self
--- @return System_Collections_IEnumerator#IEnumerator
-
----
--- @function [parent=#Transform] FindChild
--- @param self
--- @param arg0
--- @return UnityEngine_Transform#Transform
-
----
--- @function [parent=#Transform] InverseTransformVector
+-- @function [parent=#Transform] SetParent
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] DetachChildren
+-- @function [parent=#Transform] SetPositionAndRotation
 -- @param self
+-- @param arg0
+-- @param arg1
 
 ---
 -- @function [parent=#Transform] Translate
@@ -43,17 +26,6 @@
 -- @param arg3
 
 ---
--- @function [parent=#Transform] GetSiblingIndex
--- @param self
--- @return #number
-
----
--- @function [parent=#Transform] LookAt
--- @param self
--- @param arg0
--- @param arg1
-
----
 -- @function [parent=#Transform] Rotate
 -- @param self
 -- @param arg0
@@ -62,28 +34,17 @@
 -- @param arg3
 
 ---
--- @function [parent=#Transform] SetAsFirstSibling
--- @param self
-
----
--- @function [parent=#Transform] TransformPoint
+-- @function [parent=#Transform] RotateAround
 -- @param self
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] SetParent
+-- @function [parent=#Transform] LookAt
 -- @param self
 -- @param arg0
 -- @param arg1
-
----
--- @function [parent=#Transform] IsChildOf
--- @param self
--- @param arg0
--- @return #boolean
 
 ---
 -- @function [parent=#Transform] TransformDirection
@@ -94,16 +55,31 @@
 -- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] SetSiblingIndex
+-- @function [parent=#Transform] InverseTransformDirection
 -- @param self
 -- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] SetAsLastSibling
+-- @function [parent=#Transform] TransformVector
 -- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] InverseTransformDirection
+-- @function [parent=#Transform] InverseTransformVector
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Transform] TransformPoint
 -- @param self
 -- @param arg0
 -- @param arg1
@@ -119,19 +95,26 @@
 -- @return UnityEngine_Vector3#Vector3
 
 ---
--- @function [parent=#Transform] RotateAround
+-- @function [parent=#Transform] DetachChildren
 -- @param self
--- @param arg0
--- @param arg1
--- @param arg2
 
 ---
--- @function [parent=#Transform] TransformVector
+-- @function [parent=#Transform] SetAsFirstSibling
+-- @param self
+
+---
+-- @function [parent=#Transform] SetAsLastSibling
+-- @param self
+
+---
+-- @function [parent=#Transform] SetSiblingIndex
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @return UnityEngine_Vector3#Vector3
+
+---
+-- @function [parent=#Transform] GetSiblingIndex
+-- @param self
+-- @return #number
 
 ---
 -- @function [parent=#Transform] Find
@@ -140,22 +123,51 @@
 -- @return UnityEngine_Transform#Transform
 
 ---
--- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix
+-- @function [parent=#Transform] IsChildOf
+-- @param self
+-- @param arg0
+-- @return #boolean
 
 ---
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 right
+-- @function [parent=#Transform] FindChild
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Transform#Transform
 
 ---
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 eulerAngles
+-- @function [parent=#Transform] GetEnumerator
+-- @param self
+-- @return System_Collections_IEnumerator#IEnumerator
+
+---
+-- @function [parent=#Transform] GetChild
+-- @param self
+-- @param arg0
+-- @return UnityEngine_Transform#Transform
+
+---
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 position
 
 ---
 -- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localPosition
 
 ---
--- @field [parent=#Transform] UnityEngine_Transform#Transform parent
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 eulerAngles
 
 ---
--- @field [parent=#Transform] #number hierarchyCount
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localEulerAngles
+
+---
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 right
+
+---
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 up
+
+---
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 forward
+
+---
+-- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion rotation
 
 ---
 -- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion localRotation
@@ -164,28 +176,13 @@
 -- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localScale
 
 ---
--- @field [parent=#Transform] #number hierarchyCapacity
+-- @field [parent=#Transform] UnityEngine_Transform#Transform parent
 
 ---
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 up
+-- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 worldToLocalMatrix
 
 ---
 -- @field [parent=#Transform] UnityEngine_Matrix4x4#Matrix4x4 localToWorldMatrix
-
----
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 localEulerAngles
-
----
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 lossyScale
-
----
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 forward
-
----
--- @field [parent=#Transform] UnityEngine_Vector3#Vector3 position
-
----
--- @field [parent=#Transform] UnityEngine_Quaternion#Quaternion rotation
 
 ---
 -- @field [parent=#Transform] UnityEngine_Transform#Transform root
@@ -194,6 +191,15 @@
 -- @field [parent=#Transform] #number childCount
 
 ---
+-- @field [parent=#Transform] UnityEngine_Vector3#Vector3 lossyScale
+
+---
 -- @field [parent=#Transform] #boolean hasChanged
+
+---
+-- @field [parent=#Transform] #number hierarchyCapacity
+
+---
+-- @field [parent=#Transform] #number hierarchyCount
 
 return nil

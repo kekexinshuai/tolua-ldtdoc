@@ -10,9 +10,9 @@
 -- @return UnityEngine_Behaviour#Behaviour
 
 ---
--- @field [parent=#Behaviour] #boolean isActiveAndEnabled
+-- @field [parent=#Behaviour] #boolean enabled
 
 ---
--- @field [parent=#Behaviour] #boolean enabled
+-- @field [parent=#Behaviour] #boolean isActiveAndEnabled
 
 return nil

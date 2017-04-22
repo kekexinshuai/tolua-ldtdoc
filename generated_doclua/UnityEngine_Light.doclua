@@ -6,35 +6,11 @@
 -- @extends UnityEngine_Behaviour#Behaviour
 
 ---
--- @function [parent=#Light] RemoveCommandBuffers
--- @param self
--- @param arg0
-
----
 -- @function [parent=#Light] AddCommandBuffer
 -- @param self
 -- @param arg0
 -- @param arg1
-
----
--- @function [parent=#Light] RemoveAllCommandBuffers
--- @param self
-
----
--- @function [parent=#Light] New
--- @return UnityEngine_Light#Light
-
----
--- @function [parent=#Light] GetCommandBuffers
--- @param self
--- @param arg0
--- @return #list<UnityEngine_Rendering_CommandBuffer#CommandBuffer>
-
----
--- @function [parent=#Light] GetLights
--- @param arg0
--- @param arg1
--- @return #list<UnityEngine_Light#Light>
+-- @param arg2
 
 ---
 -- @function [parent=#Light] RemoveCommandBuffer
@@ -43,31 +19,65 @@
 -- @param arg1
 
 ---
--- @field [parent=#Light] UnityEngine_LightShadows#LightShadows shadows
+-- @function [parent=#Light] RemoveCommandBuffers
+-- @param self
+-- @param arg0
 
 ---
--- @field [parent=#Light] #number bakedIndex
+-- @function [parent=#Light] RemoveAllCommandBuffers
+-- @param self
 
 ---
--- @field [parent=#Light] UnityEngine_Flare#Flare flare
+-- @function [parent=#Light] GetCommandBuffers
+-- @param self
+-- @param arg0
+-- @return System_Array#Array
 
 ---
--- @field [parent=#Light] #boolean isBaked
+-- @function [parent=#Light] GetLights
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Light] New
+-- @return UnityEngine_Light#Light
+
+---
+-- @field [parent=#Light] UnityEngine_LightType#LightType type
 
 ---
 -- @field [parent=#Light] UnityEngine_Color#Color color
 
 ---
--- @field [parent=#Light] #number shadowCustomResolution
+-- @field [parent=#Light] #number colorTemperature
+
+---
+-- @field [parent=#Light] #number intensity
+
+---
+-- @field [parent=#Light] #number bounceIntensity
+
+---
+-- @field [parent=#Light] UnityEngine_LightShadows#LightShadows shadows
+
+---
+-- @field [parent=#Light] #number shadowStrength
 
 ---
 -- @field [parent=#Light] UnityEngine_Rendering_LightShadowResolution#LightShadowResolution shadowResolution
 
 ---
--- @field [parent=#Light] #number cookieSize
+-- @field [parent=#Light] #number shadowCustomResolution
 
 ---
--- @field [parent=#Light] #number bounceIntensity
+-- @field [parent=#Light] #number shadowBias
+
+---
+-- @field [parent=#Light] #number shadowNormalBias
+
+---
+-- @field [parent=#Light] #number shadowNearPlane
 
 ---
 -- @field [parent=#Light] #number range
@@ -76,33 +86,30 @@
 -- @field [parent=#Light] #number spotAngle
 
 ---
--- @field [parent=#Light] #number shadowStrength
-
----
--- @field [parent=#Light] #number intensity
+-- @field [parent=#Light] #number cookieSize
 
 ---
 -- @field [parent=#Light] UnityEngine_Texture#Texture cookie
 
 ---
--- @field [parent=#Light] #number shadowNearPlane
-
----
--- @field [parent=#Light] #number shadowBias
-
----
--- @field [parent=#Light] #number commandBufferCount
+-- @field [parent=#Light] UnityEngine_Flare#Flare flare
 
 ---
 -- @field [parent=#Light] UnityEngine_LightRenderMode#LightRenderMode renderMode
 
 ---
--- @field [parent=#Light] UnityEngine_LightType#LightType type
+-- @field [parent=#Light] #boolean alreadyLightmapped
 
 ---
--- @field [parent=#Light] #number shadowNormalBias
+-- @field [parent=#Light] #boolean isBaked
 
 ---
 -- @field [parent=#Light] #number cullingMask
+
+---
+-- @field [parent=#Light] UnityEngine_LightmapBakeType#LightmapBakeType lightmapBakeType
+
+---
+-- @field [parent=#Light] #number commandBufferCount
 
 return nil

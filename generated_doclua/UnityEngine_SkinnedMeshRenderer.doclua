@@ -11,10 +11,6 @@
 -- @param arg0
 
 ---
--- @function [parent=#SkinnedMeshRenderer] New
--- @return UnityEngine_SkinnedMeshRenderer#SkinnedMeshRenderer
-
----
 -- @function [parent=#SkinnedMeshRenderer] GetBlendShapeWeight
 -- @param self
 -- @param arg0
@@ -27,16 +23,11 @@
 -- @param arg1
 
 ---
--- @field [parent=#SkinnedMeshRenderer] UnityEngine_Mesh#Mesh sharedMesh
+-- @function [parent=#SkinnedMeshRenderer] New
+-- @return UnityEngine_SkinnedMeshRenderer#SkinnedMeshRenderer
 
 ---
--- @field [parent=#SkinnedMeshRenderer] UnityEngine_Bounds#Bounds localBounds
-
----
--- @field [parent=#SkinnedMeshRenderer] #list<UnityEngine_Transform#Transform> bones
-
----
--- @field [parent=#SkinnedMeshRenderer] #boolean updateWhenOffscreen
+-- @field [parent=#SkinnedMeshRenderer] System_Array#Array bones
 
 ---
 -- @field [parent=#SkinnedMeshRenderer] UnityEngine_Transform#Transform rootBone
@@ -45,6 +36,15 @@
 -- @field [parent=#SkinnedMeshRenderer] UnityEngine_SkinQuality#SkinQuality quality
 
 ---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Mesh#Mesh sharedMesh
+
+---
+-- @field [parent=#SkinnedMeshRenderer] #boolean updateWhenOffscreen
+
+---
 -- @field [parent=#SkinnedMeshRenderer] #boolean skinnedMotionVectors
+
+---
+-- @field [parent=#SkinnedMeshRenderer] UnityEngine_Bounds#Bounds localBounds
 
 return nil

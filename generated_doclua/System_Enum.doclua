@@ -5,11 +5,59 @@
 -- @type Enum
 
 ---
--- @function [parent=#Enum] Parse
+-- @function [parent=#Enum] GetTypeCode
+-- @param self
+-- @return System_TypeCode#TypeCode
+
+---
+-- @function [parent=#Enum] GetValues
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Enum] GetNames
+-- @param arg0
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Enum] GetName
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @return object#object
+-- @return #string
+
+---
+-- @function [parent=#Enum] IsDefined
+-- @param arg0
+-- @param arg1
+-- @return #boolean
+
+---
+-- @function [parent=#Enum] GetUnderlyingType
+-- @param arg0
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Enum] CompareTo
+-- @param self
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Enum] ToString
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#Enum] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#Enum] GetHashCode
+-- @param self
+-- @return #number
 
 ---
 -- @function [parent=#Enum] Format
@@ -19,68 +67,20 @@
 -- @return #string
 
 ---
--- @function [parent=#Enum] GetNames
--- @param arg0
--- @return #list<#string>
-
----
--- @function [parent=#Enum] GetName
+-- @function [parent=#Enum] Parse
 -- @param arg0
 -- @param arg1
--- @return #string
-
----
--- @function [parent=#Enum] ToInt
--- @return #number
-
----
--- @function [parent=#Enum] Equals
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#Enum] IsDefined
--- @param arg0
--- @param arg1
--- @return #boolean
-
----
--- @function [parent=#Enum] GetValues
--- @param arg0
--- @return System_Array#Array
-
----
--- @function [parent=#Enum] GetTypeCode
--- @param self
--- @return System_TypeCode#TypeCode
-
----
--- @function [parent=#Enum] ToString
--- @param self
--- @param arg0
--- @return #string
-
----
--- @function [parent=#Enum] CompareTo
--- @param self
--- @param arg0
--- @return #number
-
----
--- @function [parent=#Enum] GetHashCode
--- @param self
--- @return #number
-
----
--- @function [parent=#Enum] GetUnderlyingType
--- @param arg0
--- @return System_Type#Type
+-- @param arg2
+-- @return object#object
 
 ---
 -- @function [parent=#Enum] ToObject
 -- @param arg0
 -- @param arg1
 -- @return object#object
+
+---
+-- @function [parent=#Enum] ToInt
+-- @return #number
 
 return nil

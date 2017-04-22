@@ -6,11 +6,11 @@
 -- @extends System_Object#Object
 
 ---
--- @function [parent=#LuaConstructor] Destroy
+-- @function [parent=#LuaConstructor] Call
 -- @param self
 
 ---
--- @function [parent=#LuaConstructor] Call
+-- @function [parent=#LuaConstructor] Destroy
 -- @param self
 
 return nil

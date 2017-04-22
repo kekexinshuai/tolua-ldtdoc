@@ -6,60 +6,25 @@
 -- @extends UnityEngine_Object#Object
 
 ---
--- @function [parent=#Shader] SetGlobalBuffer
+-- @function [parent=#Shader] Find
 -- @param arg0
--- @param arg1
+-- @return UnityEngine_Shader#Shader
+
+---
+-- @function [parent=#Shader] EnableKeyword
+-- @param arg0
 
 ---
 -- @function [parent=#Shader] DisableKeyword
 -- @param arg0
 
 ---
--- @function [parent=#Shader] GetGlobalTexture
+-- @function [parent=#Shader] IsKeywordEnabled
 -- @param arg0
--- @return UnityEngine_Texture#Texture
+-- @return #boolean
 
 ---
--- @function [parent=#Shader] GetGlobalMatrixArray
--- @param arg0
--- @param arg1
--- @return #list<UnityEngine_Matrix4x4#Matrix4x4>
-
----
--- @function [parent=#Shader] GetGlobalInt
--- @param arg0
--- @return #number
-
----
--- @function [parent=#Shader] WarmupAllShaders
-
----
--- @function [parent=#Shader] GetGlobalFloatArray
--- @param arg0
--- @param arg1
--- @return #list<#number>
-
----
--- @function [parent=#Shader] GetGlobalFloat
--- @param arg0
--- @return #number
-
----
--- @function [parent=#Shader] New
--- @return UnityEngine_Shader#Shader
-
----
--- @function [parent=#Shader] SetGlobalVector
--- @param arg0
--- @param arg1
-
----
--- @function [parent=#Shader] SetGlobalVectorArray
--- @param arg0
--- @param arg1
-
----
--- @function [parent=#Shader] SetGlobalFloatArray
+-- @function [parent=#Shader] SetGlobalBuffer
 -- @param arg0
 -- @param arg1
 
@@ -69,35 +34,7 @@
 -- @return #number
 
 ---
--- @function [parent=#Shader] GetGlobalColor
--- @param arg0
--- @return UnityEngine_Color#Color
-
----
--- @function [parent=#Shader] GetGlobalVectorArray
--- @param arg0
--- @param arg1
--- @return #list<UnityEngine_Vector4#Vector4>
-
----
--- @function [parent=#Shader] SetGlobalColor
--- @param arg0
--- @param arg1
-
----
--- @function [parent=#Shader] GetGlobalVector
--- @param arg0
--- @return UnityEngine_Vector4#Vector4
-
----
--- @function [parent=#Shader] IsKeywordEnabled
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#Shader] SetGlobalTexture
--- @param arg0
--- @param arg1
+-- @function [parent=#Shader] WarmupAllShaders
 
 ---
 -- @function [parent=#Shader] SetGlobalFloat
@@ -110,11 +47,32 @@
 -- @param arg1
 
 ---
--- @function [parent=#Shader] EnableKeyword
+-- @function [parent=#Shader] SetGlobalVector
 -- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalColor
+-- @param arg0
+-- @param arg1
 
 ---
 -- @function [parent=#Shader] SetGlobalMatrix
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalTexture
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalFloatArray
+-- @param arg0
+-- @param arg1
+
+---
+-- @function [parent=#Shader] SetGlobalVectorArray
 -- @param arg0
 -- @param arg1
 
@@ -124,9 +82,24 @@
 -- @param arg1
 
 ---
--- @function [parent=#Shader] Find
+-- @function [parent=#Shader] GetGlobalFloat
 -- @param arg0
--- @return UnityEngine_Shader#Shader
+-- @return #number
+
+---
+-- @function [parent=#Shader] GetGlobalInt
+-- @param arg0
+-- @return #number
+
+---
+-- @function [parent=#Shader] GetGlobalVector
+-- @param arg0
+-- @return UnityEngine_Vector4#Vector4
+
+---
+-- @function [parent=#Shader] GetGlobalColor
+-- @param arg0
+-- @return UnityEngine_Color#Color
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrix
@@ -134,15 +107,45 @@
 -- @return UnityEngine_Matrix4x4#Matrix4x4
 
 ---
--- @field [parent=#Shader] #boolean isSupported
+-- @function [parent=#Shader] GetGlobalTexture
+-- @param arg0
+-- @return UnityEngine_Texture#Texture
 
 ---
--- @field [parent=#Shader] #number renderQueue
+-- @function [parent=#Shader] GetGlobalFloatArray
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] GetGlobalVectorArray
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] GetGlobalMatrixArray
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Shader] New
+-- @return UnityEngine_Shader#Shader
+
+---
+-- @field [parent=#Shader] #boolean isSupported
 
 ---
 -- @field [parent=#Shader] #number maximumLOD
 
 ---
 -- @field [parent=#Shader] #number globalMaximumLOD
+
+---
+-- @field [parent=#Shader] #string globalRenderPipeline
+
+---
+-- @field [parent=#Shader] #number renderQueue
 
 return nil

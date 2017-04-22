@@ -12,39 +12,39 @@
 -- @param arg3
 
 ---
+-- @field [parent=#Screen] UnityEngine_Screen#Screen resolutions
+
+---
+-- @field [parent=#Screen] currentResolution
+
+---
+-- @field [parent=#Screen] #number width
+
+---
+-- @field [parent=#Screen] #number height
+
+---
+-- @field [parent=#Screen] #number dpi
+
+---
 -- @field [parent=#Screen] #boolean fullScreen
 
 ---
 -- @field [parent=#Screen] #boolean autorotateToPortrait
 
 ---
--- @field [parent=#Screen] #boolean autorotateToLandscapeLeft
+-- @field [parent=#Screen] #boolean autorotateToPortraitUpsideDown
 
 ---
--- @field [parent=#Screen] UnityEngine_Screen#Screen orientation
+-- @field [parent=#Screen] #boolean autorotateToLandscapeLeft
 
 ---
 -- @field [parent=#Screen] #boolean autorotateToLandscapeRight
 
 ---
--- @field [parent=#Screen] #number height
-
----
--- @field [parent=#Screen] #number width
-
----
--- @field [parent=#Screen] currentResolution
-
----
--- @field [parent=#Screen] #boolean autorotateToPortraitUpsideDown
+-- @field [parent=#Screen] UnityEngine_Screen#Screen orientation
 
 ---
 -- @field [parent=#Screen] #number sleepTimeout
-
----
--- @field [parent=#Screen] UnityEngine_Screen#Screen resolutions
-
----
--- @field [parent=#Screen] #number dpi
 
 return nil

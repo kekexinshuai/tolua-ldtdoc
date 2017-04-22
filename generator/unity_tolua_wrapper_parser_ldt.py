@@ -1,5 +1,25 @@
+# -*- coding: utf-8 -*-
 import re
 import os
+
+# i gave up (T_T)
+override = {
+	"System.Array": {
+		"ToTable": {
+			"return_type": "#list<System_Object#Object>"
+		}
+	}
+}
+
+# this parser can't handle these files yet
+ignore_files = [
+	"LuaInterface_LuaOutWrap.cs", 
+	"System_Collections_Generic_DictionaryWrap.cs", 
+	"System_Collections_Generic_Dictionary_KeyCollectionWrap.cs",
+	"System_Collections_Generic_Dictionary_ValueCollectionWrap.cs",
+	"System_Collections_Generic_KeyValuePairWrap.cs",
+	"System_Collections_Generic_ListWrap.cs",
+	"System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs"]
 
 builtin_types_map = {
 	"int": "#number",
@@ -29,7 +49,7 @@ def cstype_map_to_ldttype(cs_type):
 			ldt_type = builtin_types_map[cs_type]
 		elif cs_type.endswith("[]"):
 			cs_type = cs_type[:-2]
-			ldt_type = "#list<%s>" % cstype_map_to_ldttype(cs_type)
+			ldt_type = "System_Array#Array"
 		else:
 			module = cs_type.replace(".","_")
 			_type = cs_type.split(".")[-1]
@@ -41,7 +61,7 @@ def parse(ifile,odir):
 	function_defs = {}
 	filed_defs = {}
 
-	with open(ifile,"r") as f:
+	with open(ifile,encoding="utf-8",mode="r") as f:
 		brace_level = 0
 		cs_function_def_parsing_func_name = None
 		cs_function_def_breace_level = -1
@@ -63,13 +83,18 @@ def parse(ifile,odir):
 					elif cs_function_def_parsing_func_name.startswith("get_"):
 						def_func_name = cs_function_def_parsing_func_name[len("get_"):]
 
-
 					if def_func_name in function_defs:
 						function_def = function_defs[def_func_name]
 						function_def["param_count"] = cs_function_def_max_args
 						function_def["return_type"] = cstype_map_to_ldttype(cs_function_def_return_type)
 						function_def["is_static"] = cs_function_def_is_static
 						function_def["valid"] = True
+						override_class = override.get(parsing_class["name"], {})
+						override_func_def = override_class.get(def_func_name, {})
+						override_return_type = override_func_def.get("return_type", "")
+						if override_return_type:
+							function_defs[def_func_name]["return_type"] = override_return_type
+
 					elif def_func_name in filed_defs:
 						filed_def = filed_defs[def_func_name]
 						filed_def["type"] = cstype_map_to_ldttype(cs_function_def_return_type)
@@ -153,7 +178,6 @@ def parse(ifile,odir):
 
 		# output
 		ldt_type = cstype_map_to_ldttype(parsing_class["name"])
-		print ldt_type
 		parsing_module = ldt_type.split("#")[0]
 		parsing_type = ldt_type.split("#")[1]
 		with open(os.path.join(odir,parsing_module+".doclua"),"w") as of:
@@ -164,7 +188,7 @@ def parse(ifile,odir):
 			if "parent" in parsing_class:
 				of.write("-- @extends %s\n" % cstype_map_to_ldttype(parsing_class["parent"]))
 			of.write("\n")
-			for _, func in function_defs.iteritems():
+			for _, func in function_defs.items():
 				if not "valid" in func: continue
 				of.write("---\n")
 				of.write("-- @function [parent=#%s] %s\n" % (parsing_type, func["name"]))
@@ -175,7 +199,7 @@ def parse(ifile,odir):
 				if func["return_type"] is not None:
 					of.write("-- @return %s\n" % func["return_type"])
 				of.write("\n")
-			for _, field in filed_defs.iteritems():
+			for _, field in filed_defs.items():
 				if not "valid" in field: continue
 				of.write("---\n")
 				_type = field["type"] + " " if field["type"] is not None else ""
@@ -183,17 +207,9 @@ def parse(ifile,odir):
 			of.write("return nil\n")
 
 if __name__ == "__main__":
-	srcdir1 = r"D:\unity_projects\test2\Assets\Source\Generate"
-	srcdir2 = r"D:\unity_projects\test2\Assets\3rd\tolua\ToLua\BaseType"
-	destdir = r"E:\src\ps5mh_github\generated_doclua"
-	ignore_files = [
-		"LuaInterface_LuaOutWrap.cs", 
-		"System_Collections_Generic_DictionaryWrap.cs", 
-		"System_Collections_Generic_Dictionary_KeyCollectionWrap.cs",
-		"System_Collections_Generic_Dictionary_ValueCollectionWrap.cs",
-		"System_Collections_Generic_KeyValuePairWrap.cs",
-		"System_Collections_Generic_ListWrap.cs",
-		"System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs"]
+	srcdir1 = r"D:\develop\projects\Test Unity Project\Assets\3rd\tolua\Source\Generate"
+	srcdir2 = r"D:\develop\projects\Test Unity Project\Assets\3rd\tolua\ToLua\BaseType"
+	destdir = r"D:\develop\projects\tolua-ldtdoc\generated_doclua"
 	flist1 = [os.path.join(srcdir1,f) for f in os.listdir(srcdir1)]
 	flist2 = [os.path.join(srcdir2,f) for f in os.listdir(srcdir2)]
 
@@ -212,9 +228,9 @@ if __name__ == "__main__":
 				root_module, filed_name = module_paths[0], module_paths[1]
 				root_module_fields = root_module_to_fields.setdefault(root_module,{})
 				root_module_fields[filed_name] = {"type": cstype_map_to_ldttype(module_name)}
-	for module,fields in root_module_to_fields.iteritems():
+	for module,fields in root_module_to_fields.items():
 		with open(os.path.join(destdir, module + ".doclua"),"w") as of:
 			of.write("---\n-- @module %s\n\n" % module)
-			for field, field_info in fields.iteritems():
+			for field, field_info in fields.items():
 				of.write("---\n-- @field [parent=#%s] %s %s\n\n" % (module, field_info["type"], field))
 			of.write("return nil\n")

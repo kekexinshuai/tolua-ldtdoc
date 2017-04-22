@@ -6,12 +6,22 @@
 -- @extends UnityEngine_Object#Object
 
 ---
+-- @function [parent=#AnimationClip] SampleAnimation
+-- @param self
+-- @param arg0
+-- @param arg1
+
+---
 -- @function [parent=#AnimationClip] SetCurve
 -- @param self
 -- @param arg0
 -- @param arg1
 -- @param arg2
 -- @param arg3
+
+---
+-- @function [parent=#AnimationClip] EnsureQuaternionContinuity
+-- @param self
 
 ---
 -- @function [parent=#AnimationClip] ClearCurves
@@ -23,38 +33,28 @@
 -- @param arg0
 
 ---
--- @function [parent=#AnimationClip] EnsureQuaternionContinuity
--- @param self
-
----
 -- @function [parent=#AnimationClip] New
 -- @return UnityEngine_AnimationClip#AnimationClip
-
----
--- @function [parent=#AnimationClip] SampleAnimation
--- @param self
--- @param arg0
--- @param arg1
-
----
--- @field [parent=#AnimationClip] UnityEngine_Bounds#Bounds localBounds
-
----
--- @field [parent=#AnimationClip] #boolean humanMotion
-
----
--- @field [parent=#AnimationClip] #number frameRate
 
 ---
 -- @field [parent=#AnimationClip] #number length
 
 ---
--- @field [parent=#AnimationClip] #boolean legacy
+-- @field [parent=#AnimationClip] #number frameRate
 
 ---
 -- @field [parent=#AnimationClip] UnityEngine_WrapMode#WrapMode wrapMode
 
 ---
--- @field [parent=#AnimationClip] #list<UnityEngine_AnimationEvent#AnimationEvent> events
+-- @field [parent=#AnimationClip] UnityEngine_Bounds#Bounds localBounds
+
+---
+-- @field [parent=#AnimationClip] #boolean legacy
+
+---
+-- @field [parent=#AnimationClip] #boolean humanMotion
+
+---
+-- @field [parent=#AnimationClip] System_Array#Array events
 
 return nil

@@ -6,11 +6,11 @@
 -- @extends System_Object#Object
 
 ---
--- @function [parent=#LuaField] Set
+-- @function [parent=#LuaField] Get
 -- @param self
 
 ---
--- @function [parent=#LuaField] Get
+-- @function [parent=#LuaField] Set
 -- @param self
 
 return nil

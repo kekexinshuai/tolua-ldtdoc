@@ -5,18 +5,12 @@
 -- @type Resources
 
 ---
--- @function [parent=#Resources] Load
--- @param arg0
--- @param arg1
--- @return UnityEngine_Object#Object
-
----
 -- @function [parent=#Resources] FindObjectsOfTypeAll
 -- @param arg0
--- @return #list<UnityEngine_Object#Object>
+-- @return System_Array#Array
 
 ---
--- @function [parent=#Resources] GetBuiltinResource
+-- @function [parent=#Resources] Load
 -- @param arg0
 -- @param arg1
 -- @return UnityEngine_Object#Object
@@ -31,14 +25,20 @@
 -- @function [parent=#Resources] LoadAll
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Object#Object>
+-- @return System_Array#Array
 
 ---
--- @function [parent=#Resources] UnloadUnusedAssets
--- @return UnityEngine_AsyncOperation#AsyncOperation
+-- @function [parent=#Resources] GetBuiltinResource
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#Resources] UnloadAsset
 -- @param arg0
+
+---
+-- @function [parent=#Resources] UnloadUnusedAssets
+-- @return UnityEngine_AsyncOperation#AsyncOperation
 
 return nil

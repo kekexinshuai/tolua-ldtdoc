@@ -5,20 +5,10 @@
 -- @type Object
 
 ---
--- @function [parent=#Object] GetType
--- @param self
--- @return System_Type#Type
-
----
 -- @function [parent=#Object] Equals
 -- @param self
 -- @param arg0
 -- @return #boolean
-
----
--- @function [parent=#Object] ToString
--- @param self
--- @return #string
 
 ---
 -- @function [parent=#Object] GetHashCode
@@ -26,12 +16,22 @@
 -- @return #number
 
 ---
--- @function [parent=#Object] Destroy
+-- @function [parent=#Object] GetType
+-- @param self
+-- @return System_Type#Type
+
+---
+-- @function [parent=#Object] ToString
+-- @param self
+-- @return #string
 
 ---
 -- @function [parent=#Object] ReferenceEquals
 -- @param arg0
 -- @param arg1
 -- @return #boolean
+
+---
+-- @function [parent=#Object] Destroy
 
 return nil

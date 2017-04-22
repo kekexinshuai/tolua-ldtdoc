@@ -6,11 +6,10 @@
 -- @extends UnityEngine_Object#Object
 
 ---
--- @function [parent=#Component] BroadcastMessage
+-- @function [parent=#Component] GetComponent
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
+-- @return UnityEngine_Component#Component
 
 ---
 -- @function [parent=#Component] GetComponentInChildren
@@ -20,10 +19,37 @@
 -- @return UnityEngine_Component#Component
 
 ---
+-- @function [parent=#Component] GetComponentsInChildren
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
 -- @function [parent=#Component] GetComponentInParent
 -- @param self
 -- @param arg0
 -- @return UnityEngine_Component#Component
+
+---
+-- @function [parent=#Component] GetComponentsInParent
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Component] GetComponents
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Component] CompareTag
+-- @param self
+-- @param arg0
+-- @return #boolean
 
 ---
 -- @function [parent=#Component] SendMessageUpwards
@@ -40,49 +66,23 @@
 -- @param arg2
 
 ---
--- @function [parent=#Component] GetComponent
--- @param self
--- @param arg0
--- @return UnityEngine_Component#Component
-
----
--- @function [parent=#Component] GetComponentsInChildren
+-- @function [parent=#Component] BroadcastMessage
 -- @param self
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Component#Component>
-
----
--- @function [parent=#Component] GetComponentsInParent
--- @param self
--- @param arg0
--- @param arg1
--- @return #list<UnityEngine_Component#Component>
+-- @param arg2
 
 ---
 -- @function [parent=#Component] New
 -- @return UnityEngine_Component#Component
 
 ---
--- @function [parent=#Component] CompareTag
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#Component] GetComponents
--- @param self
--- @param arg0
--- @param arg1
--- @return #list<UnityEngine_Component#Component>
+-- @field [parent=#Component] UnityEngine_Transform#Transform transform
 
 ---
 -- @field [parent=#Component] UnityEngine_GameObject#GameObject gameObject
 
 ---
 -- @field [parent=#Component] #string tag
-
----
--- @field [parent=#Component] UnityEngine_Transform#Transform transform
 
 return nil

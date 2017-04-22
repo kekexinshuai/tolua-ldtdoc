@@ -6,17 +6,83 @@
 -- @extends System_Object#Object
 
 ---
--- @function [parent=#String] Normalize
+-- @function [parent=#String] Equals
 -- @param self
 -- @param arg0
--- @return #string
+-- @param arg1
+-- @return #boolean
 
 ---
--- @function [parent=#String] Insert
+-- @function [parent=#String] Clone
+-- @param self
+-- @return object#object
+
+---
+-- @function [parent=#String] GetTypeCode
+-- @param self
+-- @return System_TypeCode#TypeCode
+
+---
+-- @function [parent=#String] CopyTo
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+
+---
+-- @function [parent=#String] ToCharArray
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
+
+---
+-- @function [parent=#String] Split
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @return System_Array#Array
+
+---
+-- @function [parent=#String] Substring
 -- @param self
 -- @param arg0
 -- @param arg1
 -- @return #string
+
+---
+-- @function [parent=#String] Trim
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] TrimStart
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] TrimEnd
+-- @param self
+-- @return #string
+
+---
+-- @function [parent=#String] Compare
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @param arg4
+-- @param arg5
+-- @param arg6
+-- @return #number
+
+---
+-- @function [parent=#String] CompareTo
+-- @param self
+-- @param arg0
+-- @return #number
 
 ---
 -- @function [parent=#String] CompareOrdinal
@@ -28,17 +94,6 @@
 -- @return #number
 
 ---
--- @function [parent=#String] Contains
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#String] IsInterned
--- @param arg0
--- @return #string
-
----
 -- @function [parent=#String] EndsWith
 -- @param self
 -- @param arg0
@@ -47,39 +102,21 @@
 -- @return #boolean
 
 ---
--- @function [parent=#String] Split
+-- @function [parent=#String] IndexOfAny
 -- @param self
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @return #list<#string>
-
----
--- @function [parent=#String] ToUpper
--- @param self
--- @param arg0
--- @return #string
-
----
--- @function [parent=#String] CompareTo
--- @param self
--- @param arg0
 -- @return #number
 
 ---
--- @function [parent=#String] GetHashCode
+-- @function [parent=#String] IndexOf
 -- @param self
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
 -- @return #number
-
----
--- @function [parent=#String] ToUpperInvariant
--- @param self
--- @return #string
-
----
--- @function [parent=#String] TrimEnd
--- @param self
--- @return #string
 
 ---
 -- @function [parent=#String] LastIndexOf
@@ -91,21 +128,6 @@
 -- @return #number
 
 ---
--- @function [parent=#String] Format
--- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @return #string
-
----
--- @function [parent=#String] PadLeft
--- @param self
--- @param arg0
--- @param arg1
--- @return #string
-
----
 -- @function [parent=#String] LastIndexOfAny
 -- @param self
 -- @param arg0
@@ -114,38 +136,40 @@
 -- @return #number
 
 ---
--- @function [parent=#String] Clone
--- @param self
--- @return object#object
-
----
--- @function [parent=#String] GetEnumerator
--- @param self
--- @return System_CharEnumerator#CharEnumerator
-
----
--- @function [parent=#String] Equals
+-- @function [parent=#String] Contains
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return #boolean
 
 ---
--- @function [parent=#String] GetTypeCode
--- @param self
--- @return System_TypeCode#TypeCode
+-- @function [parent=#String] IsNullOrEmpty
+-- @param arg0
+-- @return #boolean
 
 ---
--- @function [parent=#String] Copy
+-- @function [parent=#String] Normalize
+-- @param self
 -- @param arg0
 -- @return #string
 
 ---
--- @function [parent=#String] Concat
+-- @function [parent=#String] IsNormalized
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#String] Remove
+-- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
+-- @return #string
+
+---
+-- @function [parent=#String] PadLeft
+-- @param self
+-- @param arg0
+-- @param arg1
 -- @return #string
 
 ---
@@ -164,36 +188,14 @@
 -- @return #boolean
 
 ---
--- @function [parent=#String] Join
+-- @function [parent=#String] Replace
+-- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #string
 
 ---
 -- @function [parent=#String] ToLower
--- @param self
--- @param arg0
--- @return #string
-
----
--- @function [parent=#String] Remove
--- @param self
--- @param arg0
--- @param arg1
--- @return #string
-
----
--- @function [parent=#String] CopyTo
--- @param self
--- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
-
----
--- @function [parent=#String] ToString
 -- @param self
 -- @param arg0
 -- @return #string
@@ -204,53 +206,45 @@
 -- @return #string
 
 ---
--- @function [parent=#String] Trim
+-- @function [parent=#String] ToUpper
+-- @param self
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] ToUpperInvariant
 -- @param self
 -- @return #string
 
 ---
--- @function [parent=#String] Compare
--- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
--- @return #number
-
----
--- @function [parent=#String] IndexOf
+-- @function [parent=#String] ToString
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @return #number
-
----
--- @function [parent=#String] IsNormalized
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#String] IndexOfAny
--- @param self
--- @param arg0
--- @param arg1
--- @param arg2
--- @return #number
-
----
--- @function [parent=#String] Replace
--- @param self
--- @param arg0
--- @param arg1
 -- @return #string
 
 ---
--- @function [parent=#String] Substring
+-- @function [parent=#String] Format
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #string
+
+---
+-- @function [parent=#String] Copy
+-- @param arg0
+-- @return #string
+
+---
+-- @function [parent=#String] Concat
+-- @param arg0
+-- @param arg1
+-- @param arg2
+-- @param arg3
+-- @return #string
+
+---
+-- @function [parent=#String] Insert
 -- @param self
 -- @param arg0
 -- @param arg1
@@ -262,26 +256,32 @@
 -- @return #string
 
 ---
--- @function [parent=#String] TrimStart
--- @param self
+-- @function [parent=#String] IsInterned
+-- @param arg0
 -- @return #string
 
 ---
--- @function [parent=#String] IsNullOrEmpty
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#String] ToCharArray
--- @param self
+-- @function [parent=#String] Join
 -- @param arg0
 -- @param arg1
--- @return #list<char#char>
+-- @param arg2
+-- @param arg3
+-- @return #string
 
 ---
--- @field [parent=#String] #number Length
+-- @function [parent=#String] GetEnumerator
+-- @param self
+-- @return System_CharEnumerator#CharEnumerator
+
+---
+-- @function [parent=#String] GetHashCode
+-- @param self
+-- @return #number
 
 ---
 -- @field [parent=#String] #string Empty
+
+---
+-- @field [parent=#String] #number Length
 
 return nil

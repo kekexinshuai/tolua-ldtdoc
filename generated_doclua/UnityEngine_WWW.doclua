@@ -6,24 +6,8 @@
 -- @extends System_Object#Object
 
 ---
--- @function [parent=#WWW] UnEscapeURL
--- @param arg0
--- @param arg1
--- @return #string
-
----
--- @function [parent=#WWW] EscapeURL
--- @param arg0
--- @param arg1
--- @return #string
-
----
--- @function [parent=#WWW] GetAudioClip
+-- @function [parent=#WWW] Dispose
 -- @param self
--- @param arg0
--- @param arg1
--- @param arg2
--- @return UnityEngine_AudioClip#AudioClip
 
 ---
 -- @function [parent=#WWW] InitWWW
@@ -33,19 +17,21 @@
 -- @param arg2
 
 ---
--- @function [parent=#WWW] GetAudioClipCompressed
--- @param self
+-- @function [parent=#WWW] EscapeURL
 -- @param arg0
 -- @param arg1
--- @return UnityEngine_AudioClip#AudioClip
+-- @return #string
 
 ---
--- @function [parent=#WWW] Dispose
+-- @function [parent=#WWW] UnEscapeURL
+-- @param arg0
+-- @param arg1
+-- @return #string
+
+---
+-- @function [parent=#WWW] LoadImageIntoTexture
 -- @param self
-
----
--- @function [parent=#WWW] New
--- @return UnityEngine_WWW#WWW
+-- @param arg0
 
 ---
 -- @function [parent=#WWW] LoadFromCacheOrDownload
@@ -55,53 +41,49 @@
 -- @return UnityEngine_WWW#WWW
 
 ---
--- @function [parent=#WWW] LoadImageIntoTexture
--- @param self
--- @param arg0
-
----
--- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D textureNonReadable
-
----
--- @field [parent=#WWW] #string url
-
----
--- @field [parent=#WWW] #string text
-
----
--- @field [parent=#WWW] #list<#number> bytes
-
----
--- @field [parent=#WWW] UnityEngine_AudioClip#AudioClip audioClip
-
----
--- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D texture
-
----
--- @field [parent=#WWW] #number uploadProgress
-
----
--- @field [parent=#WWW] UnityEngine_AssetBundle#AssetBundle assetBundle
-
----
--- @field [parent=#WWW] #number bytesDownloaded
-
----
--- @field [parent=#WWW] UnityEngine_ThreadPriority#ThreadPriority threadPriority
-
----
--- @field [parent=#WWW] #string error
-
----
--- @field [parent=#WWW] #number progress
+-- @function [parent=#WWW] New
+-- @return UnityEngine_WWW#WWW
 
 ---
 -- @field [parent=#WWW] System_Collections_Generic_Dictionary<string,string>#Dictionary<string,string> responseHeaders
 
 ---
--- @field [parent=#WWW] #boolean isDone
+-- @field [parent=#WWW] #string text
+
+---
+-- @field [parent=#WWW] System_Array#Array bytes
 
 ---
 -- @field [parent=#WWW] #number size
+
+---
+-- @field [parent=#WWW] #string error
+
+---
+-- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D texture
+
+---
+-- @field [parent=#WWW] UnityEngine_Texture2D#Texture2D textureNonReadable
+
+---
+-- @field [parent=#WWW] #boolean isDone
+
+---
+-- @field [parent=#WWW] #number progress
+
+---
+-- @field [parent=#WWW] #number uploadProgress
+
+---
+-- @field [parent=#WWW] #number bytesDownloaded
+
+---
+-- @field [parent=#WWW] #string url
+
+---
+-- @field [parent=#WWW] UnityEngine_AssetBundle#AssetBundle assetBundle
+
+---
+-- @field [parent=#WWW] UnityEngine_ThreadPriority#ThreadPriority threadPriority
 
 return nil

@@ -6,23 +6,6 @@
 -- @extends System_Object#Object
 
 ---
--- @function [parent=#Delegate] Clone
--- @param self
--- @return object#object
-
----
--- @function [parent=#Delegate] Equals
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#Delegate] Remove
--- @param arg0
--- @param arg1
--- @return System_Delegate#Delegate
-
----
 -- @function [parent=#Delegate] CreateDelegate
 -- @param arg0
 -- @param arg1
@@ -32,29 +15,14 @@
 -- @return System_Delegate#Delegate
 
 ---
--- @function [parent=#Delegate] RemoveAll
--- @param arg0
--- @param arg1
--- @return System_Delegate#Delegate
-
----
--- @function [parent=#Delegate] Combine
--- @param arg0
--- @param arg1
--- @return System_Delegate#Delegate
-
----
--- @function [parent=#Delegate] GetHashCode
+-- @function [parent=#Delegate] DynamicInvoke
 -- @param self
--- @return #number
+-- @return object#object
 
 ---
--- @function [parent=#Delegate] Destroy
-
----
--- @function [parent=#Delegate] GetInvocationList
+-- @function [parent=#Delegate] Clone
 -- @param self
--- @return #list<System_Delegate#Delegate>
+-- @return object#object
 
 ---
 -- @function [parent=#Delegate] GetObjectData
@@ -63,9 +31,41 @@
 -- @param arg1
 
 ---
--- @function [parent=#Delegate] DynamicInvoke
+-- @function [parent=#Delegate] GetInvocationList
 -- @param self
--- @return object#object
+-- @return System_Array#Array
+
+---
+-- @function [parent=#Delegate] Combine
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] Remove
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] RemoveAll
+-- @param arg0
+-- @param arg1
+-- @return System_Delegate#Delegate
+
+---
+-- @function [parent=#Delegate] Destroy
+
+---
+-- @function [parent=#Delegate] GetHashCode
+-- @param self
+-- @return #number
+
+---
+-- @function [parent=#Delegate] Equals
+-- @param self
+-- @param arg0
+-- @return #boolean
 
 ---
 -- @field [parent=#Delegate] System_Reflection_MethodInfo#MethodInfo Method

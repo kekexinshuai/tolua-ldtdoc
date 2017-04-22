@@ -6,10 +6,6 @@
 -- @extends UnityEngine_TrackedReference#TrackedReference
 
 ---
--- @function [parent=#AnimationState] New
--- @return UnityEngine_AnimationState#AnimationState
-
----
 -- @function [parent=#AnimationState] AddMixingTransform
 -- @param self
 -- @param arg0
@@ -21,22 +17,14 @@
 -- @param arg0
 
 ---
--- @field [parent=#AnimationState] #number layer
-
----
--- @field [parent=#AnimationState] UnityEngine_AnimationClip#AnimationClip clip
-
----
--- @field [parent=#AnimationState] #number weight
-
----
--- @field [parent=#AnimationState] #number normalizedSpeed
+-- @function [parent=#AnimationState] New
+-- @return UnityEngine_AnimationState#AnimationState
 
 ---
 -- @field [parent=#AnimationState] #boolean enabled
 
 ---
--- @field [parent=#AnimationState] #number length
+-- @field [parent=#AnimationState] #number weight
 
 ---
 -- @field [parent=#AnimationState] UnityEngine_WrapMode#WrapMode wrapMode
@@ -45,15 +33,27 @@
 -- @field [parent=#AnimationState] #number time
 
 ---
--- @field [parent=#AnimationState] UnityEngine_AnimationBlendMode#AnimationBlendMode blendMode
-
----
 -- @field [parent=#AnimationState] #number normalizedTime
 
 ---
 -- @field [parent=#AnimationState] #number speed
 
 ---
+-- @field [parent=#AnimationState] #number normalizedSpeed
+
+---
+-- @field [parent=#AnimationState] #number length
+
+---
+-- @field [parent=#AnimationState] #number layer
+
+---
+-- @field [parent=#AnimationState] UnityEngine_AnimationClip#AnimationClip clip
+
+---
 -- @field [parent=#AnimationState] #string name
+
+---
+-- @field [parent=#AnimationState] UnityEngine_AnimationBlendMode#AnimationBlendMode blendMode
 
 return nil

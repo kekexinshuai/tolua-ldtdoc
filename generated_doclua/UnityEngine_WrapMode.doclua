@@ -9,21 +9,21 @@
 -- @return UnityEngine_WrapMode#WrapMode
 
 ---
--- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Clamp
-
----
--- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode ClampForever
-
----
--- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Default
-
----
--- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode PingPong
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Once
 
 ---
 -- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Loop
 
 ---
--- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Once
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode PingPong
+
+---
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Default
+
+---
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode ClampForever
+
+---
+-- @field [parent=#WrapMode] UnityEngine_WrapMode#WrapMode Clamp
 
 return nil

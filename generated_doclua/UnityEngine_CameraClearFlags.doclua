@@ -15,12 +15,12 @@
 -- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Color
 
 ---
+-- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags SolidColor
+
+---
 -- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Depth
 
 ---
 -- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags Nothing
-
----
--- @field [parent=#CameraClearFlags] UnityEngine_CameraClearFlags#CameraClearFlags SolidColor
 
 return nil

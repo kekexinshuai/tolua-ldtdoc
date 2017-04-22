@@ -6,10 +6,6 @@
 -- @extends UnityEngine_Texture#Texture
 
 ---
--- @function [parent=#RenderTexture] MarkRestoreExpected
--- @param self
-
----
 -- @function [parent=#RenderTexture] GetTemporary
 -- @param arg0
 -- @param arg1
@@ -20,14 +16,22 @@
 -- @return UnityEngine_RenderTexture#RenderTexture
 
 ---
+-- @function [parent=#RenderTexture] ReleaseTemporary
+-- @param arg0
+
+---
 -- @function [parent=#RenderTexture] Create
 -- @param self
 -- @return #boolean
 
 ---
--- @function [parent=#RenderTexture] GetNativeDepthBufferPtr
+-- @function [parent=#RenderTexture] Release
 -- @param self
--- @return System_IntPtr#IntPtr
+
+---
+-- @function [parent=#RenderTexture] IsCreated
+-- @param self
+-- @return #boolean
 
 ---
 -- @function [parent=#RenderTexture] DiscardContents
@@ -36,30 +40,17 @@
 -- @param arg1
 
 ---
--- @function [parent=#RenderTexture] IsCreated
+-- @function [parent=#RenderTexture] MarkRestoreExpected
 -- @param self
--- @return #boolean
 
 ---
 -- @function [parent=#RenderTexture] GenerateMips
 -- @param self
 
 ---
--- @function [parent=#RenderTexture] Release
+-- @function [parent=#RenderTexture] GetNativeDepthBufferPtr
 -- @param self
-
----
--- @function [parent=#RenderTexture] New
--- @return UnityEngine_RenderTexture#RenderTexture
-
----
--- @function [parent=#RenderTexture] SupportsStencil
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#RenderTexture] ReleaseTemporary
--- @param arg0
+-- @return System_IntPtr#IntPtr
 
 ---
 -- @function [parent=#RenderTexture] SetGlobalShaderProperty
@@ -67,48 +58,57 @@
 -- @param arg0
 
 ---
--- @field [parent=#RenderTexture] #boolean useMipMap
+-- @function [parent=#RenderTexture] SupportsStencil
+-- @param arg0
+-- @return #boolean
 
 ---
--- @field [parent=#RenderTexture] #number volumeDepth
-
----
--- @field [parent=#RenderTexture] #boolean enableRandomWrite
-
----
--- @field [parent=#RenderTexture] UnityEngine_RenderTextureFormat#RenderTextureFormat format
-
----
--- @field [parent=#RenderTexture] #number antiAliasing
-
----
--- @field [parent=#RenderTexture] #boolean autoGenerateMips
-
----
--- @field [parent=#RenderTexture] #number height
+-- @function [parent=#RenderTexture] New
+-- @return UnityEngine_RenderTexture#RenderTexture
 
 ---
 -- @field [parent=#RenderTexture] #number width
 
 ---
+-- @field [parent=#RenderTexture] #number height
+
+---
 -- @field [parent=#RenderTexture] #number depth
-
----
--- @field [parent=#RenderTexture] #boolean sRGB
-
----
--- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer depthBuffer
 
 ---
 -- @field [parent=#RenderTexture] #boolean isPowerOfTwo
 
 ---
--- @field [parent=#RenderTexture] UnityEngine_RenderTexture#RenderTexture active
+-- @field [parent=#RenderTexture] #boolean sRGB
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderTextureFormat#RenderTextureFormat format
+
+---
+-- @field [parent=#RenderTexture] #boolean useMipMap
+
+---
+-- @field [parent=#RenderTexture] #boolean autoGenerateMips
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
+
+---
+-- @field [parent=#RenderTexture] #number volumeDepth
+
+---
+-- @field [parent=#RenderTexture] #number antiAliasing
+
+---
+-- @field [parent=#RenderTexture] #boolean enableRandomWrite
 
 ---
 -- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer colorBuffer
 
 ---
--- @field [parent=#RenderTexture] UnityEngine_Rendering_TextureDimension#TextureDimension dimension
+-- @field [parent=#RenderTexture] UnityEngine_RenderBuffer#RenderBuffer depthBuffer
+
+---
+-- @field [parent=#RenderTexture] UnityEngine_RenderTexture#RenderTexture active
 
 return nil

@@ -2,7 +2,16 @@
 -- @module System
 
 ---
--- @field [parent=#System] System_Convert#Convert Convert
+-- @field [parent=#System] System_Array#Array Array
+
+---
+-- @field [parent=#System] System_Delegate#Delegate Delegate
+
+---
+-- @field [parent=#System] System_Enum#Enum Enum
+
+---
+-- @field [parent=#System] System_NullObject#NullObject NullObject
 
 ---
 -- @field [parent=#System] System_Object#Object Object
@@ -12,20 +21,5 @@
 
 ---
 -- @field [parent=#System] System_Type#Type Type
-
----
--- @field [parent=#System] System_Enum#Enum Enum
-
----
--- @field [parent=#System] System_Delegate#Delegate Delegate
-
----
--- @field [parent=#System] System_MarshalByRefObject#MarshalByRefObject MarshalByRefObject
-
----
--- @field [parent=#System] System_Array#Array Array
-
----
--- @field [parent=#System] System_NullObject#NullObject NullObject
 
 return nil

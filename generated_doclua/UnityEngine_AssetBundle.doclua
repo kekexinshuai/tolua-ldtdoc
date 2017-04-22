@@ -6,36 +6,11 @@
 -- @extends UnityEngine_Object#Object
 
 ---
--- @function [parent=#AssetBundle] LoadFromMemoryAsync
--- @param arg0
--- @param arg1
--- @return UnityEngine_AssetBundleCreateRequest#AssetBundleCreateRequest
-
----
 -- @function [parent=#AssetBundle] LoadFromFileAsync
 -- @param arg0
 -- @param arg1
 -- @param arg2
 -- @return UnityEngine_AssetBundleCreateRequest#AssetBundleCreateRequest
-
----
--- @function [parent=#AssetBundle] LoadAssetWithSubAssetsAsync
--- @param self
--- @param arg0
--- @param arg1
--- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
-
----
--- @function [parent=#AssetBundle] LoadAsset
--- @param self
--- @param arg0
--- @param arg1
--- @return UnityEngine_Object#Object
-
----
--- @function [parent=#AssetBundle] Unload
--- @param self
--- @param arg0
 
 ---
 -- @function [parent=#AssetBundle] LoadFromFile
@@ -45,34 +20,29 @@
 -- @return UnityEngine_AssetBundle#AssetBundle
 
 ---
--- @function [parent=#AssetBundle] Contains
--- @param self
--- @param arg0
--- @return #boolean
-
----
--- @function [parent=#AssetBundle] LoadAllAssetsAsync
--- @param self
--- @param arg0
--- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
-
----
--- @function [parent=#AssetBundle] GetAllScenePaths
--- @param self
--- @return #list<#string>
-
----
--- @function [parent=#AssetBundle] LoadAssetWithSubAssets
--- @param self
+-- @function [parent=#AssetBundle] LoadFromMemoryAsync
 -- @param arg0
 -- @param arg1
--- @return #list<UnityEngine_Object#Object>
+-- @return UnityEngine_AssetBundleCreateRequest#AssetBundleCreateRequest
 
 ---
 -- @function [parent=#AssetBundle] LoadFromMemory
 -- @param arg0
 -- @param arg1
 -- @return UnityEngine_AssetBundle#AssetBundle
+
+---
+-- @function [parent=#AssetBundle] Contains
+-- @param self
+-- @param arg0
+-- @return #boolean
+
+---
+-- @function [parent=#AssetBundle] LoadAsset
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#AssetBundle] LoadAssetAsync
@@ -82,19 +52,49 @@
 -- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
 
 ---
--- @function [parent=#AssetBundle] New
--- @return UnityEngine_AssetBundle#AssetBundle
+-- @function [parent=#AssetBundle] LoadAssetWithSubAssets
+-- @param self
+-- @param arg0
+-- @param arg1
+-- @return System_Array#Array
 
 ---
--- @function [parent=#AssetBundle] GetAllAssetNames
+-- @function [parent=#AssetBundle] LoadAssetWithSubAssetsAsync
 -- @param self
--- @return #list<#string>
+-- @param arg0
+-- @param arg1
+-- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
 
 ---
 -- @function [parent=#AssetBundle] LoadAllAssets
 -- @param self
 -- @param arg0
--- @return #list<UnityEngine_Object#Object>
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] LoadAllAssetsAsync
+-- @param self
+-- @param arg0
+-- @return UnityEngine_AssetBundleRequest#AssetBundleRequest
+
+---
+-- @function [parent=#AssetBundle] Unload
+-- @param self
+-- @param arg0
+
+---
+-- @function [parent=#AssetBundle] GetAllAssetNames
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] GetAllScenePaths
+-- @param self
+-- @return System_Array#Array
+
+---
+-- @function [parent=#AssetBundle] New
+-- @return UnityEngine_AssetBundle#AssetBundle
 
 ---
 -- @field [parent=#AssetBundle] UnityEngine_Object#Object mainAsset
