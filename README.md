@@ -6,9 +6,9 @@ The generator is just a fancy regex matcher. Nothing special.
 # how to use
 Assuming you have an eclipse lua project already.  
 Just place generated_doclua and doclua in build paths as follows:  
-![Project Example](./generator/project_example.png)  
+<img src="./generator/project_example.png" alt="Project Example"/>  
 Then enjoy:  
-![Auto-complete Example](./generator/autocomplete_example.png)  
+<img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="400"/>  
 
 # why eclipse
 ### type hinting
