@@ -404,20 +404,33 @@
 -- @param #string modname name of module to load.
 
 
-
-
-
-
+-------------------- defined in ToLua/Lua folder --------------------
+---
+-- @field [parent=#global] UnityEngine_Vector2#Vector2 Vector2
 
 ---
--- @field [parent=#global] UnityEngineExt#UnityEngineExt UnityEngine
+-- @field [parent=#global] UnityEngine_Vector3#Vector3 Vector3
 
 ---
--- @field [parent=#global] System#System System
+-- @field [parent=#global] UnityEngine_Vector4#Vector4 Vector4
 
 ---
--- @field [parent=#global] LuaInterface#LuaInterface LuaInterface
+-- @field [parent=#global] UnityEngine_Quaternion#Quaternion Quaternion
 
+---
+-- @field [parent=#global] UnityEngine_Touch#Touch Touch
+
+---
+-- @field [parent=#global] UnityEngine_Color#Color Color
+
+---
+-- @field [parent=#global] UnityEngine_RaycastHit#RaycastHit RaycastHit
+
+---
+-- @field [parent=#global] UnityEngine.Time#Time Time
+
+---
+-- @field [parent=#global] UnityEngine_Mathf#Mathf Mathf
 
 
 ---
@@ -432,8 +445,22 @@
 ---
 -- @field [parent=#global] event#Event CoUpdateBeat
 
+
 ---
 -- @function [parent=#global] typeof
 -- @return System_Type#Type
+
+
+
+-------------------- unity types --------------------
+---
+-- @field [parent=#global] UnityEngineExt#UnityEngineExt UnityEngine
+
+---
+-- @field [parent=#global] System#System System
+
+---
+-- @field [parent=#global] LuaInterface#LuaInterface LuaInterface
+
 
 return nil

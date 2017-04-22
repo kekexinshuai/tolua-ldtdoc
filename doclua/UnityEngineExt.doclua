@@ -27,9 +27,6 @@
 -- @field [parent=#UnityEngineExt] UnityEngine_RaycastHit#RaycastHit RaycastHit
 
 ---
--- @field [parent=#UnityEngineExt] UnityEngine_Time#Time Time
-
----
 -- @field [parent=#UnityEngineExt] UnityEngine_Mathf#Mathf Mathf
 
 return nil
