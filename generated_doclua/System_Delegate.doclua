@@ -9,9 +9,6 @@
 -- @function [parent=#Delegate] CreateDelegate
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return System_Delegate#Delegate
 
 ---

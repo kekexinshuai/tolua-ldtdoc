@@ -45,7 +45,6 @@
 ---
 -- @function [parent=#Enum] ToString
 -- @param self
--- @param arg0
 -- @return #string
 
 ---
@@ -70,7 +69,6 @@
 -- @function [parent=#Enum] Parse
 -- @param arg0
 -- @param arg1
--- @param arg2
 -- @return object#object
 
 ---

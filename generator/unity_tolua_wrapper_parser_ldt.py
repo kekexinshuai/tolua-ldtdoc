@@ -66,6 +66,7 @@ def parse(ifile,odir):
 		cs_function_def_parsing_func_name = None
 		cs_function_def_breace_level = -1
 		cs_function_def_max_args = 0
+		cs_function_def_min_args = 11
 		cs_function_def_is_static = True
 		cs_function_def_return_type = None
 		for line in f:
@@ -85,7 +86,7 @@ def parse(ifile,odir):
 
 					if def_func_name in function_defs:
 						function_def = function_defs[def_func_name]
-						function_def["param_count"] = cs_function_def_max_args
+						function_def["param_count"] = 0 if cs_function_def_min_args == 11 else cs_function_def_min_args
 						function_def["return_type"] = cstype_map_to_ldttype(cs_function_def_return_type)
 						function_def["is_static"] = cs_function_def_is_static
 						function_def["valid"] = True
@@ -104,20 +105,23 @@ def parse(ifile,odir):
 			if cs_function_def_breace_level >= 0:
 				# in c# function
 				cs_function_def_arg_match = re.search(r'count == (\d+)', line)
+				argc = None
 				if cs_function_def_arg_match: 
 					argc = int(cs_function_def_arg_match.group(1))
-					if cs_function_def_max_args < argc:
-						cs_function_def_max_args = argc
 				cs_function_def_arg_match = re.search(r'CheckArgsCount\(L, (\d+)\)', line)
 				if cs_function_def_arg_match: 
 					argc = int(cs_function_def_arg_match.group(1))
+				if argc:
 					if cs_function_def_max_args < argc:
 						cs_function_def_max_args = argc
+					if cs_function_def_min_args > argc:
+						cs_function_def_min_args = argc
 				cs_function_def_instance_method_match = re.search(r' obj = ', line)
 				if cs_function_def_instance_method_match:
 					cs_function_def_is_static = False
-					if cs_function_def_max_args == 0:
+					if cs_function_def_max_args < 1:
 						cs_function_def_max_args = 1
+
 				if cs_function_def_return_type is None:
 					cs_function_def_return_match = re.match(r'^\s*([^\s]+?) o = [^n].*;$', line)
 					if cs_function_def_return_match is None:
@@ -173,6 +177,7 @@ def parse(ifile,odir):
 				cs_function_def_parsing_func_name = cs_function_def_match.group(1)
 				cs_function_def_breace_level = brace_level
 				cs_function_def_max_args = 0
+				cs_function_def_min_args = 11
 				cs_function_def_is_static = True
 				cs_function_def_return_type = None
 

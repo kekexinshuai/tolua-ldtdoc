@@ -19,13 +19,11 @@
 ---
 -- @function [parent=#WWW] EscapeURL
 -- @param arg0
--- @param arg1
 -- @return #string
 
 ---
 -- @function [parent=#WWW] UnEscapeURL
 -- @param arg0
--- @param arg1
 -- @return #string
 
 ---
@@ -37,11 +35,11 @@
 -- @function [parent=#WWW] LoadFromCacheOrDownload
 -- @param arg0
 -- @param arg1
--- @param arg2
 -- @return UnityEngine_WWW#WWW
 
 ---
 -- @function [parent=#WWW] New
+-- @param arg0
 -- @return UnityEngine_WWW#WWW
 
 ---

@@ -114,19 +114,16 @@
 ---
 -- @function [parent=#Shader] GetGlobalFloatArray
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Shader] GetGlobalVectorArray
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Shader] GetGlobalMatrixArray
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---

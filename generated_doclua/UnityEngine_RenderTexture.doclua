@@ -9,10 +9,6 @@
 -- @function [parent=#RenderTexture] GetTemporary
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 -- @return UnityEngine_RenderTexture#RenderTexture
 
 ---
@@ -36,8 +32,6 @@
 ---
 -- @function [parent=#RenderTexture] DiscardContents
 -- @param self
--- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#RenderTexture] MarkRestoreExpected
@@ -64,6 +58,9 @@
 
 ---
 -- @function [parent=#RenderTexture] New
+-- @param arg0
+-- @param arg1
+-- @param arg2
 -- @return UnityEngine_RenderTexture#RenderTexture
 
 ---

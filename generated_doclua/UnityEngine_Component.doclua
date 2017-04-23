@@ -15,14 +15,12 @@
 -- @function [parent=#Component] GetComponentInChildren
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return UnityEngine_Component#Component
 
 ---
 -- @function [parent=#Component] GetComponentsInChildren
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -35,14 +33,12 @@
 -- @function [parent=#Component] GetComponentsInParent
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Component] GetComponents
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -55,22 +51,16 @@
 -- @function [parent=#Component] SendMessageUpwards
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Component] SendMessage
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Component] BroadcastMessage
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Component] New

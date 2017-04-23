@@ -36,8 +36,6 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @param arg5
--- @param arg6
 -- @return UnityEngine_AudioClip#AudioClip
 
 ---

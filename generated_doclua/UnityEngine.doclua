@@ -53,6 +53,9 @@
 -- @field [parent=#UnityEngine] UnityEngine_CharacterController#CharacterController CharacterController
 
 ---
+-- @field [parent=#UnityEngine] UnityEngine_Collider2D#Collider2D Collider2D
+
+---
 -- @field [parent=#UnityEngine] UnityEngine_Collider#Collider Collider
 
 ---
@@ -87,6 +90,9 @@
 
 ---
 -- @field [parent=#UnityEngine] UnityEngine_ParticleSystem#ParticleSystem ParticleSystem
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Physics2D#Physics2D Physics2D
 
 ---
 -- @field [parent=#UnityEngine] UnityEngine_Physics#Physics Physics

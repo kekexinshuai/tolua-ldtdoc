@@ -5,11 +5,6 @@
 -- @module global
 
 ------------------------------------------------------------------------------
--- This library provides generic functions for coroutine manipulation.
--- This is a global variable which hold the preloaded @{coroutine} module.
--- @field[parent = #global] coroutine#coroutine coroutine preloaded module
-
-------------------------------------------------------------------------------
 -- The package library provides basic facilities for loading and building modules in Lua.
 -- This is a global variable which hold the preloaded @{package} module.
 -- @field[parent = #global] package#package package preloaded module
@@ -406,7 +401,10 @@
 
 
 
-
+------------------------------------------------------------------------------
+-- This library provides generic functions for coroutine manipulation.
+-- This is a global variable which hold the preloaded @{coroutine} module.
+-- @field[parent = #global] System.coroutine#coroutine coroutine preloaded module
 
 
 -------------------- defined in ToLua/Lua folder --------------------

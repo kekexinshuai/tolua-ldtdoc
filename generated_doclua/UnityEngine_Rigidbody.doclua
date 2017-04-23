@@ -14,40 +14,27 @@
 -- @function [parent=#Rigidbody] AddForce
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Rigidbody] AddRelativeForce
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Rigidbody] AddTorque
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Rigidbody] AddRelativeTorque
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Rigidbody] AddForceAtPosition
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Rigidbody] AddExplosionForce
@@ -55,8 +42,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
 
 ---
 -- @function [parent=#Rigidbody] ClosestPointOnBounds
@@ -112,16 +97,12 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #boolean
 
 ---
 -- @function [parent=#Rigidbody] SweepTestAll
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return System_Array#Array
 
 ---

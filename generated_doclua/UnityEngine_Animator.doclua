@@ -16,8 +16,6 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Animator] GetBool
@@ -140,10 +138,6 @@
 -- @function [parent=#Animator] SetLookAtWeight
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 
 ---
 -- @function [parent=#Animator] SetBoneLocalRotation
@@ -203,7 +197,6 @@
 -- @function [parent=#Animator] GetCurrentAnimatorClipInfo
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -216,7 +209,6 @@
 -- @function [parent=#Animator] GetNextAnimatorClipInfo
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -239,42 +231,32 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @param arg5
 
 ---
 -- @function [parent=#Animator] InterruptMatchTarget
 -- @param self
--- @param arg0
 
 ---
 -- @function [parent=#Animator] CrossFadeInFixedTime
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Animator] CrossFade
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Animator] PlayInFixedTime
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Animator] Play
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Animator] SetTarget

@@ -16,7 +16,6 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
 -- @return #string
 
 ---
@@ -195,28 +194,24 @@
 -- @function [parent=#Material] GetFloatArray
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Material] GetVectorArray
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Material] GetColorArray
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Material] GetMatrixArray
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -239,6 +234,7 @@
 
 ---
 -- @function [parent=#Material] New
+-- @param arg0
 -- @return UnityEngine_Material#Material
 
 ---

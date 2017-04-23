@@ -45,34 +45,22 @@
 -- @function [parent=#Texture2D] SetPixels
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 
 ---
 -- @function [parent=#Texture2D] SetPixels32
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 
 ---
 -- @function [parent=#Texture2D] LoadImage
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return #boolean
 
 ---
 -- @function [parent=#Texture2D] LoadRawTextureData
 -- @param self
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Texture2D] GetRawTextureData
@@ -82,32 +70,22 @@
 ---
 -- @function [parent=#Texture2D] GetPixels
 -- @param self
--- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Texture2D] GetPixels32
 -- @param self
--- @param arg0
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Texture2D] Apply
 -- @param self
--- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Texture2D] Resize
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #boolean
 
 ---
@@ -120,8 +98,6 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return System_Array#Array
 
 ---
@@ -138,7 +114,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Texture2D] EncodeToPNG
@@ -148,17 +123,17 @@
 ---
 -- @function [parent=#Texture2D] EncodeToJPG
 -- @param self
--- @param arg0
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Texture2D] EncodeToEXR
 -- @param self
--- @param arg0
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Texture2D] New
+-- @param arg0
+-- @param arg1
 -- @return UnityEngine_Texture2D#Texture2D
 
 ---

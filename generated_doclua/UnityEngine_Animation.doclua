@@ -8,12 +8,10 @@
 ---
 -- @function [parent=#Animation] Stop
 -- @param self
--- @param arg0
 
 ---
 -- @function [parent=#Animation] Rewind
 -- @param self
--- @param arg0
 
 ---
 -- @function [parent=#Animation] Sample
@@ -28,39 +26,28 @@
 ---
 -- @function [parent=#Animation] Play
 -- @param self
--- @param arg0
--- @param arg1
 -- @return #boolean
 
 ---
 -- @function [parent=#Animation] CrossFade
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Animation] Blend
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Animation] CrossFadeQueued
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 -- @return UnityEngine_AnimationState#AnimationState
 
 ---
 -- @function [parent=#Animation] PlayQueued
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_AnimationState#AnimationState
 
 ---
@@ -68,9 +55,6 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 
 ---
 -- @function [parent=#Animation] RemoveClip

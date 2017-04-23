@@ -156,7 +156,6 @@
 -- @function [parent=#Camera] RenderToCubemap
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return #boolean
 
 ---

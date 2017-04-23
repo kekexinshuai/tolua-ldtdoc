@@ -7,47 +7,29 @@
 ---
 -- @function [parent=#Physics] Raycast
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] RaycastAll
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Physics] RaycastNonAlloc
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 -- @return #number
 
 ---
 -- @function [parent=#Physics] Linecast
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] OverlapSphere
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return System_Array#Array
 
 ---
@@ -55,8 +37,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
 -- @return #number
 
 ---
@@ -64,8 +44,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
 -- @return System_Array#Array
 
 ---
@@ -74,8 +52,6 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @param arg4
--- @param arg5
 -- @return #number
 
 ---
@@ -84,21 +60,12 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
--- @param arg7
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] SphereCast
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
 -- @return #boolean
 
 ---
@@ -107,9 +74,6 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
 -- @return System_Array#Array
 
 ---
@@ -119,19 +83,12 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @param arg5
--- @param arg6
--- @param arg7
 -- @return #number
 
 ---
 -- @function [parent=#Physics] SphereCastAll
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 -- @return System_Array#Array
 
 ---
@@ -139,18 +96,12 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
 -- @return #number
 
 ---
 -- @function [parent=#Physics] CheckSphere
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #boolean
 
 ---
@@ -158,26 +109,18 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] CheckBox
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] OverlapBox
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return System_Array#Array
 
 ---
@@ -185,9 +128,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
 -- @return #number
 
 ---
@@ -195,10 +135,6 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
 -- @return System_Array#Array
 
 ---
@@ -207,10 +143,6 @@
 -- @param arg1
 -- @param arg2
 -- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
--- @param arg7
 -- @return #number
 
 ---
@@ -218,24 +150,17 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
--- @param arg5
--- @param arg6
--- @param arg7
 -- @return #boolean
 
 ---
 -- @function [parent=#Physics] IgnoreCollision
 -- @param arg0
 -- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Physics] IgnoreLayerCollision
 -- @param arg0
 -- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Physics] GetIgnoreLayerCollision

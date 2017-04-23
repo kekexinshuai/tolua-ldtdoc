@@ -32,8 +32,6 @@
 -- @function [parent=#Array] GetValue
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return object#object
 
 ---
@@ -41,8 +39,6 @@
 -- @param self
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Array] GetEnumerator
@@ -59,17 +55,12 @@
 -- @function [parent=#Array] CreateInstance
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#Array] BinarySearch
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 -- @return #number
 
 ---
@@ -88,15 +79,11 @@
 -- @param arg0
 -- @param arg1
 -- @param arg2
--- @param arg3
--- @param arg4
 
 ---
 -- @function [parent=#Array] IndexOf
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #number
 
 ---
@@ -107,23 +94,15 @@
 -- @function [parent=#Array] LastIndexOf
 -- @param arg0
 -- @param arg1
--- @param arg2
--- @param arg3
 -- @return #number
 
 ---
 -- @function [parent=#Array] Reverse
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#Array] Sort
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
--- @param arg4
 
 ---
 -- @function [parent=#Array] CopyTo

@@ -9,7 +9,6 @@
 -- @function [parent=#AnimationState] AddMixingTransform
 -- @param self
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#AnimationState] RemoveMixingTransform

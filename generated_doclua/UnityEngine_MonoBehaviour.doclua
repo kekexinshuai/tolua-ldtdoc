@@ -21,19 +21,16 @@
 ---
 -- @function [parent=#MonoBehaviour] CancelInvoke
 -- @param self
--- @param arg0
 
 ---
 -- @function [parent=#MonoBehaviour] IsInvoking
 -- @param self
--- @param arg0
 -- @return #boolean
 
 ---
 -- @function [parent=#MonoBehaviour] StartCoroutine
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return UnityEngine_Coroutine#Coroutine
 
 ---

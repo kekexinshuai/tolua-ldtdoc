@@ -8,7 +8,6 @@
 ---
 -- @function [parent=#AudioSource] Play
 -- @param self
--- @param arg0
 
 ---
 -- @function [parent=#AudioSource] PlayDelayed
@@ -46,13 +45,11 @@
 -- @function [parent=#AudioSource] PlayOneShot
 -- @param self
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#AudioSource] PlayClipAtPoint
 -- @param arg0
 -- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#AudioSource] SetCustomCurve

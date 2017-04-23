@@ -11,7 +11,6 @@
 ---
 -- @function [parent=#QualitySettings] SetQualityLevel
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#QualitySettings] IncreaseLevel

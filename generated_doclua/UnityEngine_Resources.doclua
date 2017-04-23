@@ -12,19 +12,16 @@
 ---
 -- @function [parent=#Resources] Load
 -- @param arg0
--- @param arg1
 -- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#Resources] LoadAsync
 -- @param arg0
--- @param arg1
 -- @return UnityEngine_ResourceRequest#ResourceRequest
 
 ---
 -- @function [parent=#Resources] LoadAll
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---

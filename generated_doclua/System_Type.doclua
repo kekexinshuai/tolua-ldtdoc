@@ -14,8 +14,6 @@
 ---
 -- @function [parent=#Type] GetType
 -- @param self
--- @param arg0
--- @param arg1
 -- @return System_Type#Type
 
 ---
@@ -31,8 +29,6 @@
 ---
 -- @function [parent=#Type] GetTypeFromCLSID
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return System_Type#Type
 
 ---
@@ -43,8 +39,6 @@
 ---
 -- @function [parent=#Type] GetTypeFromProgID
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return System_Type#Type
 
 ---
@@ -69,7 +63,6 @@
 -- @function [parent=#Type] GetInterface
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Type#Type
 
 ---
@@ -114,13 +107,11 @@
 -- @function [parent=#Type] GetNestedType
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Type#Type
 
 ---
 -- @function [parent=#Type] GetNestedTypes
 -- @param self
--- @param arg0
 -- @return System_Array#Array
 
 ---
@@ -145,9 +136,6 @@
 -- @param arg2
 -- @param arg3
 -- @param arg4
--- @param arg5
--- @param arg6
--- @param arg7
 -- @return object#object
 
 ---
@@ -178,7 +166,6 @@
 ---
 -- @function [parent=#Type] MakeArrayType
 -- @param self
--- @param arg0
 -- @return System_Type#Type
 
 ---

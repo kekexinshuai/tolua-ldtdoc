@@ -43,20 +43,15 @@
 ---
 -- @function [parent=#Object] Instantiate
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 -- @return UnityEngine_Object#Object
 
 ---
 -- @function [parent=#Object] DestroyImmediate
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Object] Destroy
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Object] New

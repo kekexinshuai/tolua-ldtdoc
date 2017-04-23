@@ -9,7 +9,6 @@
 -- @function [parent=#Transform] SetParent
 -- @param self
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Transform] SetPositionAndRotation
@@ -21,17 +20,11 @@
 -- @function [parent=#Transform] Translate
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Transform] Rotate
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
--- @param arg3
 
 ---
 -- @function [parent=#Transform] RotateAround
@@ -44,54 +37,41 @@
 -- @function [parent=#Transform] LookAt
 -- @param self
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Transform] TransformDirection
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Transform] InverseTransformDirection
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Transform] TransformVector
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Transform] InverseTransformVector
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Transform] TransformPoint
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---
 -- @function [parent=#Transform] InverseTransformPoint
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 -- @return UnityEngine_Vector3#Vector3
 
 ---

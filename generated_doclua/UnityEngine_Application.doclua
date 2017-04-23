@@ -30,7 +30,6 @@
 ---
 -- @function [parent=#Application] CaptureScreenshot
 -- @param arg0
--- @param arg1
 
 ---
 -- @function [parent=#Application] HasProLicense

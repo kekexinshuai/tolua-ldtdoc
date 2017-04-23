@@ -20,7 +20,6 @@
 -- @function [parent=#GameObject] GetComponentInChildren
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return UnityEngine_Component#Component
 
 ---
@@ -33,21 +32,18 @@
 -- @function [parent=#GameObject] GetComponents
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#GameObject] GetComponentsInChildren
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
 -- @function [parent=#GameObject] GetComponentsInParent
 -- @param self
 -- @param arg0
--- @param arg1
 -- @return System_Array#Array
 
 ---
@@ -80,15 +76,11 @@
 -- @function [parent=#GameObject] SendMessageUpwards
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#GameObject] BroadcastMessage
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#GameObject] AddComponent
@@ -105,11 +97,10 @@
 -- @function [parent=#GameObject] SendMessage
 -- @param self
 -- @param arg0
--- @param arg1
--- @param arg2
 
 ---
 -- @function [parent=#GameObject] New
+-- @param arg0
 -- @return UnityEngine_GameObject#GameObject
 
 ---
