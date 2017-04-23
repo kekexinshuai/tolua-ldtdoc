@@ -4,12 +4,13 @@ With this tool, **Autocompletion** will work for Unity APIs.
 The generator is just a fancy regex matcher. Nothing special.  
 
 # how to use
-Assuming you have an eclipse lua project already.  
-Just place generated_doclua and doclua in build paths as follows:  
+Install [Eclipse](http://www.eclipse.org/downloads/eclipse-packages/)(I prefer java or c++ version), then install [LDT](https://www.eclipse.org/ldt/).  
+Create a Lua project and add folders link to your Lua sources.  
+Place generated_doclua and doclua in build paths as follows:  
+(You can also try my documented [libs](https://github.com/ps5mh/tolua/tree/master/Assets/ToLua/Lua) folder to get even more types supported.)  
 <img src="./generator/project_example.png" alt="Project Example"/>  
 Then enjoy:  
 <img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="700"/>  
-
 # why eclipse
 ### type hinting
 ![Type-Hinting Example](./generator/type_hinting_example.png)
