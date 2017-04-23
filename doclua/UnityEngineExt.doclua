@@ -29,4 +29,7 @@
 ---
 -- @field [parent=#UnityEngineExt] UnityEngine_Mathf#Mathf Mathf
 
+---
+-- @field [parent=#UnityEngineExt] UnityEngine_Time#Time Time
+
 return nil

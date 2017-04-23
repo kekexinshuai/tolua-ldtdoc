@@ -430,7 +430,7 @@
 -- @field [parent=#global] UnityEngine_RaycastHit#RaycastHit RaycastHit
 
 ---
--- @field [parent=#global] UnityEngine.Time#Time Time
+-- @field [parent=#global] UnityEngine_Time#Time Time
 
 ---
 -- @field [parent=#global] UnityEngine_Mathf#Mathf Mathf
