@@ -140,6 +140,12 @@
 -- @field [parent=#UnityEngine] UnityEngine_SphereCollider#SphereCollider SphereCollider
 
 ---
+-- @field [parent=#UnityEngine] UnityEngine_SpriteRenderer#SpriteRenderer SpriteRenderer
+
+---
+-- @field [parent=#UnityEngine] UnityEngine_Sprite#Sprite Sprite
+
+---
 -- @field [parent=#UnityEngine] UnityEngine_Texture2D#Texture2D Texture2D
 
 ---

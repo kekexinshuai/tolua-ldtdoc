@@ -8,7 +8,7 @@ Assuming you have an eclipse lua project already.
 Just place generated_doclua and doclua in build paths as follows:  
 <img src="./generator/project_example.png" alt="Project Example"/>  
 Then enjoy:  
-<img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="400"/>  
+<img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="700"/>  
 
 # why eclipse
 ### type hinting
