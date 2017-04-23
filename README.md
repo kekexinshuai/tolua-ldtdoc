@@ -7,7 +7,7 @@ The generator is just a fancy regex matcher. Nothing special.
 1. Install [Eclipse](http://www.eclipse.org/downloads/eclipse-packages/)(I prefer java or c++ version), then install [LDT](https://www.eclipse.org/ldt/).  
 2. Create a Lua project and add folders link to your Lua sources.  
 3. Place generated_doclua and doclua in build paths as follows:  
-(You can also try my documented [libs](https://github.com/ps5mh/tolua/tree/master/Assets/ToLua/Lua) folder to get even more types supported. And if you feel happy, play with the [generator](https://github.cosm/ps5mh/tolua-ldtdoc/blob/master/generator/unity_tolua_wrapper_parser_ldt.py) with python3, your custom exported c# classes may be exported to doclua hopefully.)  
+(You can also try my documented [libs](https://github.com/ps5mh/tolua/tree/master/Assets/ToLua/Lua) folder to get even more types supported. And if you feel happy, play with the [generator](https://github.com/ps5mh/tolua-ldtdoc/blob/master/generator/unity_tolua_wrapper_parser_ldt.py) with python3, your custom exported c# classes may be exported to doclua hopefully.)  
 <img src="./generator/project_example.png" alt="Project Example"/>  
 Then enjoy:  
 <img src="./generator/autocomplete_example.png" alt="Auto-complete Example" width="700"/>  
