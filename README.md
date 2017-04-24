@@ -2,6 +2,7 @@
 An eclipse-ldt doclua generator for [ToLua#](https://github.com/topameng/tolua)  
 With this tool, **Autocompletion** will work for Unity APIs.  
 The generator is just a fancy regex matcher. Nothing special.  
+For a quick toor, check my [example project](https://github.com/ps5mh/UnitySample-2DRoguelike-ToLua)
 
 # how to use
 1. Install [Eclipse](http://www.eclipse.org/downloads/eclipse-packages/)(I prefer java or c++ version), then install [LDT](https://www.eclipse.org/ldt/).  
